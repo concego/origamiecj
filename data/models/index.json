@@ -1,0 +1,8 @@
+{
+  "_comment": "Lista de modelos do OrigamiECJ. Para adicionar um modelo: crie data/models/<slug>.json e acrescente o slug nesta lista. A aplicação principal não precisa ser alterada.",
+  "models": [
+    "aviao-dardo",
+    "copo-de-papel",
+    "barco-de-papel"
+  ]
+}

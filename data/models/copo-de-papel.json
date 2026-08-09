@@ -1,0 +1,359 @@
+{
+  "slug": "copo-de-papel",
+  "difficulty": "facil",
+  "category": "utilidades",
+  "durationMinutes": 4,
+  "totalSteps": 7,
+  "paper": {
+    "format": "square",
+    "size": { "pt": "15 x 15 cm (papel quadrado)", "en": "15 x 15 cm (square paper)" },
+    "pieces": 1
+  },
+  "materials": [
+    { "pt": "1 folha quadrada de papel (15 x 15 cm)", "en": "1 square sheet of paper (15 x 15 cm)" },
+    { "pt": "uma superfície plana para dobrar", "en": "a flat surface to fold on" }
+  ],
+  "title": {
+    "pt": "Copinho de papel",
+    "en": "Paper cup"
+  },
+  "description": {
+    "pt": "Um copo simples que pode ser usado para beber água ou guardar pequenos objetos. Um clássico do origami, feito a partir de um quadrado.",
+    "en": "A simple cup you can use to drink water or hold small objects. An origami classic, made from a square."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é um copo aberto na parte de cima, com a boca larga e o fundo achatado. Ele fica de pé sozinho sobre a mesa e pode conter água ou pequenos objetos.",
+      "en": "The result is a cup open at the top, with a wide mouth and a flat bottom. It stands on its own on the table and can hold water or small objects."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [[0.15, 0.3], [0.85, 0.3], [0.7, 0.85], [0.3, 0.85]],
+      "creases": [
+        { "axis": [[0.15, 0.3], [0.85, 0.3]], "kind": "valley" }
+      ]
+    }
+  },
+  "credit": {
+    "pt": "Dobra tradicional de origami (domínio público). Instruções, textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami fold (public domain). Instructions, texts, and diagrams: original creation by the ECJ team."
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": { "pt": "Dobrar o quadrado ao meio na diagonal", "en": "Fold the square in half diagonally" },
+      "diagram": {
+        "base": "square",
+        "view": "front",
+        "folds": [
+          { "kind": "valley", "axis": [[1, 0], [0, 1]], "probe": [0, 0] }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[1, 0], [0, 1]], "probe": [0, 0] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O papel é um quadrado, liso e sem dobras. Coloque-o sobre a mesa com um lado perto de você, um lado longe de você e um lado em cada lateral.",
+          "en": "The paper is a square, flat and with no folds. Place it on the table with one side near you, one side away from you, and one side on each side."
+        },
+        "orientation": {
+          "pt": "O canto inferior esquerdo é a ponta perto de você, à esquerda. O canto superior direito é a ponta mais distante, à direita. Eles são opostos.",
+          "en": "The bottom-left corner is the point near you, on the left. The top-right corner is the farthest point, on the right. They are opposite corners."
+        },
+        "moving": {
+          "pt": "O canto inferior esquerdo do papel.",
+          "en": "The bottom-left corner of the paper."
+        },
+        "direction": {
+          "pt": "Leve o canto inferior esquerdo até o canto superior direito, dobrando o quadrado ao meio na diagonal, como quem fecha um livro. Os dois cantos devem se encontrar.",
+          "en": "Bring the bottom-left corner to the top-right corner, folding the square in half diagonally, like closing a book. The two corners must meet."
+        },
+        "expected": {
+          "pt": "O papel forma um triângulo com três lados: um lado mais longo (a dobra) e dois lados iguais, mais curtos.",
+          "en": "The paper forms a triangle with three sides: one longer side (the fold) and two equal, shorter sides."
+        },
+        "commonError": {
+          "pt": "Os cantos não se encontram e o triângulo fica torto, com os lados desiguais.",
+          "en": "The corners do not meet and the triangle is crooked, with unequal sides."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe os dois cantos com os dedos e dobre novamente, vincando bem.",
+          "en": "Unfold, line up the two corners with your fingers, and fold again, creasing well."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra um quadrado. Uma linha tracejada azul liga o canto superior direito ao canto inferior esquerdo. Uma seta parte do canto superior esquerdo e aponta para o canto inferior direito, indicando que o quadrado é dobrado na diagonal.",
+        "en": "The diagram shows a square. A blue dashed line connects the top-right corner to the bottom-left corner. An arrow starts at the top-left corner and points to the bottom-right corner, showing that the square is folded diagonally."
+      }
+    },
+    {
+      "id": 2,
+      "title": { "pt": "Posicionar o triângulo com a dobra para baixo", "en": "Position the triangle with the fold at the bottom" },
+      "diagram": {
+        "view": "front",
+        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
+        "action": { "type": "turn" }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Você tem um triângulo em mãos. Sinta os três lados com os dedos para identificá-los.",
+          "en": "You have a triangle in your hands. Feel the three sides with your fingers to identify them."
+        },
+        "orientation": {
+          "pt": "Identifique o lado mais longo (a dobra da etapa anterior). Os outros dois lados são iguais e mais curtos. Gire o triângulo sobre a mesa, sem dobrar, até que o lado mais longo fique na parte de baixo, na horizontal, apoiado na mesa.",
+          "en": "Identify the longest side (the fold from the previous step). The other two sides are equal and shorter. Rotate the triangle on the table, without folding, until the longest side is at the bottom, horizontal, resting on the table."
+        },
+        "moving": {
+          "pt": "Nenhuma dobra nesta etapa: você apenas reposiciona o triângulo.",
+          "en": "No fold in this step: you simply reposition the triangle."
+        },
+        "direction": {
+          "pt": "Gire o triângulo até o lado longo ficar embaixo e a ponta do triângulo (onde os dois lados curtos se encontram) apontar para cima, para longe de você.",
+          "en": "Rotate the triangle until the long side is at the bottom and the tip of the triangle (where the two short sides meet) points up, away from you."
+        },
+        "expected": {
+          "pt": "O triângulo fica com a base (lado longo) embaixo e a ponta para cima, apontando para longe de você.",
+          "en": "The triangle sits with its base (the long side) at the bottom and its tip pointing up, away from you."
+        },
+        "commonError": {
+          "pt": "Confundir o lado longo com os lados curtos e posicionar o triângulo de lado.",
+          "en": "Mixing up the long side with the short sides and positioning the triangle sideways."
+        },
+        "correction": {
+          "pt": "Sinta os três lados: o mais comprido é a dobra; os dois iguais e mais curtos são as bordas abertas do papel.",
+          "en": "Feel the three sides: the longest one is the fold; the two equal, shorter ones are the open paper edges."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra um triângulo com o lado mais longo na parte de baixo e a ponta para cima. Uma seta em curva indica que o triângulo deve ser girado até ficar nessa posição.",
+        "en": "The diagram shows a triangle with the longest side at the bottom and the tip pointing up. A curved arrow shows that the triangle should be rotated until it is in this position."
+      }
+    },
+    {
+      "id": 3,
+      "title": { "pt": "Dobrar a ponta esquerda da base até a ponta de cima", "en": "Fold the left base corner up to the top tip" },
+      "diagram": {
+        "view": "front",
+        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.5, 0.06], [0.22, 0.78]], "probe": [0.16, 0.86] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O triângulo está com o lado longo (a base) para baixo, na mesa, e a ponta para cima.",
+          "en": "The triangle sits with its long side (the base) down, on the table, and its tip up."
+        },
+        "orientation": {
+          "pt": "A base tem duas pontas: uma na esquerda e outra na direita. A ponta de cima é o topo do triângulo.",
+          "en": "The base has two tips: one on the left and one on the right. The top tip is the apex of the triangle."
+        },
+        "moving": {
+          "pt": "A ponta esquerda da base (o canto inferior esquerdo do triângulo).",
+          "en": "The left tip of the base (the bottom-left corner of the triangle)."
+        },
+        "direction": {
+          "pt": "Dobre essa ponta esquerda para cima, em direção à ponta de cima do triângulo, até que ela alcance o topo. Alinhe a borda esquerda do papel com o lado esquerdo do triângulo.",
+          "en": "Fold this left tip upward, toward the top tip of the triangle, until it reaches the top. Align the left paper edge with the left side of the triangle."
+        },
+        "expected": {
+          "pt": "A ponta esquerda fica dobrada até o topo, formando um triângulo menor sobre o lado esquerdo.",
+          "en": "The left tip is folded up to the top, forming a smaller triangle over the left side."
+        },
+        "commonError": {
+          "pt": "A ponta não alcança o topo ou passa dele, deixando as bordas desalinhadas.",
+          "en": "The tip does not reach the top or passes it, leaving the edges misaligned."
+        },
+        "correction": {
+          "pt": "Desdobre e refaça, levando a ponta exatamente até o topo do triângulo antes de vincar.",
+          "en": "Unfold and redo, bringing the tip exactly to the top of the triangle before creasing."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o triângulo com a base para baixo. Uma linha tracejada liga a ponta de cima à ponta esquerda da base. Uma seta parte da ponta esquerda da base e aponta para cima, em direção à ponta de cima.",
+        "en": "The diagram shows the triangle with its base at the bottom. A dashed line connects the top tip to the left tip of the base. An arrow starts at the left base tip and points up, toward the top tip."
+      }
+    },
+    {
+      "id": 4,
+      "title": { "pt": "Dobrar a ponta direita da base até a ponta de cima", "en": "Fold the right base corner up to the top tip" },
+      "diagram": {
+        "view": "front",
+        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.5, 0.06], [0.78, 0.78]], "probe": [0.84, 0.86] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "A ponta esquerda da base já está dobrada até o topo. O triângulo continua com a base para baixo.",
+          "en": "The left base tip is already folded up to the top. The triangle still has its base at the bottom."
+        },
+        "orientation": {
+          "pt": "A ponta direita da base é o canto inferior direito do triângulo.",
+          "en": "The right base tip is the bottom-right corner of the triangle."
+        },
+        "moving": {
+          "pt": "A ponta direita da base (o canto inferior direito do triângulo).",
+          "en": "The right tip of the base (the bottom-right corner of the triangle)."
+        },
+        "direction": {
+          "pt": "Dobre a ponta direita para cima, em direção à ponta de cima, até alcançar o topo, do mesmo jeito que você fez do lado esquerdo.",
+          "en": "Fold the right tip upward, toward the top tip, until it reaches the top, the same way you did on the left side."
+        },
+        "expected": {
+          "pt": "As duas pontas da base ficam dobradas até o topo. Agora a parte de baixo do papel tem uma aba triangular.",
+          "en": "Both base tips are now folded up to the top. The bottom part of the paper now has a triangular flap."
+        },
+        "commonError": {
+          "pt": "A ponta direita não fica alinhada com a esquerda no topo.",
+          "en": "The right tip does not align with the left one at the top."
+        },
+        "correction": {
+          "pt": "Desdobre e refaça, levando a ponta até o mesmo ponto do lado esquerdo no topo.",
+          "en": "Unfold and redo, bringing the tip to the same point as the left side at the top."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o triângulo com a ponta esquerda já dobrada. Uma linha tracejada liga a ponta de cima à ponta direita da base, e uma seta parte da ponta direita apontando para cima.",
+        "en": "The diagram shows the triangle with the left tip already folded. A dashed line connects the top tip to the right base tip, and an arrow starts at the right tip pointing up."
+      }
+    },
+    {
+      "id": 5,
+      "title": { "pt": "Dobrar a aba da frente para cima", "en": "Fold the front flap up" },
+      "diagram": {
+        "view": "front",
+        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
+        "creases": [
+          { "axis": [[0.5, 0.06], [0.22, 0.78]], "kind": "valley" },
+          { "axis": [[0.5, 0.06], [0.78, 0.78]], "kind": "valley" }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.22, 0.9], [0.78, 0.9]], "probe": [0.5, 0.95] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "As duas pontas da base já estão dobradas até o topo. Na parte de baixo do papel há uma aba triangular, formada por uma única camada de papel.",
+          "en": "Both base tips are already folded up to the top. At the bottom of the paper there is a triangular flap, made of a single layer of paper."
+        },
+        "orientation": {
+          "pt": "A aba fica embaixo, com a ponta para baixo. A ponta de cima do triângulo é o topo.",
+          "en": "The flap is at the bottom, with its tip pointing down. The top tip of the triangle is the top."
+        },
+        "moving": {
+          "pt": "A aba triangular da frente (a camada de cima), na parte de baixo.",
+          "en": "The front triangular flap (the top layer), at the bottom."
+        },
+        "direction": {
+          "pt": "Dobre essa aba para cima, de modo que a borda de baixo da aba fique no mesmo nível da parte de baixo dos triângulos dobrados. Vinca.",
+          "en": "Fold this flap up, so that the bottom edge of the flap ends at the same level as the bottom of the folded triangles. Crease."
+        },
+        "expected": {
+          "pt": "A aba fica dobrada para cima, cobrindo a parte de baixo dos triângulos dobrados.",
+          "en": "The flap is folded up, covering the bottom of the folded triangles."
+        },
+        "commonError": {
+          "pt": "Dobrar as duas camadas de papel ao mesmo tempo, em vez de apenas a aba da frente.",
+          "en": "Folding both paper layers at once, instead of only the front flap."
+        },
+        "correction": {
+          "pt": "Separe as camadas com os dedos, segure apenas a aba da frente e dobre-a para cima.",
+          "en": "Separate the layers with your fingers, hold only the front flap, and fold it up."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o triângulo com as duas pontas da base dobradas (marcadas por linhas tracejadas). Uma linha tracejada horizontal na parte de baixo marca a dobra da aba, e uma seta aponta para cima, indicando que a aba é dobrada para cima.",
+        "en": "The diagram shows the triangle with both base tips folded (marked by dashed lines). A horizontal dashed line at the bottom marks the flap fold, and an arrow points up, showing that the flap is folded upward."
+      }
+    },
+    {
+      "id": 6,
+      "title": { "pt": "Virar o modelo e dobrar a aba do verso", "en": "Turn the model over and fold the back flap" },
+      "diagram": {
+        "view": "back",
+        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
+        "creases": [
+          { "axis": [[0.5, 0.06], [0.22, 0.78]], "kind": "valley" },
+          { "axis": [[0.5, 0.06], [0.78, 0.78]], "kind": "valley" }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.22, 0.9], [0.78, 0.9]], "probe": [0.5, 0.95] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Vire o modelo como quem vira a página de um livro: gire-o para o lado, mantendo a ponta de cima para cima. Agora o verso está para cima.",
+          "en": "Turn the model over like turning a book page: rotate it to the side, keeping the top tip pointing up. Now the back is facing up."
+        },
+        "orientation": {
+          "pt": "Na parte de baixo há novamente uma aba triangular, que é a outra camada de papel.",
+          "en": "At the bottom there is again a triangular flap, which is the other paper layer."
+        },
+        "moving": {
+          "pt": "A aba do verso, na parte de baixo do modelo.",
+          "en": "The back flap, at the bottom of the model."
+        },
+        "direction": {
+          "pt": "Dobre essa aba para cima, igual à etapa anterior, alinhando a borda com a parte de baixo dos triângulos dobrados.",
+          "en": "Fold this flap up, just like the previous step, aligning the edge with the bottom of the folded triangles."
+        },
+        "expected": {
+          "pt": "As duas abas ficam dobradas, uma de cada lado do modelo.",
+          "en": "Both flaps are now folded, one on each side of the model."
+        },
+        "commonError": {
+          "pt": "Dobrar a aba desalinhada, deixando as bordas irregulares.",
+          "en": "Folding the flap crooked, leaving uneven edges."
+        },
+        "correction": {
+          "pt": "Desdobre e refaça, alinhando a borda da aba com a borda dos triângulos antes de vincar.",
+          "en": "Unfold and redo, aligning the flap edge with the edge of the triangles before creasing."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o triângulo visto pelo verso (selo com hachura). A aba de baixo é dobrada para cima, indicada por uma linha tracejada horizontal e uma seta.",
+        "en": "The diagram shows the triangle seen from the back (hatched badge). The bottom flap is folded up, indicated by a horizontal dashed line and an arrow."
+      }
+    },
+    {
+      "id": 7,
+      "title": { "pt": "Abrir o copo", "en": "Open the cup" },
+      "diagram": {
+        "view": "front",
+        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
+        "creases": [
+          { "axis": [[0.5, 0.06], [0.22, 0.78]], "kind": "valley" },
+          { "axis": [[0.5, 0.06], [0.78, 0.78]], "kind": "valley" }
+        ],
+        "action": { "type": "open" }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O modelo é um triângulo com uma abertura na parte de baixo, entre as duas camadas dobradas.",
+          "en": "The model is a triangle with an opening at the bottom, between the two folded layers."
+        },
+        "orientation": {
+          "pt": "A ponta do triângulo aponta para cima. A abertura fica na parte de baixo, de frente para você.",
+          "en": "The tip of the triangle points up. The opening is at the bottom, facing you."
+        },
+        "moving": {
+          "pt": "A abertura na parte de baixo do modelo.",
+          "en": "The opening at the bottom of the model."
+        },
+        "direction": {
+          "pt": "Coloque um dedo dentro da abertura e abra o modelo com cuidado, empurrando as paredes para fora, até o fundo achatar. Alise as dobras com os dedos.",
+          "en": "Put a finger inside the opening and open the model carefully, pushing the walls outward, until the bottom flattens. Smooth the folds with your fingers."
+        },
+        "expected": {
+          "pt": "O copo se abre: fica com a boca larga para cima e o fundo achatado, de pé sobre a mesa.",
+          "en": "The cup opens: it has a wide mouth at the top and a flat bottom, standing on the table."
+        },
+        "commonError": {
+          "pt": "Forçar a abertura e rasgar o papel.",
+          "en": "Forcing the opening and tearing the paper."
+        },
+        "correction": {
+          "pt": "Abra devagar, aos poucos, empurrando as paredes com os dedos e alisando as dobras enquanto o copo toma forma.",
+          "en": "Open slowly, little by little, pushing the walls with your fingers and smoothing the folds as the cup takes shape."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o triângulo finalizado visto de frente. Duas setas apontando para os lados, saindo da parte de baixo, indicam que o modelo deve ser aberto empurrando as paredes para fora.",
+        "en": "The diagram shows the finished triangle seen from the front. Two arrows pointing outward, coming from the bottom, show that the model should be opened by pushing the walls out."
+      }
+    }
+  ]
+}

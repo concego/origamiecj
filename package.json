@@ -1,0 +1,26 @@
+{
+  "name": "origamiecj",
+  "version": "1.0.0",
+  "description": "OrigamiECJ - Site acessível e bilíngue para o ensino de origami para pessoas cegas, com baixa visão e videntes.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node scripts/validate.mjs",
+    "export:diagrams": "node scripts/export-diagrams.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "origami",
+    "accessibility",
+    "a11y",
+    "bilingual",
+    "wcag",
+    "inclusao"
+  ]
+}

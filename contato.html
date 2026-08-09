@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OrigamiECJ — Contato</title>
+  <meta name="description" content="Contato do OrigamiECJ.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/site.js"></script>
+  <script type="module" src="js/contact.js"></script>
+</head>
+<body data-page="contact">
+  <header id="site-header"></header>
+
+  <main id="main" tabindex="-1">
+    <div class="wrap">
+      <h1 data-i18n="contact.title"></h1>
+      <p data-i18n="contact.intro"></p>
+
+      <section aria-labelledby="contact-email">
+        <h2 id="contact-email" data-i18n="contact.emailLabel"></h2>
+        <p><a href="mailto:euconcego@gmail.com">euconcego@gmail.com</a></p>
+      </section>
+
+      <section aria-labelledby="contact-form-title">
+        <h2 id="contact-form-title" data-i18n="contact.formTitle"></h2>
+        <p class="note" data-i18n="contact.formNote"></p>
+        <form id="contact-form" novalidate>
+          <div class="field">
+            <label for="contact-name" data-i18n="contact.nameLabel"></label>
+            <input type="text" id="contact-name" name="name" autocomplete="name" data-i18n-attr="placeholder:contact.namePlaceholder">
+          </div>
+          <div class="field">
+            <label for="contact-subject" data-i18n="contact.subjectLabel"></label>
+            <input type="text" id="contact-subject" name="subject" autocomplete="off" data-i18n-attr="placeholder:contact.subjectPlaceholder" required>
+            <p class="error-msg" data-i18n="contact.required"></p>
+          </div>
+          <div class="field">
+            <label for="contact-message" data-i18n="contact.messageLabel"></label>
+            <textarea id="contact-message" name="message" data-i18n-attr="placeholder:contact.messagePlaceholder" required></textarea>
+            <p class="error-msg" data-i18n="contact.required"></p>
+          </div>
+          <button type="submit" class="button" data-i18n="contact.sendLabel"></button>
+        </form>
+        <p id="contact-fallback" class="note note-warning" hidden data-i18n="contact.mailtoFallback"></p>
+      </section>
+
+      <section aria-labelledby="contact-credit">
+        <h2 id="contact-credit" data-i18n="contact.creditTitle"></h2>
+        <p data-i18n="contact.creditText"></p>
+      </section>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>

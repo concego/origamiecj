@@ -1,0 +1,379 @@
+{
+  "slug": "aviao-dardo",
+  "difficulty": "facil",
+  "category": "brinquedos",
+  "durationMinutes": 3,
+  "totalSteps": 7,
+  "paper": {
+    "format": "rect",
+    "size": { "pt": "21 x 29,7 cm (papel A4, retângulo)", "en": "21 x 29.7 cm (A4 paper, rectangle)" },
+    "pieces": 1
+  },
+  "materials": [
+    { "pt": "1 folha de papel A4", "en": "1 sheet of A4 paper" },
+    { "pt": "uma superfície plana para dobrar", "en": "a flat surface to fold on" }
+  ],
+  "title": {
+    "pt": "Aviãozinho de papel (dardo)",
+    "en": "Paper dart (paper airplane)"
+  },
+  "description": {
+    "pt": "Um clássico avião de papel que voa em linha reta, perfeito para iniciantes. Dobra tradicional feita com uma folha retangular.",
+    "en": "A classic paper airplane that flies straight, perfect for beginners. A traditional fold made from a rectangular sheet."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é um avião alongado e fino, com o nariz pontudo na frente e duas asas abertas para os lados. Visto de cima, tem o formato de um triângulo estreito com duas asas. Ele desliza no ar quando lançado suavemente.",
+      "en": "The result is a long, slim airplane with a pointed nose in the front and two wings open to the sides. Seen from above, it looks like a narrow triangle with two wings. It glides through the air when launched gently."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [[0.5, 0.08], [0.16, 0.45], [0.12, 0.56], [0.4, 0.5], [0.5, 0.92], [0.6, 0.5], [0.88, 0.56], [0.84, 0.45]],
+      "creases": [
+        { "axis": [[0.5, 0.08], [0.5, 0.92]], "kind": "valley" }
+      ]
+    }
+  },
+  "credit": {
+    "pt": "Dobra tradicional de origami (domínio público). Instruções, textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami fold (public domain). Instructions, texts, and diagrams: original creation by the ECJ team."
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": { "pt": "Dobrar ao meio e desdobrar (vertical)", "en": "Fold in half and unfold (vertical)" },
+      "diagram": {
+        "base": "a4",
+        "view": "front",
+        "folds": [
+          { "kind": "valley", "axis": [[0.5, 0], [0.5, 1.4142]], "probe": [0.75, 0.7], "unfold": true }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.5, 0], [0.5, 1.4142]], "probe": [0.75, 0.7] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "A folha A4 está na sua frente, em pé (retrato): as duas bordas longas ficam à esquerda e à direita, e as duas bordas curtas ficam em cima e embaixo. O papel está liso, sem dobras, com a superfície de sua preferência voltada para cima.",
+          "en": "The A4 sheet is in front of you, standing upright (portrait): the two long edges are on the left and right, and the two short edges are at the top and bottom. The paper is flat, with no folds, and the side of your choice faces up."
+        },
+        "orientation": {
+          "pt": "A borda longa da esquerda e a borda longa da direita são as duas laterais. A borda curta de cima fica mais distante de você; a borda curta de baixo fica perto do seu peito.",
+          "en": "The long left edge and the long right edge are the two sides. The short edge at the top is farthest from you; the short edge at the bottom is near your chest."
+        },
+        "moving": {
+          "pt": "A borda longa da direita, isto é, toda a metade direita do papel.",
+          "en": "The long right edge, that is, the whole right half of the paper."
+        },
+        "direction": {
+          "pt": "Leve a borda direita para a esquerda, dobrando o papel ao meio no sentido vertical, como quem fecha um livro. As duas bordas longas devem se encontrar.",
+          "en": "Bring the right edge to the left, folding the paper in half vertically, like closing a book. The two long edges must meet."
+        },
+        "expected": {
+          "pt": "O papel fica dobrado ao meio, formando um retângulo estreito com duas camadas. A dobra (vinco) fica em uma das laterais.",
+          "en": "The paper is folded in half, forming a narrow rectangle with two layers. The crease is on one of the sides."
+        },
+        "commonError": {
+          "pt": "As bordas longas não ficam alinhadas e o papel fica torto, com o vinco em zigue-zague.",
+          "en": "The long edges do not line up and the paper is crooked, with a zigzag crease."
+        },
+        "correction": {
+          "pt": "Desdobre o papel, alinhe as duas bordas longas com os dedos e dobre novamente, passando a unha ou um objeto liso para vincar bem.",
+          "en": "Unfold the paper, line up the two long edges with your fingers, and fold again, pressing the crease with a fingernail or a smooth object."
+        },
+        "followUp": {
+          "pt": "Depois, desdobre o papel até ele voltar a ser um retângulo plano. Agora existe um vinco vertical passando pelo centro, de cima a baixo.",
+          "en": "Then unfold the paper until it is a flat rectangle again. There is now a vertical crease running through the center, from top to bottom."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra um retângulo em pé (retrato). Uma linha tracejada azul desce pelo centro, da borda de cima até a borda de baixo. Uma seta sai da metade direita e aponta para a esquerda, indicando que o lado direito é dobrado sobre o lado esquerdo.",
+        "en": "The diagram shows a standing rectangle. A blue dashed line runs down the center, from the top edge to the bottom edge. An arrow comes out of the right half and points left, showing that the right side is folded over the left side."
+      }
+    },
+    {
+      "id": 2,
+      "title": { "pt": "Dobrar o canto superior esquerdo até o centro", "en": "Fold the top-left corner to the center" },
+      "diagram": {
+        "base": "a4",
+        "view": "front",
+        "folds": [
+          { "kind": "valley", "axis": [[0.3725, 0], [0, 0.532]], "probe": [0, 0] }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.3725, 0], [0, 0.532]], "probe": [0, 0] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O papel está plano, em pé (retrato), com o vinco vertical passando pelo centro e dividindo o papel em duas metades iguais.",
+          "en": "The paper is flat, standing (portrait), with the vertical crease running through the center, dividing the paper into two equal halves."
+        },
+        "orientation": {
+          "pt": "A metade esquerda e a metade direita são iguais. O canto superior esquerdo fica na ponta de cima do lado esquerdo: é o canto formado pela borda de cima e pela borda esquerda.",
+          "en": "The left half and the right half are equal. The top-left corner is at the top point of the left side: it is the corner formed by the top edge and the left edge."
+        },
+        "moving": {
+          "pt": "O canto superior esquerdo do papel.",
+          "en": "The top-left corner of the paper."
+        },
+        "direction": {
+          "pt": "Dobre esse canto para baixo e para dentro, em direção ao vinco central, de modo que a ponta do canto toque o vinco vertical no centro. A parte esquerda da borda de cima acompanha o movimento e desce com o canto.",
+          "en": "Fold this corner down and inward, toward the central crease, so that the tip of the corner touches the vertical crease at the center. The left part of the top edge follows the movement and comes down with the corner."
+        },
+        "expected": {
+          "pt": "Um pequeno triângulo aparece no canto superior esquerdo, com a ponta tocando o vinco central. A parte esquerda da borda de cima fica inclinada para baixo.",
+          "en": "A small triangle appears in the top-left corner, with its tip touching the central crease. The left part of the top edge is now slanted downward."
+        },
+        "commonError": {
+          "pt": "A ponta do canto passa do vinco central ou não chega até ele, deixando os dois lados desiguais.",
+          "en": "The tip of the corner passes the central crease or does not reach it, leaving the two sides uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, reposicione a ponta exatamente sobre o vinco central e dobre de novo, alinhando a ponta com o centro.",
+          "en": "Unfold, place the tip exactly on the central crease, and fold again, aligning the tip with the center."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o retângulo com uma linha tracejada azul vertical no centro. Uma linha tracejada curta liga a borda de cima ao canto esquerdo (a dobra desta etapa). Uma seta parte do canto superior esquerdo e aponta para baixo, em direção ao centro, indicando que esse canto é dobrado até tocar a linha central.",
+        "en": "The diagram shows the rectangle with a blue dashed vertical line at the center. A short dashed line connects the top edge to the left corner (this step's fold). An arrow starts at the top-left corner and points down, toward the center, showing that this corner is folded until it touches the central line."
+      }
+    },
+    {
+      "id": 3,
+      "title": { "pt": "Dobrar o canto superior direito até o centro", "en": "Fold the top-right corner to the center" },
+      "diagram": {
+        "base": "a4",
+        "view": "front",
+        "folds": [
+          { "kind": "valley", "axis": [[0.3725, 0], [0, 0.532]], "probe": [0, 0] },
+          { "kind": "valley", "axis": [[0.6275, 0], [1, 0.532]], "probe": [1, 0] }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.6275, 0], [1, 0.532]], "probe": [1, 0] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O canto superior esquerdo já está dobrado até o centro. O papel está plano, com o vinco vertical no meio.",
+          "en": "The top-left corner is already folded to the center. The paper is flat, with the vertical crease in the middle."
+        },
+        "orientation": {
+          "pt": "O canto superior direito é a ponta de cima do lado direito, formada pela borda de cima e pela borda direita.",
+          "en": "The top-right corner is the top point of the right side, formed by the top edge and the right edge."
+        },
+        "moving": {
+          "pt": "O canto superior direito do papel.",
+          "en": "The top-right corner of the paper."
+        },
+        "direction": {
+          "pt": "Dobre o canto superior direito para baixo e para dentro, até a ponta tocar o vinco vertical central, do mesmo jeito que você fez do lado esquerdo.",
+          "en": "Fold the top-right corner down and inward, until the tip touches the central vertical crease, the same way you did on the left side."
+        },
+        "expected": {
+          "pt": "Os dois cantos ficam dobrados até o centro. A parte de cima do papel agora tem o formato de um triângulo com a ponta apontando para baixo.",
+          "en": "Both corners are now folded to the center. The top part of the paper now has the shape of a triangle pointing down."
+        },
+        "commonError": {
+          "pt": "A ponta do canto direito não fica alinhada com a do esquerdo, deixando os dois lados desiguais.",
+          "en": "The tip of the right corner does not align with the left one, leaving the two sides uneven."
+        },
+        "correction": {
+          "pt": "Desdobre e refaça, levando a ponta exatamente até o vinco central, no mesmo ponto do canto esquerdo.",
+          "en": "Unfold and redo, bringing the tip exactly to the central crease, at the same point as the left corner."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o retângulo com o canto superior esquerdo já dobrado (um triângulo pequeno). Uma linha tracejada curta liga a borda de cima ao canto direito, e uma seta parte do canto superior direito apontando para baixo e para o centro.",
+        "en": "The diagram shows the rectangle with the top-left corner already folded (a small triangle). A short dashed line connects the top edge to the right corner, and an arrow starts at the top-right corner pointing down and toward the center."
+      }
+    },
+    {
+      "id": 4,
+      "title": { "pt": "Dobrar a ponta superior para baixo", "en": "Fold the top tip down" },
+      "diagram": {
+        "base": "a4",
+        "view": "front",
+        "folds": [
+          { "kind": "valley", "axis": [[0.3725, 0], [0, 0.532]], "probe": [0, 0] },
+          { "kind": "valley", "axis": [[0.6275, 0], [1, 0.532]], "probe": [1, 0] },
+          { "kind": "valley", "axis": [[0.156, 0.475], [0.844, 0.475]], "probe": [0.5, 0.35] }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.156, 0.475], [0.844, 0.475]], "probe": [0.5, 0.35] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Os dois cantos de cima já estão dobrados para o centro. A parte de cima do papel tem a forma de um triângulo com a ponta voltada para baixo, bem no meio.",
+          "en": "Both top corners are already folded to the center. The top part of the paper has the shape of a triangle pointing down, right in the middle."
+        },
+        "orientation": {
+          "pt": "A ponta central (onde os dois triângulos se encontram) aponta para baixo. A borda de cima do papel forma um zigue-zague com duas pontas para fora.",
+          "en": "The central tip (where the two triangles meet) points down. The top edge of the paper forms a zigzag with two points sticking out."
+        },
+        "moving": {
+          "pt": "A ponta central, onde os dois triângulos dobrados se encontram.",
+          "en": "The central tip, where the two folded triangles meet."
+        },
+        "direction": {
+          "pt": "Dobre essa ponta para baixo, em direção à parte de baixo do papel, até a ponta tocar o vinco vertical central, cerca de um terço abaixo do topo do papel.",
+          "en": "Fold this tip down, toward the bottom of the paper, until the tip touches the central vertical crease, about one third below the top of the paper."
+        },
+        "expected": {
+          "pt": "A ponta fica dobrada para baixo, formando um pequeno triângulo invertido no topo do papel. Este será o nariz do avião.",
+          "en": "The tip is folded down, forming a small inverted triangle at the top of the paper. This will be the nose of the airplane."
+        },
+        "commonError": {
+          "pt": "A dobra fica muito acima ou muito abaixo do meio, deixando o nariz do avião desproporcional.",
+          "en": "The fold is too high or too low, leaving the airplane's nose out of proportion."
+        },
+        "correction": {
+          "pt": "Desdobre a ponta e refaça a dobra, alinhando a ponta com o vinco central, cerca de um terço abaixo do topo.",
+          "en": "Unfold the tip and redo the fold, aligning the tip with the central crease, about one third below the top."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o retângulo com os dois cantos de cima dobrados (triângulos) e uma linha tracejada horizontal curta no meio. Uma seta parte da ponta central e aponta para baixo, indicando que essa ponta é dobrada para baixo.",
+        "en": "The diagram shows the rectangle with both top corners folded (triangles) and a short horizontal dashed line in the middle. An arrow starts at the central tip and points down, showing that this tip is folded down."
+      }
+    },
+    {
+      "id": 5,
+      "title": { "pt": "Dobrar o modelo ao meio", "en": "Fold the model in half" },
+      "diagram": {
+        "base": "a4",
+        "view": "front",
+        "folds": [
+          { "kind": "valley", "axis": [[0.3725, 0], [0, 0.532]], "probe": [0, 0] },
+          { "kind": "valley", "axis": [[0.6275, 0], [1, 0.532]], "probe": [1, 0] },
+          { "kind": "valley", "axis": [[0.156, 0.475], [0.844, 0.475]], "probe": [0.5, 0.35] },
+          { "kind": "mountain", "axis": [[0.5, 0.95], [0.5, 1.4142]], "probe": [0.75, 0.7] }
+        ],
+        "action": { "type": "fold", "kind": "mountain", "axis": [[0.5, 0.95], [0.5, 1.4142]], "probe": [0.75, 0.7] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O papel está plano, com a ponta (nariz) dobrada para baixo e o vinco vertical central bem marcado.",
+          "en": "The paper is flat, with the tip (nose) folded down and the central vertical crease well marked."
+        },
+        "orientation": {
+          "pt": "O vinco vertical divide o modelo em duas metades iguais: a esquerda e a direita.",
+          "en": "The vertical crease divides the model into two equal halves: the left and the right."
+        },
+        "moving": {
+          "pt": "A metade direita do modelo.",
+          "en": "The right half of the model."
+        },
+        "direction": {
+          "pt": "Dobre a metade direita para trás, dobrando o modelo ao meio pelo vinco central já existente, levando a borda direita de encontro à borda esquerda, como quem fecha um livro.",
+          "en": "Fold the right half backward, folding the model in half along the existing central crease, bringing the right edge to meet the left edge, like closing a book."
+        },
+        "expected": {
+          "pt": "O modelo fica com a metade do tamanho: um triângulo longo e fino, com as dobras para dentro.",
+          "en": "The model is now half its size: a long, slim triangle, with the folds on the inside."
+        },
+        "commonError": {
+          "pt": "A dobra não segue o vinco original e o modelo fica torto, com as metades desalinhadas.",
+          "en": "The fold does not follow the original crease and the model is crooked, with the halves misaligned."
+        },
+        "correction": {
+          "pt": "Desdobre e dobre novamente, guiando-se pelo vinco central existente e alinhando as bordas com os dedos.",
+          "en": "Unfold and fold again, guiding yourself by the existing central crease and aligning the edges with your fingers."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o papel com a ponta dobrada para baixo e uma linha pontilhada-tracejada vermelha descendo pelo centro, do vinco do nariz até a borda de baixo. Uma seta sai da metade direita e aponta para a esquerda, indicando que o modelo é dobrado ao meio.",
+        "en": "The diagram shows the paper with the tip folded down and a red dash-dotted line running down the center, from the nose crease to the bottom edge. An arrow comes out of the right half and points left, showing that the model is folded in half."
+      }
+    },
+    {
+      "id": 6,
+      "title": { "pt": "Dobrar a primeira asa", "en": "Fold the first wing" },
+      "diagram": {
+        "view": "front",
+        "outline": [[0.5, 0.1], [0.34, 0.88], [0.66, 0.88]],
+        "creases": [
+          { "axis": [[0.5, 0.1], [0.5, 0.88]], "kind": "valley" }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.5, 0.1], [0.42, 0.82]], "probe": [0.4, 0.6] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O modelo está dobrado ao meio, formando um triângulo longo e fino. A borda dobrada (o lombo do avião) fica para baixo, na mesa, e o nariz aponta para longe de você.",
+          "en": "The model is folded in half, forming a long, slim triangle. The folded edge (the airplane's spine) is down, on the table, and the nose points away from you."
+        },
+        "orientation": {
+          "pt": "Você tem duas bordas de papel na parte de cima: uma borda de cima e, embaixo dela, o lombo (a dobra). O nariz é a ponta aguda mais distante de você.",
+          "en": "You have two paper edges on top: one top edge and, below it, the spine (the fold). The nose is the sharp point farthest from you."
+        },
+        "moving": {
+          "pt": "A borda de cima do papel (a camada superior).",
+          "en": "The top paper edge (the upper layer)."
+        },
+        "direction": {
+          "pt": "Dobre a borda de cima para baixo, em direção ao lombo, até que ela se encontre com a borda de baixo (o lombo). Vinca bem. Esta é a primeira asa.",
+          "en": "Fold the top edge down, toward the spine, until it meets the bottom edge (the spine). Crease well. This is the first wing."
+        },
+        "expected": {
+          "pt": "A primeira asa fica dobrada para baixo, apoiada sobre o papel. O modelo ainda é um triângulo, agora com uma aba em um dos lados.",
+          "en": "The first wing is folded down, resting on the paper. The model is still a triangle, now with a flap on one side."
+        },
+        "commonError": {
+          "pt": "A borda de cima não encontra a borda de baixo, e a asa fica torta ou com larguras diferentes dos dois lados.",
+          "en": "The top edge does not meet the bottom edge, and the wing is crooked or has different widths on each side."
+        },
+        "correction": {
+          "pt": "Desdobre e refaça, alinhando a borda de cima com a borda de baixo antes de vincar.",
+          "en": "Unfold and redo, aligning the top edge with the bottom edge before creasing."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o triângulo longo com o nariz para cima. Uma linha tracejada vertical marca o lombo. Uma linha tracejada desce do nariz até a lateral, e uma seta mostra a parte esquerda dobrando para o lado esquerdo.",
+        "en": "The diagram shows the long triangle with the nose pointing up. A vertical dashed line marks the spine. A dashed line goes down from the nose to the side, and an arrow shows the left part folding to the left."
+      }
+    },
+    {
+      "id": 7,
+      "title": { "pt": "Dobrar a segunda asa e abrir o avião", "en": "Fold the second wing and open the airplane" },
+      "diagram": {
+        "view": "back",
+        "outline": [[0.5, 0.1], [0.34, 0.88], [0.66, 0.88]],
+        "creases": [
+          { "axis": [[0.5, 0.1], [0.5, 0.88]], "kind": "valley" }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.5, 0.1], [0.58, 0.82]], "probe": [0.6, 0.6] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Vire o modelo como quem vira a página de um livro: gire-o para o lado, mantendo o nariz apontando para longe de você. Agora o verso está para cima.",
+          "en": "Turn the model over like turning a book page: rotate it to the side, keeping the nose pointing away from you. Now the back side is facing up."
+        },
+        "orientation": {
+          "pt": "Você vê novamente a borda de cima do papel e o lombo embaixo dela.",
+          "en": "You can see the top paper edge again, with the spine below it."
+        },
+        "moving": {
+          "pt": "A borda de cima do papel deste lado.",
+          "en": "The top paper edge on this side."
+        },
+        "direction": {
+          "pt": "Dobre essa borda de cima para baixo, até encontrar a borda de baixo, igual à primeira asa. Vinca bem.",
+          "en": "Fold this top edge down, until it meets the bottom edge, just like the first wing. Crease well."
+        },
+        "expected": {
+          "pt": "As duas asas ficam dobradas, uma de cada lado do corpo do avião.",
+          "en": "Both wings are now folded, one on each side of the airplane's body."
+        },
+        "commonError": {
+          "pt": "As duas asas ficam desiguais, com larguras diferentes.",
+          "en": "The two wings are uneven, with different widths."
+        },
+        "correction": {
+          "pt": "Compare as duas asas com os dedos e ajuste a dobra que estiver diferente.",
+          "en": "Compare the two wings with your fingers and adjust the fold that is different."
+        },
+        "followUp": {
+          "pt": "Para terminar, levante as duas asas até que formem um V aberto, uma asa para cada lado, com o corpo do avião no meio. O aviãozinho está pronto para voar.",
+          "en": "To finish, raise both wings until they form an open V, one wing on each side, with the airplane's body in the middle. Your paper airplane is ready to fly."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o triângulo visto pelo verso (com a hachura de verso no selo). A primeira asa já está dobrada. Uma linha tracejada e uma seta mostram a segunda asa dobrando para o lado direito.",
+        "en": "The diagram shows the triangle seen from the back (with the back-side hatching on the badge). The first wing is already folded. A dashed line and an arrow show the second wing folding to the right."
+      }
+    }
+  ]
+}

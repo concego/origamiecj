@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "title": "OrigamiECJ — Origami acessível para todas as pessoas",
+    "title.home": "OrigamiECJ — Início",
+    "title.catalog": "OrigamiECJ — Catálogo de modelos",
+    "title.tutorial": "OrigamiECJ — Tutorial",
+    "title.about": "OrigamiECJ — Sobre",
+    "title.credits": "OrigamiECJ — Créditos",
+    "title.accessibility": "OrigamiECJ — Acessibilidade",
+    "title.contact": "OrigamiECJ — Contato",
+    "title.help": "OrigamiECJ — Ajuda",
+    "description.home": "OrigamiECJ: aprenda origami com instruções acessíveis e bilíngues para pessoas cegas, com baixa visão e videntes.",
+    "description.catalog": "Catálogo de modelos de origami com filtros por dificuldade, tipo, tempo, etapas e idioma. Tutoriais acessíveis e bilíngues.",
+    "description.tutorial": "Tutorial acessível de origami, passo a passo, com instruções para seguir sem enxergar as imagens.",
+    "description.about": "Conheça o OrigamiECJ, projeto da equipe Eu Concego Jogar (ECJ) para o ensino acessível de origami.",
+    "description.credits": "Créditos do OrigamiECJ: equipe ECJ, fontes e licenças.",
+    "description.accessibility": "Recursos de acessibilidade do OrigamiECJ: teclado, leitores de tela, contraste, zoom e mais.",
+    "description.contact": "Fale com a equipe Eu Concego Jogar (ECJ).",
+    "description.help": "Ajuda do OrigamiECJ: perguntas frequentes sobre tutoriais, idioma, progresso e acessibilidade."
+  },
+  "langName": "Português (Brasil)",
+  "nav": {
+    "home": "Início",
+    "catalog": "Catálogo de modelos",
+    "about": "Sobre",
+    "credits": "Créditos",
+    "accessibility": "Acessibilidade",
+    "contact": "Contato",
+    "help": "Ajuda",
+    "label": "Menu principal"
+  },
+  "common": {
+    "skipToContent": "Pular para o conteúdo principal",
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro. Tente novamente.",
+    "close": "Fechar",
+    "back": "Voltar",
+    "next": "Próxima etapa",
+    "previous": "Etapa anterior",
+    "restart": "Reiniciar",
+    "minutes": "minutos",
+    "minute": "minuto",
+    "steps": "etapas",
+    "step": "etapa",
+    "of": "de",
+    "difficulty": "Dificuldade",
+    "duration": "Tempo estimado",
+    "materials": "Materiais",
+    "paperSize": "Formato e tamanho do papel",
+    "result": "Resultado esperado",
+    "type": "Tipo de modelo",
+    "totalSteps": "Total de etapas",
+    "backToHome": "Voltar ao início",
+    "backToCatalog": "Voltar ao catálogo",
+    "notFound": "Modelo não encontrado"
+  },
+  "difficulty": {
+    "facil": "Fácil",
+    "medio": "Médio",
+    "dificil": "Difícil"
+  },
+  "category": {
+    "brinquedos": "Brinquedos",
+    "utilidades": "Utilidades",
+    "animais": "Animais",
+    "flores": "Flores",
+    "objetos": "Objetos",
+    "decoracao": "Decoração"
+  },
+  "lang": {
+    "switchLabel": "Idioma do site",
+    "switchTo": "Alternar idioma para inglês",
+    "current": "Idioma atual: {lang}",
+    "pt-BR": "Português",
+    "en": "English"
+  },
+  "displayMode": {
+    "label": "Modo de exibição do tutorial",
+    "both": "Ambos: visual e descritivo",
+    "visual": "Somente visual",
+    "descriptive": "Somente descritivo",
+    "bothHint": "Mostra o diagrama e, abaixo dele, a descrição textual completa.",
+    "visualHint": "Mostra apenas o diagrama, sem a descrição longa.",
+    "descriptiveHint": "Mostra apenas as descrições textuais, sem diagramas. Indicado para leitura com leitor de tela."
+  },
+  "animations": {
+    "pause": "Pausar animações",
+    "resume": "Retomar animações",
+    "off": "Animações pausadas",
+    "on": "Animações ativadas"
+  },
+  "legend": {
+    "title": "Legenda dos símbolos dos diagramas",
+    "valley": "Linha tracejada azul: dobra para a frente, em vale.",
+    "mountain": "Linha pontilhada-tracejada vermelha: dobra para trás, em montanha.",
+    "solid": "Linha contínua preta: borda do papel.",
+    "arrow": "Seta azul: direção do movimento da dobra desta etapa.",
+    "front": "Círculo preto preenchido com a letra F: lado da frente do papel.",
+    "back": "Círculo vazado com hachura e a letra V: lado de trás (verso) do papel.",
+    "up": "Seta no canto superior direito indica a parte de cima do papel.",
+    "hide": "Ocultar legenda",
+    "show": "Mostrar legenda"
+  },
+  "home": {
+    "heroTitle": "Origami para todas as pessoas",
+    "heroSub": "Aprenda a dobrar papel com instruções detalhadas, acessíveis e bilíngues. Um único site para pessoas cegas, com baixa visão e videntes.",
+    "ctaCatalog": "Ver catálogo de modelos",
+    "ctaAbout": "Conhecer o projeto",
+    "whatTitle": "O que é o OrigamiECJ?",
+    "whatText": "OrigamiECJ é um projeto da equipe Eu Concego Jogar (ECJ) que ensina origami de forma acessível. Cada tutorial tem instruções passo a passo que podem ser seguidas sem enxergar as imagens, com orientações espaciais detalhadas, descrições dos diagramas e correções para erros comuns.",
+    "featuresTitle": "Como funciona",
+    "features": [
+      {
+        "title": "Instruções sem depender da visão",
+        "text": "Cada etapa explica a posição do papel, a orientação, o que se move, a direção da dobra, o estado esperado e os erros comuns."
+      },
+      {
+        "title": "Diagramas de alto contraste",
+        "text": "Os diagramas SVG usam linhas tracejadas para dobras em vale, pontilhadas para dobras em montanha e setas de direção, com legenda."
+      },
+      {
+        "title": "Bilíngue",
+        "text": "O site é oferecido em português do Brasil e inglês, com troca de idioma a qualquer momento."
+      },
+      {
+        "title": "Progresso local",
+        "text": "Seu progresso fica salvo no seu navegador, sem conta e sem envio de dados."
+      },
+      {
+        "title": "Funciona com teclado e leitores de tela",
+        "text": "Todo o site é navegável por teclado e compatível com NVDA, VoiceOver e TalkBack."
+      },
+      {
+        "title": "Responsivo",
+        "text": "O site funciona em telas pequenas e suporta zoom de até 200% sem perder conteúdo."
+      }
+    ],
+    "modelsTitle": "Modelos para começar",
+    "modelsText": "Comece pelos modelos simples, com instruções completas e acessíveis.",
+    "a11yTitle": "Acessibilidade em primeiro lugar",
+    "a11yText": "Todas as pessoas usam a mesma interface. Não existe uma versão separada para pessoas cegas: a acessibilidade faz parte da estrutura principal do site.",
+    "progressTitle": "Seu progresso, no seu navegador",
+    "progressText": "O OrigamiECJ salva apenas o progresso dos tutoriais no armazenamento local do navegador, no seu dispositivo. Não coletamos dados pessoais, não usamos rastreamento e não enviamos dados a terceiros."
+  },
+  "catalog": {
+    "title": "Catálogo de modelos",
+    "intro": "Escolha um modelo para começar. Use os filtros para encontrar o que combina com você. Todos os tutoriais funcionam sem precisar enxergar as imagens.",
+    "filtersTitle": "Filtros",
+    "difficulty": "Filtrar por dificuldade",
+    "type": "Filtrar por tipo de modelo",
+    "time": "Filtrar por tempo estimado",
+    "steps": "Filtrar por número de etapas",
+    "language": "Filtrar por idioma",
+    "all": "Todos",
+    "timeShort": "Até 5 minutos",
+    "timeMedium": "5 a 10 minutos",
+    "timeLong": "Mais de 10 minutos",
+    "stepsShort": "Até 5 etapas",
+    "stepsMedium": "6 a 10 etapas",
+    "stepsLong": "Mais de 10 etapas",
+    "clearFilters": "Limpar filtros",
+    "resultsCount": "{n} modelos encontrados",
+    "resultsCountOne": "1 modelo encontrado",
+    "noResults": "Nenhum modelo encontrado com esses filtros. Tente remover alguns filtros.",
+    "resultAlt": "Resultado final do modelo {name}",
+    "startTutorial": "Começar o tutorial",
+    "continueTutorial": "Continuar de onde parei",
+    "tableLegend": "Cada modelo mostra o nome, a dificuldade, o tempo estimado, o total de etapas e um botão para iniciar ou continuar o tutorial."
+  },
+  "tutorial": {
+    "title": "Tutorial",
+    "backToCatalog": "Voltar ao catálogo",
+    "progress": "Progresso",
+    "progressLabel": "Você completou {done} de {total} etapas.",
+    "currentStep": "Etapa {current} de {total}",
+    "stepTitle": "Etapa {n}: {title}",
+    "instructions": "Instruções desta etapa",
+    "position": "Posição inicial do papel",
+    "orientation": "Orientação espacial",
+    "moving": "O que será movimentado",
+    "direction": "Direção da dobra",
+    "expected": "Estado esperado depois da dobra",
+    "commonError": "Erro comum",
+    "correction": "Como corrigir",
+    "diagramTitle": "Diagrama da etapa {n}",
+    "diagramZoomIn": "Ampliar diagrama",
+    "diagramZoomOut": "Reduzir diagrama",
+    "diagramDescriptionTitle": "Descrição textual do diagrama",
+    "allSteps": "Todas as etapas",
+    "allStepsHint": "Use esta lista para revisar etapas anteriores ou pular para outra etapa.",
+    "goToStep": "Ir para a etapa {n}",
+    "prev": "Etapa anterior",
+    "next": "Próxima etapa",
+    "restart": "Reiniciar tutorial",
+    "restartConfirm": "Reiniciar o tutorial do zero? O progresso deste modelo será apagado.",
+    "clearProgress": "Apagar meu progresso neste modelo",
+    "clearProgressConfirm": "Apagar todo o progresso deste modelo?",
+    "clearAllProgress": "Apagar todo o progresso do site",
+    "clearAllConfirm": "Apagar todo o progresso salvo neste navegador?",
+    "completed": "Tutorial concluído",
+    "completedMsg": "Parabéns! Você chegou ao final do tutorial. Você pode revisar etapas anteriores, reiniciar o modelo ou escolher outro no catálogo.",
+    "storageNoteTitle": "Sobre o seu progresso",
+    "storageNote": "Seu progresso é salvo apenas neste navegador, no seu dispositivo. Nenhuma conta é necessária e nenhum dado é enviado a servidores.",
+    "localStorageWarning": "Seu navegador está em modo privado ou não permite armazenamento local. Seu progresso não será salvo.",
+    "materialsTitle": "Materiais",
+    "metaTitle": "Informações do modelo",
+    "viewModeHint": "Escolha como quer ver o tutorial: somente diagramas, somente descrições ou ambos.",
+    "notFound": "Modelo não encontrado. Verifique o endereço ou volte ao catálogo."
+  },
+  "about": {
+    "title": "Sobre o OrigamiECJ",
+    "intro": "OrigamiECJ é um projeto da equipe Eu Concego Jogar (ECJ), criado para que qualquer pessoa possa aprender origami — inclusive pessoas cegas e com baixa visão — usando a mesma interface.",
+    "sections": [
+      {
+        "title": "Por que um site acessível de origami?",
+        "paragraphs": [
+          "O origami é uma arte visual: a maioria dos tutoriais depende de diagramas. Pessoas cegas ficam de fora porque as instruções dizem 'dobre como na imagem' ou 'vire para o outro lado' sem explicar o que isso significa.",
+          "O OrigamiECJ reescreve cada dobra com palavras. Cada etapa diz a posição do papel, a orientação espacial, a ponta ou borda que se move, a direção da dobra, o estado esperado, o erro comum e como corrigir.",
+          "Todas as pessoas utilizam a mesma interface. Não existe uma versão separada 'para cegos': a acessibilidade faz parte da estrutura principal."
+        ]
+      },
+      {
+        "title": "Como os tutoriais são escritos",
+        "paragraphs": [
+          "Cada modelo tem um roteiro de etapas, com textos em português e inglês, diagramas de alto contraste com legenda e uma descrição textual de cada diagrama.",
+          "As instruções podem ser seguidas sem enxergar as imagens. Os diagramas ajudam quem enxerga, e as descrições ajudam quem não enxerga — e todos aprendem juntos."
+        ]
+      },
+      {
+        "title": "Privacidade",
+        "paragraphs": [
+          "O site não pede cadastro, não coleta dados pessoais, não usa rastreamento e não envia dados a terceiros.",
+          "O progresso dos tutoriais é salvo apenas no armazenamento local do navegador, no seu dispositivo. Você pode apagá-lo a qualquer momento."
+        ]
+      }
+    ]
+  },
+  "credits": {
+    "title": "Créditos",
+    "projectTitle": "O projeto",
+    "projectCredit": "OrigamiECJ é um projeto da equipe Eu Concego Jogar (ECJ).",
+    "contactTitle": "Contato",
+    "contactText": "Para dúvidas, sugestões ou parcerias, escreva para euconcego@gmail.com.",
+    "modelsTitle": "Os modelos",
+    "modelsText": "Os modelos iniciais (aviãozinho, copinho e barquinho) são dobras tradicionais de origami, de domínio público. As instruções, os textos e os diagramas são criações originais da equipe ECJ.",
+    "origamiDbTitle": "origami-db (fonte de referência)",
+    "origamiDbText": "O OrigamiECJ consulta o banco de dados origami-db como referência técnica para padrões de vincos e modelos dobrados em 3D. Não copiamos dados, imagens, instruções ou modelos desse banco.",
+    "origamiDbLicense": "origami-db é publicado sob a licença GPL-3.0, por dozingpip. Endereço oficial:",
+    "techTitle": "Tecnologias",
+    "techText": "O site é construído com HTML semântico, CSS organizado e JavaScript modular, sem dependências externas e sem coleta de dados.",
+    "licenseTitle": "Licenças",
+    "licenseText": "O código deste projeto é distribuído sob a licença MIT, salvo onde houver indicação diferente. O conteúdo textual e os diagramas são criações da equipe ECJ."
+  },
+  "accessibility": {
+    "title": "Acessibilidade",
+    "intro": "O OrigamiECJ foi construído seguindo as diretrizes WCAG 2.1 (nível AA) e boas práticas de acessibilidade. Confira abaixo os recursos e como testar.",
+    "sections": [
+      {
+        "title": "Teclado e foco",
+        "paragraphs": [
+          "Todo o site pode ser usado apenas com o teclado. O foco é sempre visível e segue uma ordem lógica de navegação.",
+          "Pressione Tab para avançar, Shift+Tab para voltar e Enter para ativar botões e links. A tecla Esc fecha diálogos e menus."
+        ]
+      },
+      {
+        "title": "Leitores de tela",
+        "paragraphs": [
+          "O site foi testado para funcionar com NVDA, VoiceOver e TalkBack.",
+          "Títulos têm hierarquia correta, todos os controles têm nomes acessíveis e mudanças importantes são anunciadas por regiões aria-live.",
+          "O tutorial anuncia a etapa atual e o total de etapas, e cada diagrama tem um título e uma descrição textual equivalente."
+        ]
+      },
+      {
+        "title": "Contraste e cores",
+        "paragraphs": [
+          "Os textos têm contraste adequado. Os diagramas não dependem apenas de cores: cada tipo de dobra tem também um padrão de linha diferente (tracejado para vale, pontilhado-tracejado para montanha)."
+        ]
+      },
+      {
+        "title": "Zoom e telas pequenas",
+        "paragraphs": [
+          "O site permite zoom de até 200% sem perder conteúdo e funciona em telas pequenas, com layout responsivo."
+        ]
+      },
+      {
+        "title": "Movimento e animações",
+        "paragraphs": [
+          "O site respeita a preferência do sistema por menos movimento (prefers-reduced-motion).",
+          "Qualquer animação pode ser pausada com o botão 'Pausar animações', disponível em todo o site."
+        ]
+      },
+      {
+        "title": "Sem depender de uma única forma de informação",
+        "paragraphs": [
+          "Nenhuma informação é transmitida apenas por cor, imagem, posição ou som.",
+          "Todo diagrama tem uma descrição textual equivalente e toda informação visual tem alternativa textual."
+        ]
+      }
+    ],
+    "testingTitle": "Testes realizados",
+    "testingList": [
+      "Navegação completa por teclado.",
+      "Foco visível em todos os controles.",
+      "Leitura por leitores de tela (NVDA, VoiceOver, TalkBack).",
+      "Hierarquia correta de títulos.",
+      "Nomes acessíveis em todos os controles.",
+      "Troca de idioma preservando a etapa atual.",
+      "Leitura das descrições dos diagramas.",
+      "Contraste de textos e diagramas.",
+      "Zoom de até 200%.",
+      "prefers-reduced-motion.",
+      "Salvamento e exclusão do progresso.",
+      "Funcionamento sem mouse.",
+      "Ausência de dependência exclusiva de cor ou imagem."
+    ]
+  },
+  "contact": {
+    "title": "Contato",
+    "intro": "A equipe Eu Concego Jogar (ECJ) está disponível para dúvidas, sugestões e parcerias.",
+    "emailLabel": "E-mail da equipe ECJ",
+    "formTitle": "Escrever para a ECJ",
+    "formNote": "Este formulário apenas abre a mensagem no seu programa de e-mail, no seu dispositivo. Nenhum dado é enviado a servidores, salvo ou coletado.",
+    "nameLabel": "Seu nome (opcional)",
+    "namePlaceholder": "Como você se chama?",
+    "subjectLabel": "Assunto",
+    "subjectPlaceholder": "Sobre o que você quer falar?",
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Escreva sua mensagem aqui.",
+    "sendLabel": "Abrir no meu programa de e-mail",
+    "required": "Este campo é obrigatório.",
+    "sent": "O seu programa de e-mail deve ter aberto com a mensagem pronta para envio. Se não abriu, envie para euconcego@gmail.com.",
+    "mailtoFallback": "Não foi possível abrir o seu programa de e-mail. Envie sua mensagem para euconcego@gmail.com.",
+    "creditTitle": "Créditos",
+    "creditText": "OrigamiECJ é um projeto da equipe Eu Concego Jogar (ECJ)."
+  },
+  "help": {
+    "title": "Ajuda",
+    "intro": "Encontre respostas para as dúvidas mais comuns sobre o OrigamiECJ.",
+    "sections": [
+      {
+        "title": "Como começo um tutorial?",
+        "paragraphs": [
+          "Abra o catálogo de modelos, escolha um modelo e pressione 'Começar o tutorial'. A primeira etapa aparece com as instruções completas."
+        ]
+      },
+      {
+        "title": "Preciso enxergar os diagramas?",
+        "paragraphs": [
+          "Não. Cada etapa tem uma descrição textual completa, escrita para ser seguida sem ver as imagens. Os diagramas são um apoio extra."
+        ]
+      },
+      {
+        "title": "O que significam as linhas do diagrama?",
+        "paragraphs": [
+          "Linha tracejada azul é dobra para frente (vale). Linha pontilhada-tracejada vermelha é dobra para trás (montanha). A seta indica a direção do movimento. A legenda completa fica abaixo do primeiro diagrama."
+        ]
+      },
+      {
+        "title": "Como troco o idioma?",
+        "paragraphs": [
+          "Use o botão de idioma no topo do site. O site detecta o idioma do navegador automaticamente e mantém a sua escolha enquanto você navega."
+        ]
+      },
+      {
+        "title": "Onde fica salvo o meu progresso?",
+        "paragraphs": [
+          "O progresso fica salvo no armazenamento local do seu navegador, no seu dispositivo. Nenhuma conta é necessária e nenhum dado é enviado a servidores. Você pode apagar o progresso a qualquer momento."
+        ]
+      },
+      {
+        "title": "Como pauso as animações?",
+        "paragraphs": [
+          "Use o botão 'Pausar animações' no topo do site. O site também respeita a preferência por menos movimento configurada no seu sistema."
+        ]
+      },
+      {
+        "title": "O site coleta meus dados?",
+        "paragraphs": [
+          "Não. O site não pede cadastro, não coleta dados pessoais, não usa rastreamento e não envia dados a terceiros."
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "credit": "OrigamiECJ é um projeto da equipe Eu Concego Jogar (ECJ).",
+    "contact": "Contato: euconcego@gmail.com",
+    "origamiDbCredit": "Referência técnica: origami-db (GPL-3.0) — padrões de vincos e modelos 3D. Não copiamos conteúdo desse banco.",
+    "privacy": "Seus dados ficam no seu navegador. Não coletamos dados pessoais nem enviamos dados a terceiros.",
+    "backToTop": "Voltar ao topo",
+    "creditTitle": "Créditos",
+    "sourcesTitle": "Fontes",
+    "privacyTitle": "Privacidade",
+    "navLabel": "Navegação do rodapé"
+  },
+  "404": {
+    "title": "Página não encontrada",
+    "text": "O endereço que você acessou não existe."
+  }
+}

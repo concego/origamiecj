@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OrigamiECJ</title>
+  <meta name="description" content="OrigamiECJ: origami acessível para todas as pessoas.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/site.js"></script>
+  <script type="module" src="js/home.js"></script>
+</head>
+<body data-page="home">
+  <header id="site-header"></header>
+
+  <main id="main" tabindex="-1">
+    <div class="wrap">
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title" data-i18n="home.heroTitle"></h1>
+        <p data-i18n="home.heroSub"></p>
+        <div class="hero-actions">
+          <a class="button" href="catalogo.html" data-i18n="home.ctaCatalog"></a>
+          <a class="button button-secondary" href="sobre.html" data-i18n="home.ctaAbout"></a>
+        </div>
+      </section>
+
+      <section aria-labelledby="what-title">
+        <h2 id="what-title" data-i18n="home.whatTitle"></h2>
+        <p data-i18n="home.whatText"></p>
+      </section>
+
+      <section aria-labelledby="features-title">
+        <h2 id="features-title" data-i18n="home.featuresTitle"></h2>
+        <div class="card-grid" id="home-features"></div>
+      </section>
+
+      <section aria-labelledby="models-title">
+        <h2 id="models-title" data-i18n="home.modelsTitle"></h2>
+        <p data-i18n="home.modelsText"></p>
+        <div class="card-grid" id="home-models" aria-busy="true"></div>
+      </section>
+
+      <section aria-labelledby="a11y-title">
+        <h2 id="a11y-title" data-i18n="home.a11yTitle"></h2>
+        <p data-i18n="home.a11yText"></p>
+      </section>
+
+      <section aria-labelledby="progress-title">
+        <h2 id="progress-title" data-i18n="home.progressTitle"></h2>
+        <p data-i18n="home.progressText"></p>
+      </section>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>

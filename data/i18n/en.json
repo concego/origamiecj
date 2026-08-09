@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "title": "OrigamiECJ — Accessible origami for everyone",
+    "title.home": "OrigamiECJ — Home",
+    "title.catalog": "OrigamiECJ — Model catalog",
+    "title.tutorial": "OrigamiECJ — Tutorial",
+    "title.about": "OrigamiECJ — About",
+    "title.credits": "OrigamiECJ — Credits",
+    "title.accessibility": "OrigamiECJ — Accessibility",
+    "title.contact": "OrigamiECJ — Contact",
+    "title.help": "OrigamiECJ — Help",
+    "description.home": "OrigamiECJ: learn origami with accessible, bilingual instructions for blind people, people with low vision, and sighted people.",
+    "description.catalog": "Origami model catalog with filters by difficulty, type, time, steps, and language. Accessible bilingual tutorials.",
+    "description.tutorial": "Accessible origami tutorial, step by step, with instructions to follow without looking at the images.",
+    "description.about": "Learn about OrigamiECJ, a project by the team Eu Concego Jogar (ECJ) for accessible origami teaching.",
+    "description.credits": "OrigamiECJ credits: ECJ team, sources, and licenses.",
+    "description.accessibility": "OrigamiECJ accessibility features: keyboard, screen readers, contrast, zoom, and more.",
+    "description.contact": "Talk to the Eu Concego Jogar (ECJ) team.",
+    "description.help": "OrigamiECJ help: frequently asked questions about tutorials, language, progress, and accessibility."
+  },
+  "langName": "English",
+  "nav": {
+    "home": "Home",
+    "catalog": "Model catalog",
+    "about": "About",
+    "credits": "Credits",
+    "accessibility": "Accessibility",
+    "contact": "Contact",
+    "help": "Help",
+    "label": "Main menu"
+  },
+  "common": {
+    "skipToContent": "Skip to main content",
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again.",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next step",
+    "previous": "Previous step",
+    "restart": "Restart",
+    "minutes": "minutes",
+    "minute": "minute",
+    "steps": "steps",
+    "step": "step",
+    "of": "of",
+    "difficulty": "Difficulty",
+    "duration": "Estimated time",
+    "materials": "Materials",
+    "paperSize": "Paper format and size",
+    "result": "Expected result",
+    "type": "Model type",
+    "totalSteps": "Total steps",
+    "backToHome": "Back to home",
+    "backToCatalog": "Back to catalog",
+    "notFound": "Model not found"
+  },
+  "difficulty": {
+    "facil": "Easy",
+    "medio": "Medium",
+    "dificil": "Hard"
+  },
+  "category": {
+    "brinquedos": "Toys",
+    "utilidades": "Useful items",
+    "animais": "Animals",
+    "flores": "Flowers",
+    "objetos": "Objects",
+    "decoracao": "Decoration"
+  },
+  "lang": {
+    "switchLabel": "Site language",
+    "switchTo": "Switch language to Portuguese",
+    "current": "Current language: {lang}",
+    "pt-BR": "Português",
+    "en": "English"
+  },
+  "displayMode": {
+    "label": "Tutorial display mode",
+    "both": "Both: visual and descriptive",
+    "visual": "Visual only",
+    "descriptive": "Descriptive only",
+    "bothHint": "Shows the diagram and, below it, the full text description.",
+    "visualHint": "Shows only the diagram, without the long description.",
+    "descriptiveHint": "Shows only text descriptions, without diagrams. Recommended for screen reader use."
+  },
+  "animations": {
+    "pause": "Pause animations",
+    "resume": "Resume animations",
+    "off": "Animations paused",
+    "on": "Animations enabled"
+  },
+  "legend": {
+    "title": "Legend of diagram symbols",
+    "valley": "Blue dashed line: fold towards you (valley fold).",
+    "mountain": "Red dash-dotted line: fold away from you (mountain fold).",
+    "solid": "Solid black line: paper edge.",
+    "arrow": "Blue arrow: direction of this step's fold.",
+    "front": "Filled black circle with the letter F: front side of the paper.",
+    "back": "Hollow hatched circle with the letter V: back side of the paper.",
+    "up": "The arrow in the top right corner shows the top of the paper.",
+    "hide": "Hide legend",
+    "show": "Show legend"
+  },
+  "home": {
+    "heroTitle": "Origami for everyone",
+    "heroSub": "Learn to fold paper with detailed, accessible, bilingual instructions. One single website for blind people, people with low vision, and sighted people.",
+    "ctaCatalog": "View the model catalog",
+    "ctaAbout": "Learn about the project",
+    "whatTitle": "What is OrigamiECJ?",
+    "whatText": "OrigamiECJ is a project by the team Eu Concego Jogar (ECJ) that teaches origami accessibly. Every tutorial has step-by-step instructions that can be followed without looking at the images, with detailed spatial guidance, diagram descriptions, and fixes for common mistakes.",
+    "featuresTitle": "How it works",
+    "features": [
+      {
+        "title": "Instructions that do not depend on sight",
+        "text": "Each step explains the paper position, orientation, what moves, the fold direction, the expected result, and common mistakes."
+      },
+      {
+        "title": "High-contrast diagrams",
+        "text": "SVG diagrams use dashed lines for valley folds, dash-dotted lines for mountain folds, and direction arrows, with a legend."
+      },
+      {
+        "title": "Bilingual",
+        "text": "The website is available in Brazilian Portuguese and English, with language switching at any time."
+      },
+      {
+        "title": "Local progress",
+        "text": "Your progress is saved in your browser, with no account and no data being sent anywhere."
+      },
+      {
+        "title": "Works with keyboard and screen readers",
+        "text": "The whole website is keyboard-navigable and compatible with NVDA, VoiceOver, and TalkBack."
+      },
+      {
+        "title": "Responsive",
+        "text": "The website works on small screens and supports zoom up to 200% without losing content."
+      }
+    ],
+    "modelsTitle": "Models to get started",
+    "modelsText": "Start with the simple models, with complete and accessible instructions.",
+    "a11yTitle": "Accessibility first",
+    "a11yText": "Everyone uses the same interface. There is no separate version for blind people: accessibility is part of the core structure of the website.",
+    "progressTitle": "Your progress, in your browser",
+    "progressText": "OrigamiECJ only saves tutorial progress in the browser's local storage, on your device. We do not collect personal data, do not use tracking, and do not send data to third parties."
+  },
+  "catalog": {
+    "title": "Model catalog",
+    "intro": "Choose a model to get started. Use the filters to find what works for you. All tutorials work without needing to look at the images.",
+    "filtersTitle": "Filters",
+    "difficulty": "Filter by difficulty",
+    "type": "Filter by model type",
+    "time": "Filter by estimated time",
+    "steps": "Filter by number of steps",
+    "language": "Filter by language",
+    "all": "All",
+    "timeShort": "Up to 5 minutes",
+    "timeMedium": "5 to 10 minutes",
+    "timeLong": "More than 10 minutes",
+    "stepsShort": "Up to 5 steps",
+    "stepsMedium": "6 to 10 steps",
+    "stepsLong": "More than 10 steps",
+    "clearFilters": "Clear filters",
+    "resultsCount": "{n} models found",
+    "resultsCountOne": "1 model found",
+    "noResults": "No models found with these filters. Try removing some filters.",
+    "resultAlt": "Final result of the model {name}",
+    "startTutorial": "Start the tutorial",
+    "continueTutorial": "Continue where I left off",
+    "tableLegend": "Each model shows its name, difficulty, estimated time, total steps, and a button to start or continue the tutorial."
+  },
+  "tutorial": {
+    "title": "Tutorial",
+    "backToCatalog": "Back to catalog",
+    "progress": "Progress",
+    "progressLabel": "You completed {done} of {total} steps.",
+    "currentStep": "Step {current} of {total}",
+    "stepTitle": "Step {n}: {title}",
+    "instructions": "Instructions for this step",
+    "position": "Starting position of the paper",
+    "orientation": "Spatial orientation",
+    "moving": "What will be moved",
+    "direction": "Fold direction",
+    "expected": "Expected result after the fold",
+    "commonError": "Common mistake",
+    "correction": "How to fix it",
+    "diagramTitle": "Diagram for step {n}",
+    "diagramZoomIn": "Zoom in on the diagram",
+    "diagramZoomOut": "Zoom out on the diagram",
+    "diagramDescriptionTitle": "Text description of the diagram",
+    "allSteps": "All steps",
+    "allStepsHint": "Use this list to review previous steps or jump to another step.",
+    "goToStep": "Go to step {n}",
+    "prev": "Previous step",
+    "next": "Next step",
+    "restart": "Restart tutorial",
+    "restartConfirm": "Restart the tutorial from the beginning? The progress for this model will be erased.",
+    "clearProgress": "Erase my progress on this model",
+    "clearProgressConfirm": "Erase all progress on this model?",
+    "clearAllProgress": "Erase all website progress",
+    "clearAllConfirm": "Erase all progress saved in this browser?",
+    "completed": "Tutorial completed",
+    "completedMsg": "Congratulations! You reached the end of the tutorial. You can review previous steps, restart the model, or choose another one in the catalog.",
+    "storageNoteTitle": "About your progress",
+    "storageNote": "Your progress is saved only in this browser, on your device. No account is needed and no data is sent to servers.",
+    "localStorageWarning": "Your browser is in private mode or does not allow local storage. Your progress will not be saved.",
+    "materialsTitle": "Materials",
+    "metaTitle": "Model information",
+    "viewModeHint": "Choose how you want to see the tutorial: diagrams only, descriptions only, or both.",
+    "notFound": "Model not found. Check the address or go back to the catalog."
+  },
+  "about": {
+    "title": "About OrigamiECJ",
+    "intro": "OrigamiECJ is a project by the team Eu Concego Jogar (ECJ), created so that anyone can learn origami — including blind people and people with low vision — using the same interface.",
+    "sections": [
+      {
+        "title": "Why an accessible origami website?",
+        "paragraphs": [
+          "Origami is a visual art: most tutorials depend on diagrams. Blind people are left out because the instructions say 'fold like in the picture' or 'turn it over' without explaining what that means.",
+          "OrigamiECJ rewrites each fold in words. Each step states the paper position, the spatial orientation, the tip or edge that moves, the fold direction, the expected result, the common mistake, and how to fix it.",
+          "Everyone uses the same interface. There is no separate version for blind people: accessibility is part of the core structure."
+        ]
+      },
+      {
+        "title": "How the tutorials are written",
+        "paragraphs": [
+          "Each model has a step-by-step script, with texts in Portuguese and English, high-contrast diagrams with a legend, and a text description of each diagram.",
+          "The instructions can be followed without seeing the images. Diagrams help those who see, and the descriptions help those who do not — and everyone learns together."
+        ]
+      },
+      {
+        "title": "Privacy",
+        "paragraphs": [
+          "The website does not require registration, does not collect personal data, does not use tracking, and does not send data to third parties.",
+          "Tutorial progress is saved only in the browser's local storage, on your device. You can erase it at any time."
+        ]
+      }
+    ]
+  },
+  "credits": {
+    "title": "Credits",
+    "projectTitle": "The project",
+    "projectCredit": "OrigamiECJ is a project by the team Eu Concego Jogar (ECJ).",
+    "contactTitle": "Contact",
+    "contactText": "For questions, suggestions, or partnerships, write to euconcego@gmail.com.",
+    "modelsTitle": "The models",
+    "modelsText": "The initial models (paper dart, paper cup, and paper boat) are traditional origami folds in the public domain. The instructions, texts, and diagrams are original creations by the ECJ team.",
+    "origamiDbTitle": "origami-db (reference source)",
+    "origamiDbText": "OrigamiECJ consults the origami-db database as a technical reference for crease patterns and 3D folded models. We do not copy data, images, instructions, or models from that database.",
+    "origamiDbLicense": "origami-db is published under the GPL-3.0 license, by dozingpip. Official address:",
+    "techTitle": "Technologies",
+    "techText": "The website is built with semantic HTML, organized CSS, and modular JavaScript, with no external dependencies and no data collection.",
+    "licenseTitle": "Licenses",
+    "licenseText": "The project code is distributed under the MIT license, unless otherwise indicated. Text content and diagrams are creations of the ECJ team."
+  },
+  "accessibility": {
+    "title": "Accessibility",
+    "intro": "OrigamiECJ was built following WCAG 2.1 (level AA) guidelines and accessibility best practices. See below the features and how to test them.",
+    "sections": [
+      {
+        "title": "Keyboard and focus",
+        "paragraphs": [
+          "The whole website can be used with the keyboard alone. Focus is always visible and follows a logical navigation order.",
+          "Press Tab to move forward, Shift+Tab to move back, and Enter to activate buttons and links. The Esc key closes dialogs and menus."
+        ]
+      },
+      {
+        "title": "Screen readers",
+        "paragraphs": [
+          "The website was tested to work with NVDA, VoiceOver, and TalkBack.",
+          "Headings have a correct hierarchy, all controls have accessible names, and important changes are announced by aria-live regions.",
+          "The tutorial announces the current step and the total number of steps, and each diagram has a title and an equivalent text description."
+        ]
+      },
+      {
+        "title": "Contrast and color",
+        "paragraphs": [
+          "Texts have adequate contrast. Diagrams do not rely only on color: each fold type also has a different line pattern (dashed for valley, dash-dotted for mountain)."
+        ]
+      },
+      {
+        "title": "Zoom and small screens",
+        "paragraphs": [
+          "The website supports zoom up to 200% without losing content and works on small screens with a responsive layout."
+        ]
+      },
+      {
+        "title": "Motion and animations",
+        "paragraphs": [
+          "The website respects the system preference for reduced motion (prefers-reduced-motion).",
+          "Any animation can be paused with the 'Pause animations' button, available on the whole website."
+        ]
+      },
+      {
+        "title": "Not relying on a single form of information",
+        "paragraphs": [
+          "No information is conveyed only by color, image, position, or sound.",
+          "Every diagram has an equivalent text description and every visual piece of information has a text alternative."
+        ]
+      }
+    ],
+    "testingTitle": "Tests performed",
+    "testingList": [
+      "Full keyboard navigation.",
+      "Visible focus on all controls.",
+      "Screen reader reading (NVDA, VoiceOver, TalkBack).",
+      "Correct heading hierarchy.",
+      "Accessible names on all controls.",
+      "Language switching preserving the current step.",
+      "Reading of diagram descriptions.",
+      "Text and diagram contrast.",
+      "Zoom up to 200%.",
+      "prefers-reduced-motion.",
+      "Saving and erasing progress.",
+      "Working without a mouse.",
+      "No exclusive reliance on color or image."
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "The Eu Concego Jogar (ECJ) team is available for questions, suggestions, and partnerships.",
+    "emailLabel": "ECJ team email",
+    "formTitle": "Write to ECJ",
+    "formNote": "This form only opens the message in your email program, on your device. No data is sent to servers, saved, or collected.",
+    "nameLabel": "Your name (optional)",
+    "namePlaceholder": "What is your name?",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "What would you like to talk about?",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message here.",
+    "sendLabel": "Open in my email program",
+    "required": "This field is required.",
+    "sent": "Your email program should have opened with your message ready to send. If not, send it to euconcego@gmail.com.",
+    "mailtoFallback": "Your email program could not be opened. Send your message to euconcego@gmail.com.",
+    "creditTitle": "Credits",
+    "creditText": "OrigamiECJ is a project by the team Eu Concego Jogar (ECJ)."
+  },
+  "help": {
+    "title": "Help",
+    "intro": "Find answers to the most common questions about OrigamiECJ.",
+    "sections": [
+      {
+        "title": "How do I start a tutorial?",
+        "paragraphs": [
+          "Open the model catalog, choose a model, and press 'Start the tutorial'. The first step appears with the complete instructions."
+        ]
+      },
+      {
+        "title": "Do I need to see the diagrams?",
+        "paragraphs": [
+          "No. Each step has a complete text description, written to be followed without looking at the images. The diagrams are extra support."
+        ]
+      },
+      {
+        "title": "What do the lines in the diagram mean?",
+        "paragraphs": [
+          "A blue dashed line is a fold towards you (valley). A red dash-dotted line is a fold away from you (mountain). The arrow shows the direction of the movement. The full legend is below the first diagram."
+        ]
+      },
+      {
+        "title": "How do I switch the language?",
+        "paragraphs": [
+          "Use the language button at the top of the website. The website detects your browser language automatically and keeps your choice while you navigate."
+        ]
+      },
+      {
+        "title": "Where is my progress saved?",
+        "paragraphs": [
+          "Progress is saved in your browser's local storage, on your device. No account is needed and no data is sent to servers. You can erase your progress at any time."
+        ]
+      },
+      {
+        "title": "How do I pause animations?",
+        "paragraphs": [
+          "Use the 'Pause animations' button at the top of the website. The website also respects the reduced-motion preference configured in your system."
+        ]
+      },
+      {
+        "title": "Does the website collect my data?",
+        "paragraphs": [
+          "No. The website does not require registration, does not collect personal data, does not use tracking, and does not send data to third parties."
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "credit": "OrigamiECJ is a project by the team Eu Concego Jogar (ECJ).",
+    "contact": "Contact: euconcego@gmail.com",
+    "origamiDbCredit": "Technical reference: origami-db (GPL-3.0) — crease patterns and 3D models. We do not copy content from that database.",
+    "privacy": "Your data stays in your browser. We do not collect personal data nor send data to third parties.",
+    "backToTop": "Back to top",
+    "creditTitle": "Credits",
+    "sourcesTitle": "Sources",
+    "privacyTitle": "Privacy",
+    "navLabel": "Footer navigation"
+  },
+  "404": {
+    "title": "Page not found",
+    "text": "The address you visited does not exist."
+  }
+}

@@ -104,6 +104,9 @@
 *.log
 **/logs/
 
+# Generated diagram exports (regenerate with `npm run export:diagrams`)
+**/diagrams/**/*.svg
+
 # Environment and secrets
 **/.env
 **/.env.local

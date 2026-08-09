@@ -1,0 +1,505 @@
+{
+  "slug": "barco-de-papel",
+  "difficulty": "medio",
+  "category": "brinquedos",
+  "durationMinutes": 8,
+  "totalSteps": 10,
+  "paper": {
+    "format": "rect",
+    "size": { "pt": "21 x 29,7 cm (papel A4, retângulo)", "en": "21 x 29.7 cm (A4 paper, rectangle)" },
+    "pieces": 1
+  },
+  "materials": [
+    { "pt": "1 folha de papel A4", "en": "1 sheet of A4 paper" },
+    { "pt": "uma superfície plana para dobrar", "en": "a flat surface to fold on" }
+  ],
+  "title": {
+    "pt": "Barquinho de papel",
+    "en": "Paper boat"
+  },
+  "description": {
+    "pt": "Um barco clássico que flutua na água. Uma dobra tradicional feita a partir de uma folha retangular.",
+    "en": "A classic boat that floats on water. A traditional fold made from a rectangular sheet."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é um barco com um casco em forma de triângulo aberto, duas pontas erguidas (uma à frente e outra atrás) e uma base plana. Ele flutua quando colocado suavemente na água.",
+      "en": "The result is a boat with an open triangular hull, two raised tips (one in the front and one at the back), and a flat base. It floats when placed gently on water."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [[0.2, 0.55], [0.35, 0.25], [0.5, 0.55], [0.65, 0.25], [0.8, 0.55], [0.88, 0.9], [0.12, 0.9]]
+    }
+  },
+  "credit": {
+    "pt": "Dobra tradicional de origami (domínio público). Instruções, textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami fold (public domain). Instructions, texts, and diagrams: original creation by the ECJ team."
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": { "pt": "Dobrar ao meio na horizontal e desdobrar", "en": "Fold in half horizontally and unfold" },
+      "diagram": {
+        "base": "a4-landscape",
+        "view": "front",
+        "folds": [
+          { "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75], "unfold": true }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "A folha A4 está na sua frente, deitada (paisagem): as duas bordas longas ficam em cima e embaixo, e as duas bordas curtas ficam nas laterais. O papel está liso, sem dobras.",
+          "en": "The A4 sheet is in front of you, lying down (landscape): the two long edges are at the top and bottom, and the two short edges are on the sides. The paper is flat, with no folds."
+        },
+        "orientation": {
+          "pt": "A borda longa de baixo fica perto do seu peito. A borda longa de cima fica mais distante. As bordas curtas ficam à esquerda e à direita.",
+          "en": "The long bottom edge is near your chest. The long top edge is farthest away. The short edges are on the left and right."
+        },
+        "moving": {
+          "pt": "A borda longa de baixo, isto é, toda a metade de baixo do papel.",
+          "en": "The long bottom edge, that is, the whole bottom half of the paper."
+        },
+        "direction": {
+          "pt": "Leve a borda de baixo para cima, dobrando o papel ao meio na horizontal, como quem fecha um livro de baixo para cima. As duas bordas longas devem se encontrar.",
+          "en": "Bring the bottom edge up, folding the paper in half horizontally, like closing a book upward. The two long edges must meet."
+        },
+        "expected": {
+          "pt": "O papel fica dobrado ao meio, formando um retângulo com a metade da altura, com duas camadas.",
+          "en": "The paper is folded in half, forming a rectangle half its height, with two layers."
+        },
+        "commonError": {
+          "pt": "As bordas longas não ficam alinhadas e o papel fica torto.",
+          "en": "The long edges do not line up and the paper is crooked."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as bordas com os dedos e dobre novamente, vincando bem.",
+          "en": "Unfold, line up the edges with your fingers, and fold again, creasing well."
+        },
+        "followUp": {
+          "pt": "Depois, desdobre o papel até voltar a ser um retângulo plano. Agora existe um vinco horizontal passando pelo centro.",
+          "en": "Then unfold the paper until it is a flat rectangle again. There is now a horizontal crease through the center."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra um retângulo deitado (paisagem). Uma linha tracejada azul horizontal passa pelo centro. Uma seta sai da metade de baixo e aponta para cima, indicando que a parte de baixo é dobrada sobre a parte de cima.",
+        "en": "The diagram shows a lying rectangle (landscape). A blue dashed horizontal line runs through the center. An arrow comes out of the bottom half and points up, showing that the bottom part is folded over the top part."
+      }
+    },
+    {
+      "id": 2,
+      "title": { "pt": "Dobrar ao meio na vertical e desdobrar", "en": "Fold in half vertically and unfold" },
+      "diagram": {
+        "base": "a4-landscape",
+        "view": "front",
+        "folds": [
+          { "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75], "unfold": true },
+          { "kind": "valley", "axis": [[0.7071, 0], [0.7071, 1]], "probe": [1.1, 0.5], "unfold": true }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.7071, 0], [0.7071, 1]], "probe": [1.1, 0.5] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O papel está plano, deitado, com o vinco horizontal passando pelo centro.",
+          "en": "The paper is flat, lying down, with the horizontal crease through the center."
+        },
+        "orientation": {
+          "pt": "O vinco horizontal divide o papel em metade de cima e metade de baixo.",
+          "en": "The horizontal crease divides the paper into a top half and a bottom half."
+        },
+        "moving": {
+          "pt": "A borda curta da direita, isto é, a metade direita do papel.",
+          "en": "The short right edge, that is, the right half of the paper."
+        },
+        "direction": {
+          "pt": "Leve a borda direita para a esquerda, dobrando o papel ao meio na vertical, como fechar um livro. As duas bordas curtas devem se encontrar.",
+          "en": "Bring the right edge to the left, folding the paper in half vertically, like closing a book. The two short edges must meet."
+        },
+        "expected": {
+          "pt": "O papel fica dobrado ao meio, com a metade da largura. Depois, desdobre até ficar plano de novo.",
+          "en": "The paper is folded in half, half its width. Then unfold until it is flat again."
+        },
+        "commonError": {
+          "pt": "Esquecer de desdobrar, deixando o papel dobrado.",
+          "en": "Forgetting to unfold, leaving the paper folded."
+        },
+        "correction": {
+          "pt": "Desdobre completamente até o papel ficar plano, como um retângulo com dois vincos cruzando o centro.",
+          "en": "Unfold completely until the paper is flat, a rectangle with two creases crossing the center."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o retângulo deitado com dois vincos tracejados azuis: um horizontal e um vertical, cruzando no centro. A seta desta etapa parte da metade direita e aponta para a esquerda.",
+        "en": "The diagram shows the lying rectangle with two blue dashed creases: one horizontal and one vertical, crossing at the center. This step's arrow starts at the right half and points left."
+      }
+    },
+    {
+      "id": 3,
+      "title": { "pt": "Dobrar o canto superior esquerdo até o centro", "en": "Fold the top-left corner to the center" },
+      "diagram": {
+        "base": "a4-landscape",
+        "view": "front",
+        "folds": [
+          { "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75], "unfold": true },
+          { "kind": "valley", "axis": [[0.7071, 0], [0.7071, 1]], "probe": [1.1, 0.5], "unfold": true },
+          { "kind": "valley", "axis": [[0.5304, 0], [0, 0.75]], "probe": [0, 0] }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.5304, 0], [0, 0.75]], "probe": [0, 0] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O papel está plano, deitado, com os dois vincos (horizontal e vertical) cruzando no centro do papel.",
+          "en": "The paper is flat, lying down, with the two creases (horizontal and vertical) crossing at the center of the paper."
+        },
+        "orientation": {
+          "pt": "O ponto onde os dois vincos se cruzam é o centro do papel. O canto superior esquerdo fica na ponta de cima do lado esquerdo.",
+          "en": "The point where the two creases cross is the center of the paper. The top-left corner is the top point of the left side."
+        },
+        "moving": {
+          "pt": "O canto superior esquerdo do papel.",
+          "en": "The top-left corner of the paper."
+        },
+        "direction": {
+          "pt": "Dobre o canto superior esquerdo para baixo e para dentro, até a ponta do canto tocar o centro do papel, onde os dois vincos se cruzam.",
+          "en": "Fold the top-left corner down and inward, until the tip of the corner touches the center of the paper, where the two creases cross."
+        },
+        "expected": {
+          "pt": "Um triângulo aparece no canto superior esquerdo, com a ponta no centro do papel.",
+          "en": "A triangle appears in the top-left corner, with its tip at the center of the paper."
+        },
+        "commonError": {
+          "pt": "A ponta não alcança o centro ou passa dele.",
+          "en": "The tip does not reach the center or passes it."
+        },
+        "correction": {
+          "pt": "Desdobre e refaça, posicionando a ponta exatamente sobre o cruzamento dos vincos.",
+          "en": "Unfold and redo, placing the tip exactly over the crossing of the creases."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o retângulo deitado com os dois vincos no centro. Uma linha tracejada curta liga a borda de cima ao canto esquerdo, e uma seta parte do canto superior esquerdo apontando para o centro.",
+        "en": "The diagram shows the lying rectangle with the two creases in the center. A short dashed line connects the top edge to the left corner, and an arrow starts at the top-left corner pointing to the center."
+      }
+    },
+    {
+      "id": 4,
+      "title": { "pt": "Dobrar o canto superior direito até o centro", "en": "Fold the top-right corner to the center" },
+      "diagram": {
+        "base": "a4-landscape",
+        "view": "front",
+        "folds": [
+          { "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75], "unfold": true },
+          { "kind": "valley", "axis": [[0.7071, 0], [0.7071, 1]], "probe": [1.1, 0.5], "unfold": true },
+          { "kind": "valley", "axis": [[0.5304, 0], [0, 0.75]], "probe": [0, 0] },
+          { "kind": "valley", "axis": [[0.88385, 0], [1.4142, 0.75]], "probe": [1.4142, 0] }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.88385, 0], [1.4142, 0.75]], "probe": [1.4142, 0] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O canto superior esquerdo já está dobrado até o centro.",
+          "en": "The top-left corner is already folded to the center."
+        },
+        "orientation": {
+          "pt": "O canto superior direito é a ponta de cima do lado direito.",
+          "en": "The top-right corner is the top point of the right side."
+        },
+        "moving": {
+          "pt": "O canto superior direito do papel.",
+          "en": "The top-right corner of the paper."
+        },
+        "direction": {
+          "pt": "Dobre o canto superior direito para baixo e para dentro, até a ponta tocar o centro do papel, do mesmo jeito do lado esquerdo.",
+          "en": "Fold the top-right corner down and inward, until the tip touches the center of the paper, the same way as the left side."
+        },
+        "expected": {
+          "pt": "Os dois cantos ficam dobrados até o centro. A parte de cima do papel tem o formato de um triângulo (um telhado) com a ponta para baixo.",
+          "en": "Both corners are now folded to the center. The top part of the paper has the shape of a triangle (a roof) pointing down."
+        },
+        "commonError": {
+          "pt": "As duas pontas não ficam no mesmo ponto do centro.",
+          "en": "The two tips do not end at the same point in the center."
+        },
+        "correction": {
+          "pt": "Desdobre e refaça, levando as duas pontas ao mesmo ponto central.",
+          "en": "Unfold and redo, bringing both tips to the same central point."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o retângulo com o canto superior esquerdo já dobrado (triângulo). Uma linha tracejada curta liga a borda de cima ao canto direito, e uma seta parte do canto superior direito apontando para o centro.",
+        "en": "The diagram shows the rectangle with the top-left corner already folded (a triangle). A short dashed line connects the top edge to the right corner, and an arrow starts at the top-right corner pointing to the center."
+      }
+    },
+    {
+      "id": 5,
+      "title": { "pt": "Dobrar a borda de baixo para cima", "en": "Fold the bottom edge up" },
+      "diagram": {
+        "base": "a4-landscape",
+        "view": "front",
+        "folds": [
+          { "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75], "unfold": true },
+          { "kind": "valley", "axis": [[0.7071, 0], [0.7071, 1]], "probe": [1.1, 0.5], "unfold": true },
+          { "kind": "valley", "axis": [[0.5304, 0], [0, 0.75]], "probe": [0, 0] },
+          { "kind": "valley", "axis": [[0.88385, 0], [1.4142, 0.75]], "probe": [1.4142, 0] },
+          { "kind": "valley", "axis": [[0.2828, 0.65], [1.1312, 0.65]], "probe": [0.7, 0.9] }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.2828, 0.65], [1.1312, 0.65]], "probe": [0.7, 0.9] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Os dois cantos de cima estão dobrados, formando um telhado na parte de cima do papel.",
+          "en": "Both top corners are folded, forming a roof at the top of the paper."
+        },
+        "orientation": {
+          "pt": "Abaixo do telhado há a parte de baixo do papel, que termina na borda longa de baixo.",
+          "en": "Below the roof there is the bottom part of the paper, which ends at the long bottom edge."
+        },
+        "moving": {
+          "pt": "A borda longa de baixo, com a camada da frente do papel.",
+          "en": "The long bottom edge, with the front layer of the paper."
+        },
+        "direction": {
+          "pt": "Dobre a borda de baixo para cima, em direção ao telhado, até que ela fique no nível da parte de baixo dos triângulos dobrados. Vinca. Esta é a aba da frente.",
+          "en": "Fold the bottom edge up, toward the roof, until it is level with the bottom of the folded triangles. Crease. This is the front flap."
+        },
+        "expected": {
+          "pt": "Uma faixa (aba) fica dobrada para cima, na parte de baixo do papel, como a aba de um chapéu.",
+          "en": "A band (flap) is folded up, at the bottom of the paper, like the brim of a hat."
+        },
+        "commonError": {
+          "pt": "Dobrar as duas camadas de papel ao mesmo tempo.",
+          "en": "Folding both paper layers at the same time."
+        },
+        "correction": {
+          "pt": "Segure apenas a camada da frente com os dedos e dobre apenas essa camada para cima.",
+          "en": "Hold only the front layer with your fingers and fold only that layer up."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o retângulo com o telhado dobrado no topo. Uma linha tracejada horizontal corta a parte de baixo, e uma seta aponta para cima, indicando que a borda de baixo é dobrada para cima.",
+        "en": "The diagram shows the rectangle with the folded roof at the top. A horizontal dashed line crosses the bottom part, and an arrow points up, showing that the bottom edge is folded upward."
+      }
+    },
+    {
+      "id": 6,
+      "title": { "pt": "Virar o modelo e dobrar a aba do verso", "en": "Turn the model over and fold the back flap" },
+      "diagram": {
+        "view": "back",
+        "outline": [[0.5, 0.08], [0.15, 0.5], [0.15, 0.7], [0.85, 0.7], [0.85, 0.5]],
+        "creases": [
+          { "axis": [[0.15, 0.65], [0.85, 0.65]], "kind": "valley" }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.15, 0.65], [0.85, 0.65]], "probe": [0.5, 0.85] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O modelo tem o telhado em cima e a aba da frente dobrada embaixo.",
+          "en": "The model has the roof at the top and the front flap folded at the bottom."
+        },
+        "orientation": {
+          "pt": "Vire o modelo como quem vira a página de um livro: gire-o para o lado, mantendo o topo para cima. O verso fica para cima.",
+          "en": "Turn the model over like turning a book page: rotate it to the side, keeping the top up. The back is now facing up."
+        },
+        "moving": {
+          "pt": "A borda longa de baixo, com a camada do verso do papel.",
+          "en": "The long bottom edge, with the back layer of the paper."
+        },
+        "direction": {
+          "pt": "Dobre a borda de baixo para cima, igual à etapa anterior, alinhando com a parte de baixo dos triângulos dobrados. Vinca.",
+          "en": "Fold the bottom edge up, just like the previous step, aligning with the bottom of the folded triangles. Crease."
+        },
+        "expected": {
+          "pt": "As duas abas ficam dobradas, uma de cada lado. O modelo agora parece um chapéu com o telhado em cima e uma abertura na parte de baixo.",
+          "en": "Both flaps are now folded, one on each side. The model now looks like a hat with the roof on top and an opening at the bottom."
+        },
+        "commonError": {
+          "pt": "Virar o modelo de cabeça para baixo em vez de girar para o lado.",
+          "en": "Turning the model upside down instead of rotating it to the side."
+        },
+        "correction": {
+          "pt": "Gire o modelo como as páginas de um livro, mantendo o telhado sempre para cima.",
+          "en": "Rotate the model like book pages, always keeping the roof at the top."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o modelo visto pelo verso (selo com hachura): um telhado em cima e uma abertura embaixo. Uma linha tracejada horizontal e uma seta para cima indicam a dobra da aba do verso.",
+        "en": "The diagram shows the model seen from the back (hatched badge): a roof at the top and an opening at the bottom. A horizontal dashed line and an upward arrow show the back flap fold."
+      }
+    },
+    {
+      "id": 7,
+      "title": { "pt": "Abrir a parte de baixo até formar um losango", "en": "Open the bottom into a diamond" },
+      "diagram": {
+        "view": "front",
+        "outline": [[0.5, 0.08], [0.9, 0.5], [0.5, 0.92], [0.1, 0.5]],
+        "action": { "type": "open" }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O modelo parece um chapéu: um telhado triangular em cima e uma abertura na parte de baixo, entre as duas abas.",
+          "en": "The model looks like a hat: a triangular roof on top and an opening at the bottom, between the two flaps."
+        },
+        "orientation": {
+          "pt": "A abertura fica embaixo. Há uma ponta em cada lado do modelo.",
+          "en": "The opening is at the bottom. There is a tip on each side of the model."
+        },
+        "moving": {
+          "pt": "A abertura na parte de baixo e as duas pontas laterais.",
+          "en": "The opening at the bottom and the two side tips."
+        },
+        "direction": {
+          "pt": "Coloque os polegares dentro da abertura, na parte de baixo. Puxe as duas pontas laterais para fora, abrindo o modelo como um acordeão, até ele achatar em um losango (quadrado inclinado).",
+          "en": "Put your thumbs inside the opening at the bottom. Pull the two side tips outward, opening the model like an accordion, until it flattens into a diamond (a tilted square)."
+        },
+        "expected": {
+          "pt": "O modelo fica achatado em forma de losango, com uma ponta para cima, uma para baixo e uma em cada lado.",
+          "en": "The model flattens into a diamond shape, with one tip up, one down, and one on each side."
+        },
+        "commonError": {
+          "pt": "Puxar com força e rasgar o papel, ou não abrir até o fundo achatado.",
+          "en": "Pulling hard and tearing the paper, or not opening it until the bottom is flat."
+        },
+        "correction": {
+          "pt": "Abra devagar, empurrando o fundo com os dedos e alisando as dobras enquanto o losango se forma.",
+          "en": "Open slowly, pushing the bottom with your fingers and smoothing the folds as the diamond forms."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra um losango (quadrado inclinado) com uma ponta para cima, uma para baixo e uma em cada lado. Duas setas apontando para os lados indicam que o modelo é aberto puxando as pontas para fora.",
+        "en": "The diagram shows a diamond (tilted square) with one tip up, one down, and one on each side. Two arrows pointing outward show that the model is opened by pulling the tips apart."
+      }
+    },
+    {
+      "id": 8,
+      "title": { "pt": "Dobrar a ponta de baixo até a ponta de cima", "en": "Fold the bottom tip up to the top tip" },
+      "diagram": {
+        "view": "front",
+        "outline": [[0.5, 0.08], [0.9, 0.5], [0.5, 0.92], [0.1, 0.5]],
+        "creases": [
+          { "axis": [[0.2, 0.5], [0.8, 0.5]], "kind": "valley" }
+        ],
+        "action": { "type": "fold", "kind": "valley", "axis": [[0.2, 0.5], [0.8, 0.5]], "probe": [0.5, 0.85] }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O modelo está achatado em forma de losango, com uma ponta para cima e uma para baixo.",
+          "en": "The model is flat in a diamond shape, with one tip up and one down."
+        },
+        "orientation": {
+          "pt": "A ponta de cima é o topo. A ponta de baixo aponta para você.",
+          "en": "The top tip is the top. The bottom tip points toward you."
+        },
+        "moving": {
+          "pt": "A ponta de baixo, com apenas a camada da frente.",
+          "en": "The bottom tip, with only the front layer."
+        },
+        "direction": {
+          "pt": "Dobre a ponta de baixo para cima, até encontrar a ponta de cima. Vinca. Depois vire o modelo e faça o mesmo com a camada do verso.",
+          "en": "Fold the bottom tip up, until it meets the top tip. Crease. Then turn the model over and do the same with the back layer."
+        },
+        "expected": {
+          "pt": "As duas pontas (frente e verso) ficam dobradas para cima, e o modelo volta a ter a forma de um triângulo.",
+          "en": "Both tips (front and back) are folded up, and the model is a triangle again."
+        },
+        "commonError": {
+          "pt": "Dobrar as duas camadas ao mesmo tempo.",
+          "en": "Folding both layers at the same time."
+        },
+        "correction": {
+          "pt": "Dobre uma camada de cada vez, virando o modelo entre as duas dobras.",
+          "en": "Fold one layer at a time, turning the model between the two folds."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o losango com uma linha tracejada horizontal no meio. Uma seta parte da ponta de baixo e aponta para cima, indicando que a ponta de baixo é dobrada até a ponta de cima.",
+        "en": "The diagram shows the diamond with a horizontal dashed line in the middle. An arrow starts at the bottom tip and points up, showing that the bottom tip is folded up to the top tip."
+      }
+    },
+    {
+      "id": 9,
+      "title": { "pt": "Abrir novamente a parte de baixo", "en": "Open the bottom again" },
+      "diagram": {
+        "view": "front",
+        "outline": [[0.5, 0.08], [0.9, 0.5], [0.5, 0.92], [0.1, 0.5]],
+        "action": { "type": "open" }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O modelo tem a forma de um triângulo, com uma abertura na parte de baixo.",
+          "en": "The model is shaped like a triangle, with an opening at the bottom."
+        },
+        "orientation": {
+          "pt": "A ponta do triângulo aponta para cima. A abertura fica embaixo.",
+          "en": "The tip of the triangle points up. The opening is at the bottom."
+        },
+        "moving": {
+          "pt": "A abertura na parte de baixo do triângulo.",
+          "en": "The opening at the bottom of the triangle."
+        },
+        "direction": {
+          "pt": "Abra a parte de baixo do mesmo jeito da etapa 7: puxe as pontas para fora até o modelo achatar novamente em um losango, menor desta vez.",
+          "en": "Open the bottom the same way as step 7: pull the tips outward until the model flattens into a diamond again, smaller this time."
+        },
+        "expected": {
+          "pt": "O modelo fica achatado em forma de losango, com uma ponta para cima e outra para baixo.",
+          "en": "The model flattens into a diamond shape, with one tip up and one down."
+        },
+        "commonError": {
+          "pt": "Rasgar o papel ao abrir com pressa.",
+          "en": "Tearing the paper by opening too fast."
+        },
+        "correction": {
+          "pt": "Abra devagar, com calma, alisando o papel enquanto ele achata.",
+          "en": "Open slowly, patiently, smoothing the paper as it flattens."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o losango com uma ponta para cima e outra para baixo. Duas setas para os lados indicam que o modelo é aberto puxando as pontas para fora.",
+        "en": "The diagram shows the diamond with one tip up and one down. Two arrows pointing outward show that the model is opened by pulling the tips apart."
+      }
+    },
+    {
+      "id": 10,
+      "title": { "pt": "Puxar as pontas para abrir o barco", "en": "Pull the tips apart to open the boat" },
+      "diagram": {
+        "view": "front",
+        "outline": [[0.5, 0.08], [0.9, 0.5], [0.5, 0.92], [0.1, 0.5]],
+        "action": { "type": "open" }
+      },
+      "aspects": {
+        "position": {
+          "pt": "O modelo está achatado em forma de losango, com uma ponta para cima e outra para baixo.",
+          "en": "The model is flat in a diamond shape, with one tip up and one down."
+        },
+        "orientation": {
+          "pt": "Há duas pontas na parte de cima do losango (uma em cada lado) e duas pontas na parte de baixo.",
+          "en": "There are two tips at the top of the diamond (one on each side) and two tips at the bottom."
+        },
+        "moving": {
+          "pt": "As duas pontas de cima do losango.",
+          "en": "The two top tips of the diamond."
+        },
+        "direction": {
+          "pt": "Segure as duas pontas de cima, uma em cada mão, e puxe-as para os lados, afastando-as. O papel abre e o fundo achata, formando o casco do barco.",
+          "en": "Hold the two top tips, one in each hand, and pull them outward, away from each other. The paper opens and the bottom flattens, forming the hull of the boat."
+        },
+        "expected": {
+          "pt": "O barco se forma: um casco com base plana e duas pontas triangulares erguidas, uma na frente e outra atrás. Alise a base com os dedos.",
+          "en": "The boat takes shape: a hull with a flat base and two raised triangular tips, one at the front and one at the back. Smooth the base with your fingers."
+        },
+        "commonError": {
+          "pt": "Puxar as pontas erradas (as de baixo) e não conseguir abrir o barco.",
+          "en": "Pulling the wrong tips (the bottom ones) and not being able to open the boat."
+        },
+        "correction": {
+          "pt": "Toque nas quatro pontas do losango: puxe apenas as duas de cima, para os lados.",
+          "en": "Touch all four tips of the diamond: pull only the two top ones, outward."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o losango final. Duas setas apontando para os lados, saindo da parte de cima, indicam que as pontas de cima devem ser puxadas para fora para abrir o barco.",
+        "en": "The diagram shows the final diamond. Two arrows pointing outward, coming from the top, show that the top tips must be pulled apart to open the boat."
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+/**
+ * catalog.js - Página de catálogo: filtros e lista de modelos.
+ *
+ * Filtros: dificuldade, tipo de modelo, tempo estimado, número de
+ * etapas e idioma. Os filtros não dependem apenas de cor: cada cartão
+ * traz o texto completo com as informações.
+ */
+
+import { initI18n, getLang, t, applyI18n } from './i18n.js';
+import { loadAllModels, localize } from './models.js';
+import { buildResultState, renderDiagramSvg } from './diagrams.js';
+import { formatDuration } from './format.js';
+import { getProgress } from './progress.js';
+
+let models = [];
+let currentFilter = { difficulty: 'all', type: 'all', time: 'all', steps: 'all', language: 'all' };
+
+async function boot() {
+  await initI18n();
+  const form = document.querySelector('#catalog-filters');
+  if (form) {
+    form.addEventListener('change', (e) => {
+      currentFilter[e.target.name] = e.target.value;
+      renderResults();
+    });
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      resetFilters(form);
+    });
+  }
+  try {
+    models = await loadAllModels();
+    renderResults();
+  } catch (e) {
+    const container = document.querySelector('#catalog-results');
+    if (container) {
+      container.innerHTML = `<p class="note note-error">${esc(t('common.error'))}</p>`;
+      container.setAttribute('aria-busy', 'false');
+    }
+  }
+  document.addEventListener('i18n:change', () => {
+    applyI18n();
+    renderResults();
+  });
+}
+
+function resetFilters(form) {
+  currentFilter = { difficulty: 'all', type: 'all', time: 'all', steps: 'all', language: 'all' };
+  form.querySelectorAll('select').forEach((sel) => {
+    sel.value = 'all';
+  });
+  renderResults();
+}
+
+function matchesTimeBucket(minutes, bucket) {
+  if (bucket === 'all') return true;
+  if (bucket === 'short') return minutes <= 5;
+  if (bucket === 'medium') return minutes > 5 && minutes <= 10;
+  if (bucket === 'long') return minutes > 10;
+  return true;
+}
+
+function matchesStepsBucket(steps, bucket) {
+  if (bucket === 'all') return true;
+  if (bucket === 'short') return steps <= 5;
+  if (bucket === 'medium') return steps > 5 && steps <= 10;
+  if (bucket === 'long') return steps > 10;
+  return true;
+}
+
+function filterModels() {
+  const f = currentFilter;
+  return models.filter((model) => {
+    if (f.difficulty !== 'all' && model.difficulty !== f.difficulty) return false;
+    if (f.type !== 'all' && model.category !== f.type) return false;
+    if (!matchesTimeBucket(model.durationMinutes, f.time)) return false;
+    if (!matchesStepsBucket(model.totalSteps, f.steps)) return false;
+    if (f.language !== 'all' && !(model.title[f.language] && model.steps[0] && model.steps[0].title[f.language])) {
+      return false;
+    }
+    return true;
+  });
+}
+
+function renderResults() {
+  const container = document.querySelector('#catalog-results');
+  const empty = document.querySelector('#catalog-empty');
+  const count = document.querySelector('#catalog-count');
+  if (!container) return;
+
+  const filtered = filterModels();
+  const lang = getLang();
+
+  count.textContent =
+    filtered.length === 0
+      ? ''
+      : filtered.length === 1
+        ? t('catalog.resultsCountOne')
+        : t('catalog.resultsCount', { n: filtered.length });
+
+  if (filtered.length === 0) {
+    container.innerHTML = '';
+    if (empty) empty.hidden = false;
+    return;
+  }
+  if (empty) empty.hidden = true;
+
+  container.innerHTML = filtered
+    .map((model) => {
+      const progress = getProgress(model.slug);
+      const state = buildResultState(model);
+      const svg = renderDiagramSvg(state, { uid: `cat-${model.slug}` });
+      const continueLink = progress
+        ? `<a class="button" href="tutorial.html?model=${encodeURIComponent(model.slug)}#/passo/${progress.step}">${esc(t('catalog.continueTutorial'))} (${progress.step}/${model.totalSteps})</a>`
+        : `<a class="button" href="tutorial.html?model=${encodeURIComponent(model.slug)}">${esc(t('catalog.startTutorial'))}</a>`;
+      return (
+        `<article class="card model-card">` +
+        `<h3>${esc(localize(model.title, lang))}</h3>` +
+        `<p>${esc(localize(model.description, lang))}</p>` +
+        `<dl class="dl-grid">` +
+        `<dt>${esc(t('common.difficulty'))}</dt><dd>${esc(t(`difficulty.${model.difficulty}`))}</dd>` +
+        `<dt>${esc(t('common.type'))}</dt><dd>${esc(t(`category.${model.category}`))}</dd>` +
+        `<dt>${esc(t('common.duration'))}</dt><dd>${formatDuration(model.durationMinutes, lang)}</dd>` +
+        `<dt>${esc(t('common.totalSteps'))}</dt><dd>${model.totalSteps}</dd>` +
+        `</dl>` +
+        `<div class="diagram-wrap" aria-label="${esc(t('catalog.resultAlt', { name: localize(model.title, lang) }))}">${svg}</div>` +
+        `<p>${continueLink}</p>` +
+        `</article>`
+      );
+    })
+    .join('');
+
+  container.setAttribute('aria-busy', 'false');
+}
+
+function esc(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+boot();

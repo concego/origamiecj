@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OrigamiECJ — Acessibilidade</title>
+  <meta name="description" content="Acessibilidade do OrigamiECJ.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/site.js"></script>
+  <script type="module" src="js/content-page.js"></script>
+</head>
+<body data-page="accessibility">
+  <header id="site-header"></header>
+
+  <main id="main" tabindex="-1">
+    <div class="wrap">
+      <h1 data-i18n="accessibility.title"></h1>
+      <p data-i18n="accessibility.intro"></p>
+      <div id="accessibility-sections"></div>
+      <section aria-labelledby="a11y-tests">
+        <h2 id="a11y-tests" data-i18n="accessibility.testingTitle"></h2>
+        <ul id="accessibility-testing-list"></ul>
+      </section>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>
