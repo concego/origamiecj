@@ -16,6 +16,7 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { localize } from '../js/models.js';
 
 const root = join(fileURLToPath(new URL('.', import.meta.url)), '..');
 
@@ -100,6 +101,12 @@ async function validateModels() {
     }
 
     if (model.slug !== slug) fail(`${slug}: slug "${model.slug}" difere do nome do arquivo`);
+
+    if (typeof model.title !== 'object' || !(model.title.pt && model.title.en)) {
+      fail(`${slug}: "title" precisa de "pt" e "en"`);
+    } else if (localize(model.title, 'pt-BR') !== model.title.pt) {
+      fail(`${slug}: localize(title, "pt-BR") não resolve para o texto "pt"`);
+    }
 
     const steps = model.steps;
     if (Array.isArray(steps)) {

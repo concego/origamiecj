@@ -50,8 +50,15 @@ export async function loadAllModels() {
 export function localize(field, lang) {
   if (field == null) return '';
   if (typeof field === 'string') return field;
-  if (lang && field[lang]) return field[lang];
+  if (lang) {
+    const fieldKey = lang === 'pt-BR' ? 'pt' : lang;
+    if (field[fieldKey]) return field[fieldKey];
+    if (field[lang]) return field[lang];
+  }
   for (const l of SUPPORTED_LANGS) {
+    if (field[l]) return field[l];
+  }
+  for (const l of Object.keys(field)) {
     if (field[l]) return field[l];
   }
   return '';
