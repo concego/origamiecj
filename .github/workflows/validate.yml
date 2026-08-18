@@ -1,4 +1,4 @@
-name: Validate OrigamiECJ
+name: Validate and deploy OrigamiECJ
 
 on:
   push:
@@ -6,17 +6,16 @@ on:
   pull_request:
     branches: [main]
 
-permissions:
-  contents: read
-
 concurrency:
-  group: validate-${{ github.workflow }}-${{ github.ref }}
+  group: pages-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   validate:
     name: Validate data and diagrams
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
       - name: Check out repository
@@ -35,3 +34,32 @@ jobs:
 
       - name: Confirm generated diagram set is not empty
         run: test "$(find diagrams -type f -name '*.svg' | wc -l)" -gt 0
+
+  deploy:
+    name: Deploy to GitHub Pages
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy site
+        id: deployment
+        uses: actions/deploy-pages@v4
