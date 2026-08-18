@@ -111,12 +111,27 @@ export function t(key, vars) {
   return value;
 }
 
-/** Navega em um objeto por chave pontilhada. */
+/**
+ * Navega em um objeto por chave pontilhada.
+ *
+ * Os dicionários também usam algumas chaves literais com ponto, como
+ * `meta.title.home`. Primeiro tentamos a chave restante inteira em cada
+ * nível; assim os dois formatos (objeto aninhado e chave literal) funcionam.
+ */
 function lookup(obj, key) {
-  return key.split('.').reduce((acc, part) => {
-    if (acc === null || acc === undefined) return undefined;
-    return acc[part];
-  }, obj);
+  if (!obj || typeof obj !== 'object') return undefined;
+
+  const parts = String(key).split('.');
+  let current = obj;
+  for (let i = 0; i < parts.length; i += 1) {
+    if (!current || typeof current !== 'object') return undefined;
+    const rest = parts.slice(i).join('.');
+    if (Object.prototype.hasOwnProperty.call(current, rest)) {
+      return current[rest];
+    }
+    current = current[parts[i]];
+  }
+  return current;
 }
 
 /**

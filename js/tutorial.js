@@ -384,7 +384,7 @@ function buildStepMarkup(step) {
   return (
     `<h2 id="step-title" tabindex="-1">${esc(t('tutorial.stepTitle', { n: step.id, title: localize(step.title, lang) }))}</h2>` +
     completedNote +
-    `<div class="diagram-wrap" data-diagram role="img" aria-label="${esc(t('tutorial.diagramTitle', { n: step.id }))}">${svg}</div>` +
+    `<div class="diagram-wrap" data-diagram>${svg}</div>` +
     `<h3>${esc(t('tutorial.instructions'))}</h3>` +
     `<ul class="step-aspects">${aspects}</ul>` +
     `<section aria-labelledby="diag-desc-${step.id}">` +
@@ -441,7 +441,11 @@ function applyModeVisibility() {
   document.querySelectorAll('[data-diagram]').forEach((el) => {
     el.hidden = isDescriptive;
   });
-  document.querySelectorAll('#step-section section').forEach((el) => {
+  // No modo visual, escondemos todo o bloco textual da etapa; no modo
+  // descritivo, os diagramas (inclusive o resultado) ficam ocultos.
+  document.querySelectorAll(
+    '#step-section > h3, #step-section > .step-aspects, #step-section > section'
+  ).forEach((el) => {
     el.hidden = isVisual;
   });
 }

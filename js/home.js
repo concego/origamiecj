@@ -52,7 +52,12 @@ function renderModels() {
   container.innerHTML = models
     .map((model) => {
       const state = buildResultState(model);
-      const svg = renderDiagramSvg(state, { uid: `home-${model.slug}` });
+      const title = localize(model.title, lang);
+      const svg = renderDiagramSvg(state, {
+        uid: `home-${model.slug}`,
+        title: `${title} — ${t('common.result')}`,
+        desc: localize(model.result?.description, lang),
+      });
       return (
         `<article class="card model-card">` +
         `<h3>${esc(localize(model.title, lang))}</h3>` +
@@ -61,7 +66,7 @@ function renderModels() {
         `<dt>${esc(t('common.duration'))}</dt><dd>${formatDuration(model.durationMinutes, lang)}</dd>` +
         `<dt>${esc(t('common.totalSteps'))}</dt><dd>${model.totalSteps}</dd>` +
         `</dl>` +
-        `<div class="diagram-wrap" role="img" aria-label="${esc(t('catalog.resultAlt', { name: localize(model.title, lang) }))}">${svg}</div>` +
+        `<div class="diagram-wrap">${svg}</div>` +
         `<p><a class="button" href="tutorial.html?model=${encodeURIComponent(model.slug)}">${esc(t('catalog.startTutorial'))}</a></p>` +
         `</article>`
       );

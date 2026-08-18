@@ -52,6 +52,7 @@
     "totalSteps": "Total de etapas",
     "backToHome": "Voltar ao início",
     "backToCatalog": "Voltar ao catálogo",
+    "breadcrumb": "Trilha de navegação",
     "notFound": "Modelo não encontrado"
   },
   "difficulty": {

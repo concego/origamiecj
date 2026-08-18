@@ -9,7 +9,7 @@
 
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
-import { extname, join, normalize } from 'node:path';
+import { extname, join, normalize, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = join(fileURLToPath(new URL('.', import.meta.url)), '..');
@@ -56,7 +56,8 @@ const server = createServer(async (req, res) => {
   if (pathname.endsWith('/')) pathname += 'index.html';
 
   const filePath = normalize(join(root, pathname));
-  if (!filePath.startsWith(root)) {
+  const isInsideRoot = filePath === root || filePath.startsWith(`${root}${sep}`);
+  if (!isInsideRoot) {
     res.writeHead(403, { 'Content-Type': 'text/plain; charset=utf-8' });
     res.end('403 Forbidden');
     return;

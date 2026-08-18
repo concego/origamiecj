@@ -52,6 +52,7 @@
     "totalSteps": "Total steps",
     "backToHome": "Back to home",
     "backToCatalog": "Back to catalog",
+    "breadcrumb": "Breadcrumb navigation",
     "notFound": "Model not found"
   },
   "difficulty": {

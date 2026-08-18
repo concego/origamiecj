@@ -8,8 +8,6 @@
 
 import {
   SITE_NAME,
-  CREDIT_LINE_PT,
-  CREDIT_LINE_EN,
   ECJ_CONTACT_EMAIL,
   ORIGAMI_DATABASE_URL,
   ORIGAMI_DATABASE_LICENSE,
@@ -50,7 +48,7 @@ export function injectHeader(containerId = 'site-header') {
     `<a class="skip-link" href="#main" data-i18n="common.skipToContent"></a>` +
     `<div class="header-inner">` +
     `<a class="site-logo" href="index.html">${escapeHtml(SITE_NAME)}</a>` +
-    `<nav aria-label="${escapeHtml(t('nav.label'))}" class="site-nav">` +
+    `<nav aria-label="${escapeHtml(t('nav.label'))}" data-i18n-attr="aria-label:nav.label" class="site-nav">` +
     `<ul>${navList}</ul>` +
     `</nav>` +
     `<div class="header-controls">` +
@@ -86,9 +84,6 @@ export function injectFooter(containerId = 'site-footer') {
   const container = document.getElementById(containerId);
   if (!container) return;
 
-  const lang = getLang();
-  const credit = lang === 'pt-BR' ? CREDIT_LINE_PT : CREDIT_LINE_EN;
-
   container.innerHTML =
     `<div class="footer-grid">` +
     `<section class="footer-col">` +
@@ -107,8 +102,8 @@ export function injectFooter(containerId = 'site-footer') {
     `</section>` +
     `</div>` +
     `<div class="footer-bottom">` +
-    `<p class="credit-line">${escapeHtml(credit)}</p>` +
-    `<nav aria-label="${escapeHtml(t('footer.navLabel'))}">` +
+    `<p class="credit-line" data-i18n="footer.credit"></p>` +
+    `<nav aria-label="${escapeHtml(t('footer.navLabel'))}" data-i18n-attr="aria-label:footer.navLabel">` +
     `<ul class="footer-nav">` +
     `<li><a href="index.html" data-i18n="nav.home"></a></li>` +
     `<li><a href="catalogo.html" data-i18n="nav.catalog"></a></li>` +
@@ -160,7 +155,7 @@ function setupAnimationToggle(button) {
     } catch (e) {
       // ignora
     }
-    announce(button, paused ? t('animations.off') : t('animations.on'));
+    announce(paused ? t('animations.off') : t('animations.on'));
   });
 }
 
@@ -203,6 +198,9 @@ function escapeHtml(s) {
 export function initChrome() {
   injectHeader();
   injectFooter();
+  // O i18n inicial roda antes da injeção do cabeçalho e do rodapé.
+  // Aplicamos novamente para não deixar os componentes compartilhados vazios.
+  applyI18n();
   document.addEventListener('i18n:change', () => {
     applyI18n();
     const select = document.getElementById('lang-select');

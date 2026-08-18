@@ -75,8 +75,12 @@ function filterModels() {
     if (f.type !== 'all' && model.category !== f.type) return false;
     if (!matchesTimeBucket(model.durationMinutes, f.time)) return false;
     if (!matchesStepsBucket(model.totalSteps, f.steps)) return false;
-    if (f.language !== 'all' && !(model.title[f.language] && model.steps[0] && model.steps[0].title[f.language])) {
-      return false;
+    if (f.language !== 'all') {
+      // Os modelos usam `pt` para representar o idioma pt-BR.
+      const languageKey = f.language === 'pt-BR' ? 'pt' : f.language;
+      if (!(model.title[languageKey] && model.steps[0] && model.steps[0].title[languageKey])) {
+        return false;
+      }
     }
     return true;
   });
@@ -109,7 +113,12 @@ function renderResults() {
     .map((model) => {
       const progress = getProgress(model.slug);
       const state = buildResultState(model);
-      const svg = renderDiagramSvg(state, { uid: `cat-${model.slug}` });
+      const title = localize(model.title, lang);
+      const svg = renderDiagramSvg(state, {
+        uid: `cat-${model.slug}`,
+        title: `${title} — ${t('common.result')}`,
+        desc: localize(model.result?.description, lang),
+      });
       const continueLink = progress
         ? `<a class="button" href="tutorial.html?model=${encodeURIComponent(model.slug)}#/passo/${progress.step}">${esc(t('catalog.continueTutorial'))} (${progress.step}/${model.totalSteps})</a>`
         : `<a class="button" href="tutorial.html?model=${encodeURIComponent(model.slug)}">${esc(t('catalog.startTutorial'))}</a>`;
@@ -123,7 +132,7 @@ function renderResults() {
         `<dt>${esc(t('common.duration'))}</dt><dd>${formatDuration(model.durationMinutes, lang)}</dd>` +
         `<dt>${esc(t('common.totalSteps'))}</dt><dd>${model.totalSteps}</dd>` +
         `</dl>` +
-        `<div class="diagram-wrap" aria-label="${esc(t('catalog.resultAlt', { name: localize(model.title, lang) }))}">${svg}</div>` +
+        `<div class="diagram-wrap">${svg}</div>` +
         `<p>${continueLink}</p>` +
         `</article>`
       );
