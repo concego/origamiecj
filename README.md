@@ -31,7 +31,7 @@ Os diagramas também são gerados de forma acessível:
 | Página          | Arquivo             | Conteúdo                                   |
 | --------------- | ------------------- | ------------------------------------------ |
 | Início          | `index.html`        | Apresentação, recursos e modelos           |
-| Catálogo        | `catalogo.html`     | Modelos com filtros (dificuldade, tipo, tempo, etapas, idioma) |
+| Catálogo        | `catalogo.html`     | Modelos com busca e filtros (dificuldade, tipo, finalidade, tempo, etapas, idioma) |
 | Tutorial        | `tutorial.html`     | Passo a passo acessível de um modelo       |
 | Sobre           | `sobre.html`        | Sobre o projeto e a equipe ECJ             |
 | Créditos        | `creditos.html`     | Créditos do projeto e da fonte consultada  |
@@ -107,7 +107,12 @@ tests/ACESSIBILIDADE.md  # lista de testes e pontos de revisão
 1. Crie `data/models/<slug>.json` seguindo o formato de um modelo existente
    (ex.: `aviao-dardo.json`).
 2. Adicione o `<slug>` na lista `models` de `data/models/index.json`.
-3. Rode `npm test` e `npm run export:diagrams`.
+3. Preencha `uses` com uma ou mais finalidades: `brincar`, `utilizar`, `decorar`, `presentear` ou `aprender`.
+4. Rode `npm test` e `npm run export:diagrams`.
+
+Cada modelo também precisa de `uses`, um array de finalidades controladas.
+A finalidade é diferente da categoria: `category` descreve o tipo do objeto;
+`uses` explica o que a pessoa pode fazer com ele.
 
 Cada passo precisa dos campos:
 

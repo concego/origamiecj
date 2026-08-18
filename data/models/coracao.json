@@ -1,0 +1,495 @@
+{
+  "slug": "coracao",
+  "difficulty": "facil",
+  "category": "decoracao",
+  "uses": [
+    "decorar",
+    "presentear"
+  ],
+  "durationMinutes": 4,
+  "totalSteps": 5,
+  "paper": {
+    "format": "square",
+    "size": {
+      "pt": "15 x 15 cm (papel quadrado)",
+      "en": "15 x 15 cm (square paper)"
+    },
+    "pieces": 1
+  },
+  "materials": [
+    {
+      "pt": "1 folha de papel sem cortes nem cola",
+      "en": "1 sheet of paper with no cutting or glue"
+    },
+    {
+      "pt": "uma superfície plana para dobrar",
+      "en": "a flat surface to fold on"
+    }
+  ],
+  "title": {
+    "pt": "Coração de papel",
+    "en": "Paper heart"
+  },
+  "description": {
+    "pt": "Um coração plano para decorar cartões, presentes, murais ou lembranças.",
+    "en": "A flat heart for cards, gifts, displays, or keepsakes."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é um coração plano, com uma ponta na parte de baixo e duas curvas na parte de cima.",
+      "en": "The result is a flat heart with a point at the bottom and two curves at the top."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [
+        [
+          0.5,
+          0.12
+        ],
+        [
+          0.72,
+          0.08
+        ],
+        [
+          0.92,
+          0.25
+        ],
+        [
+          0.9,
+          0.5
+        ],
+        [
+          0.5,
+          0.92
+        ],
+        [
+          0.1,
+          0.5
+        ],
+        [
+          0.08,
+          0.25
+        ],
+        [
+          0.28,
+          0.08
+        ]
+      ]
+    }
+  },
+  "credit": {
+    "pt": "Modelo tradicional de origami, classificado como tradicional na fonte consultada (Origami Guide — Traditional Origami). Textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami model, listed as traditional by the consulted source (Origami Guide — Traditional Origami). Texts and diagrams: original creation by the ECJ team."
+  },
+  "source": {
+    "name": "Origami Guide — Traditional Origami",
+    "url": "https://origami.guide/instructions/traditional-origami/",
+    "note": {
+      "pt": "Fonte consultada apenas como referência de modelo tradicional; não copiamos instruções nem imagens.",
+      "en": "Source consulted only as a reference for the traditional model; we copied no instructions or images."
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": {
+        "pt": "Marcar a linha vertical",
+        "en": "Mark the vertical center line"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0.5,
+              1
+            ]
+          ],
+          "probe": [
+            0.8,
+            0.5
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A metade direita do quadrado.",
+          "en": "The right half of the square."
+        },
+        "direction": {
+          "pt": "Dobre a metade direita sobre a esquerda, alinhe as bordas e desdobre.",
+          "en": "Fold the right half over the left, align the edges, and unfold."
+        },
+        "expected": {
+          "pt": "Um vinco vertical divide o quadrado em duas metades.",
+          "en": "A vertical crease divides the square into two halves."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma linha tracejada azul divide o quadrado de cima a baixo. A seta aponta da direita para a esquerda.",
+        "en": "A blue dashed line divides the square from top to bottom. The arrow points from right to left."
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "pt": "Dobrar os cantos superiores para o centro",
+        "en": "Fold the top corners to the center"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0,
+              0.5
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Os dois cantos superiores, um de cada vez.",
+          "en": "The two top corners, one at a time."
+        },
+        "direction": {
+          "pt": "Leve cada canto superior até o vinco central, formando duas abas inclinadas.",
+          "en": "Bring each top corner to the center crease, forming two slanted flaps."
+        },
+        "expected": {
+          "pt": "A parte superior vira uma ponta central, como o topo de um escudo.",
+          "en": "The top becomes a central point, like the top of a shield."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O quadrado mostra duas linhas inclinadas saindo da ponta superior central. A seta sobe do canto esquerdo para o centro.",
+        "en": "The square shows two slanted lines leaving the upper center point. The arrow moves from the left corner to the center."
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "pt": "Dobrar a ponta inferior para cima",
+        "en": "Fold the bottom tip upward"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0,
+              0.72
+            ],
+            [
+              1,
+              0.72
+            ]
+          ],
+          "probe": [
+            0.5,
+            1
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A ponta inferior do quadrado.",
+          "en": "The bottom tip of the square."
+        },
+        "direction": {
+          "pt": "Dobre a parte inferior para cima, até a ponta tocar o centro das abas superiores.",
+          "en": "Fold the bottom section upward until its tip touches the center of the upper flaps."
+        },
+        "expected": {
+          "pt": "O papel fica com o formato de um escudo, com a ponta inferior no centro.",
+          "en": "The paper becomes shield-shaped, with the bottom tip at the center."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma linha horizontal marca a dobra na parte inferior. A seta sobe do canto inferior para o centro.",
+        "en": "A horizontal line marks the fold near the bottom. The arrow moves upward from the bottom tip to the center."
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "pt": "Dobrar as pontas laterais para trás",
+        "en": "Fold the side points backward"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "back",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0,
+              0.45
+            ],
+            [
+              0.18,
+              0.5
+            ]
+          ],
+          "probe": [
+            0.05,
+            0.45
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A ponta esquerda e a ponta direita do escudo.",
+          "en": "The left and right points of the shield."
+        },
+        "direction": {
+          "pt": "Dobre pequenas partes das duas laterais para trás, escondendo as pontas agudas.",
+          "en": "Fold small parts of both sides backward, hiding the sharp points."
+        },
+        "expected": {
+          "pt": "As laterais ficam mais arredondadas e o formato de coração aparece.",
+          "en": "The sides become rounder and the heart shape appears."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "As duas laterais têm pequenas linhas inclinadas. A seta aponta da esquerda para trás.",
+        "en": "Both sides have short slanted lines. The arrow points from the left side backward."
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "pt": "Virar e conferir o coração",
+        "en": "Turn and check the heart"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.12
+          ],
+          [
+            0.72,
+            0.08
+          ],
+          [
+            0.92,
+            0.25
+          ],
+          [
+            0.9,
+            0.5
+          ],
+          [
+            0.5,
+            0.92
+          ],
+          [
+            0.1,
+            0.5
+          ],
+          [
+            0.08,
+            0.25
+          ],
+          [
+            0.28,
+            0.08
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "turn"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "O modelo inteiro.",
+          "en": "The whole model."
+        },
+        "direction": {
+          "pt": "Vire o modelo para deixar a face lisa voltada para você.",
+          "en": "Turn the model so the smooth face is toward you."
+        },
+        "expected": {
+          "pt": "O coração tem uma ponta embaixo e uma abertura arredondada em cima.",
+          "en": "The heart has a point at the bottom and a rounded opening at the top."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra a frente do coração e uma seta curva indicando o giro.",
+        "en": "The diagram shows the front of the heart and a curved arrow indicating the turn."
+      }
+    }
+  ]
+}

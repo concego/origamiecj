@@ -6,12 +6,21 @@
   "totalSteps": 7,
   "paper": {
     "format": "square",
-    "size": { "pt": "15 x 15 cm (papel quadrado)", "en": "15 x 15 cm (square paper)" },
+    "size": {
+      "pt": "15 x 15 cm (papel quadrado)",
+      "en": "15 x 15 cm (square paper)"
+    },
     "pieces": 1
   },
   "materials": [
-    { "pt": "1 folha quadrada de papel (15 x 15 cm)", "en": "1 square sheet of paper (15 x 15 cm)" },
-    { "pt": "uma superfície plana para dobrar", "en": "a flat surface to fold on" }
+    {
+      "pt": "1 folha quadrada de papel (15 x 15 cm)",
+      "en": "1 square sheet of paper (15 x 15 cm)"
+    },
+    {
+      "pt": "uma superfície plana para dobrar",
+      "en": "a flat surface to fold on"
+    }
   ],
   "title": {
     "pt": "Copinho de papel",
@@ -28,9 +37,38 @@
     },
     "diagram": {
       "view": "front",
-      "outline": [[0.15, 0.3], [0.85, 0.3], [0.7, 0.85], [0.3, 0.85]],
+      "outline": [
+        [
+          0.15,
+          0.3
+        ],
+        [
+          0.85,
+          0.3
+        ],
+        [
+          0.7,
+          0.85
+        ],
+        [
+          0.3,
+          0.85
+        ]
+      ],
       "creases": [
-        { "axis": [[0.15, 0.3], [0.85, 0.3]], "kind": "valley" }
+        {
+          "axis": [
+            [
+              0.15,
+              0.3
+            ],
+            [
+              0.85,
+              0.3
+            ]
+          ],
+          "kind": "valley"
+        }
       ]
     }
   },
@@ -41,14 +79,50 @@
   "steps": [
     {
       "id": 1,
-      "title": { "pt": "Dobrar o quadrado ao meio na diagonal", "en": "Fold the square in half diagonally" },
+      "title": {
+        "pt": "Dobrar o quadrado ao meio na diagonal",
+        "en": "Fold the square in half diagonally"
+      },
       "diagram": {
         "base": "square",
         "view": "front",
         "folds": [
-          { "kind": "valley", "axis": [[1, 0], [0, 1]], "probe": [0, 0] }
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "probe": [
+              0,
+              0
+            ]
+          }
         ],
-        "action": { "type": "fold", "kind": "valley", "axis": [[1, 0], [0, 1]], "probe": [0, 0] }
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -87,11 +161,29 @@
     },
     {
       "id": 2,
-      "title": { "pt": "Posicionar o triângulo com a dobra para baixo", "en": "Position the triangle with the fold at the bottom" },
+      "title": {
+        "pt": "Posicionar o triângulo com a dobra para baixo",
+        "en": "Position the triangle with the fold at the bottom"
+      },
       "diagram": {
         "view": "front",
-        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
-        "action": { "type": "turn" }
+        "outline": [
+          [
+            0.5,
+            0.06
+          ],
+          [
+            0.12,
+            0.9
+          ],
+          [
+            0.88,
+            0.9
+          ]
+        ],
+        "action": {
+          "type": "turn"
+        }
       },
       "aspects": {
         "position": {
@@ -130,11 +222,44 @@
     },
     {
       "id": 3,
-      "title": { "pt": "Dobrar a ponta esquerda da base até a ponta de cima", "en": "Fold the left base corner up to the top tip" },
+      "title": {
+        "pt": "Dobrar a ponta esquerda da base até a ponta de cima",
+        "en": "Fold the left base corner up to the top tip"
+      },
       "diagram": {
         "view": "front",
-        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
-        "action": { "type": "fold", "kind": "valley", "axis": [[0.5, 0.06], [0.22, 0.78]], "probe": [0.16, 0.86] }
+        "outline": [
+          [
+            0.5,
+            0.06
+          ],
+          [
+            0.12,
+            0.9
+          ],
+          [
+            0.88,
+            0.9
+          ]
+        ],
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0.06
+            ],
+            [
+              0.22,
+              0.78
+            ]
+          ],
+          "probe": [
+            0.16,
+            0.86
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -173,11 +298,44 @@
     },
     {
       "id": 4,
-      "title": { "pt": "Dobrar a ponta direita da base até a ponta de cima", "en": "Fold the right base corner up to the top tip" },
+      "title": {
+        "pt": "Dobrar a ponta direita da base até a ponta de cima",
+        "en": "Fold the right base corner up to the top tip"
+      },
       "diagram": {
         "view": "front",
-        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
-        "action": { "type": "fold", "kind": "valley", "axis": [[0.5, 0.06], [0.78, 0.78]], "probe": [0.84, 0.86] }
+        "outline": [
+          [
+            0.5,
+            0.06
+          ],
+          [
+            0.12,
+            0.9
+          ],
+          [
+            0.88,
+            0.9
+          ]
+        ],
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0.06
+            ],
+            [
+              0.78,
+              0.78
+            ]
+          ],
+          "probe": [
+            0.84,
+            0.86
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -216,15 +374,72 @@
     },
     {
       "id": 5,
-      "title": { "pt": "Dobrar a aba da frente para cima", "en": "Fold the front flap up" },
+      "title": {
+        "pt": "Dobrar a aba da frente para cima",
+        "en": "Fold the front flap up"
+      },
       "diagram": {
         "view": "front",
-        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
-        "creases": [
-          { "axis": [[0.5, 0.06], [0.22, 0.78]], "kind": "valley" },
-          { "axis": [[0.5, 0.06], [0.78, 0.78]], "kind": "valley" }
+        "outline": [
+          [
+            0.5,
+            0.06
+          ],
+          [
+            0.12,
+            0.9
+          ],
+          [
+            0.88,
+            0.9
+          ]
         ],
-        "action": { "type": "fold", "kind": "valley", "axis": [[0.22, 0.9], [0.78, 0.9]], "probe": [0.5, 0.95] }
+        "creases": [
+          {
+            "axis": [
+              [
+                0.5,
+                0.06
+              ],
+              [
+                0.22,
+                0.78
+              ]
+            ],
+            "kind": "valley"
+          },
+          {
+            "axis": [
+              [
+                0.5,
+                0.06
+              ],
+              [
+                0.78,
+                0.78
+              ]
+            ],
+            "kind": "valley"
+          }
+        ],
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.22,
+              0.9
+            ],
+            [
+              0.78,
+              0.9
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.95
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -263,15 +478,72 @@
     },
     {
       "id": 6,
-      "title": { "pt": "Virar o modelo e dobrar a aba do verso", "en": "Turn the model over and fold the back flap" },
+      "title": {
+        "pt": "Virar o modelo e dobrar a aba do verso",
+        "en": "Turn the model over and fold the back flap"
+      },
       "diagram": {
         "view": "back",
-        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
-        "creases": [
-          { "axis": [[0.5, 0.06], [0.22, 0.78]], "kind": "valley" },
-          { "axis": [[0.5, 0.06], [0.78, 0.78]], "kind": "valley" }
+        "outline": [
+          [
+            0.5,
+            0.06
+          ],
+          [
+            0.12,
+            0.9
+          ],
+          [
+            0.88,
+            0.9
+          ]
         ],
-        "action": { "type": "fold", "kind": "valley", "axis": [[0.22, 0.9], [0.78, 0.9]], "probe": [0.5, 0.95] }
+        "creases": [
+          {
+            "axis": [
+              [
+                0.5,
+                0.06
+              ],
+              [
+                0.22,
+                0.78
+              ]
+            ],
+            "kind": "valley"
+          },
+          {
+            "axis": [
+              [
+                0.5,
+                0.06
+              ],
+              [
+                0.78,
+                0.78
+              ]
+            ],
+            "kind": "valley"
+          }
+        ],
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.22,
+              0.9
+            ],
+            [
+              0.78,
+              0.9
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.95
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -310,15 +582,57 @@
     },
     {
       "id": 7,
-      "title": { "pt": "Abrir o copo", "en": "Open the cup" },
+      "title": {
+        "pt": "Abrir o copo",
+        "en": "Open the cup"
+      },
       "diagram": {
         "view": "front",
-        "outline": [[0.5, 0.06], [0.12, 0.9], [0.88, 0.9]],
-        "creases": [
-          { "axis": [[0.5, 0.06], [0.22, 0.78]], "kind": "valley" },
-          { "axis": [[0.5, 0.06], [0.78, 0.78]], "kind": "valley" }
+        "outline": [
+          [
+            0.5,
+            0.06
+          ],
+          [
+            0.12,
+            0.9
+          ],
+          [
+            0.88,
+            0.9
+          ]
         ],
-        "action": { "type": "open" }
+        "creases": [
+          {
+            "axis": [
+              [
+                0.5,
+                0.06
+              ],
+              [
+                0.22,
+                0.78
+              ]
+            ],
+            "kind": "valley"
+          },
+          {
+            "axis": [
+              [
+                0.5,
+                0.06
+              ],
+              [
+                0.78,
+                0.78
+              ]
+            ],
+            "kind": "valley"
+          }
+        ],
+        "action": {
+          "type": "open"
+        }
       },
       "aspects": {
         "position": {
@@ -355,5 +669,9 @@
         "en": "The diagram shows the finished triangle seen from the front. Two arrows pointing outward, coming from the bottom, show that the model should be opened by pushing the walls out."
       }
     }
+  ],
+  "uses": [
+    "utilizar",
+    "aprender"
   ]
 }

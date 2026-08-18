@@ -70,8 +70,11 @@ const REQUIRED_MODEL_FIELDS = [
   'description',
   'result',
   'credit',
+  'uses',
   'steps',
 ];
+
+const ALLOWED_USES = ['brincar', 'utilizar', 'decorar', 'presentear', 'aprender'];
 
 const REQUIRED_STEP_FIELDS = ['id', 'title', 'diagram', 'aspects', 'diagramDescription'];
 
@@ -101,6 +104,16 @@ async function validateModels() {
     }
 
     if (model.slug !== slug) fail(`${slug}: slug "${model.slug}" difere do nome do arquivo`);
+
+    if (!Array.isArray(model.uses) || model.uses.length === 0) {
+      fail(`${slug}: "uses" precisa ser um array não vazio`);
+    } else {
+      for (const use of model.uses) {
+        if (!ALLOWED_USES.includes(use)) {
+          fail(`${slug}: finalidade "${use}" não reconhecida`);
+        }
+      }
+    }
 
     if (typeof model.title !== 'object' || !(model.title.pt && model.title.en)) {
       fail(`${slug}: "title" precisa de "pt" e "en"`);

@@ -1,0 +1,479 @@
+{
+  "slug": "coelho",
+  "difficulty": "facil",
+  "category": "animais",
+  "uses": [
+    "brincar",
+    "aprender"
+  ],
+  "durationMinutes": 3,
+  "totalSteps": 5,
+  "paper": {
+    "format": "square",
+    "size": {
+      "pt": "15 x 15 cm (papel quadrado)",
+      "en": "15 x 15 cm (square paper)"
+    },
+    "pieces": 1
+  },
+  "materials": [
+    {
+      "pt": "1 folha de papel sem cortes nem cola",
+      "en": "1 sheet of paper with no cutting or glue"
+    },
+    {
+      "pt": "uma superfície plana para dobrar",
+      "en": "a flat surface to fold on"
+    }
+  ],
+  "title": {
+    "pt": "Rosto de coelho",
+    "en": "Rabbit face"
+  },
+  "description": {
+    "pt": "Um rosto de coelho com duas orelhas compridas para brincar ou criar personagens.",
+    "en": "A rabbit face with two long ears for play or making characters."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é um rosto triangular com duas orelhas altas e uma base larga.",
+      "en": "The result is a triangular face with two tall ears and a wide base."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [
+        [
+          0.5,
+          0.02
+        ],
+        [
+          0.22,
+          0.65
+        ],
+        [
+          0.28,
+          0.95
+        ],
+        [
+          0.5,
+          0.78
+        ],
+        [
+          0.72,
+          0.95
+        ],
+        [
+          0.78,
+          0.65
+        ]
+      ]
+    }
+  },
+  "credit": {
+    "pt": "Modelo tradicional de origami, classificado como tradicional na fonte consultada (Origami Guide — Traditional Origami). Textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami model, listed as traditional by the consulted source (Origami Guide — Traditional Origami). Texts and diagrams: original creation by the ECJ team."
+  },
+  "source": {
+    "name": "Origami Guide — Traditional Origami",
+    "url": "https://origami.guide/instructions/traditional-origami/",
+    "note": {
+      "pt": "Fonte consultada apenas como referência de modelo tradicional; não copiamos instruções nem imagens.",
+      "en": "Source consulted only as a reference for the traditional model; we copied no instructions or images."
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": {
+        "pt": "Formar o triângulo",
+        "en": "Make the triangle"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "O canto inferior do quadrado.",
+          "en": "The bottom corner of the square."
+        },
+        "direction": {
+          "pt": "Dobre o quadrado na diagonal e deixe o lado comprido embaixo.",
+          "en": "Fold the square diagonally and place the long side at the bottom."
+        },
+        "expected": {
+          "pt": "O papel fica triangular, com uma ponta para cima.",
+          "en": "The paper becomes triangular, with one tip at the top."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "A diagonal tracejada mostra a primeira dobra e a seta aponta para o canto oposto.",
+        "en": "The dashed diagonal shows the first fold and the arrow points to the opposite corner."
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "pt": "Criar as duas orelhas",
+        "en": "Create the two ears"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.08,
+            0.92
+          ],
+          [
+            0.92,
+            0.92
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0.05
+            ],
+            [
+              0.2,
+              0.55
+            ]
+          ],
+          "probe": [
+            0.08,
+            0.9
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "As duas pontas laterais do triângulo.",
+          "en": "The two side tips of the triangle."
+        },
+        "direction": {
+          "pt": "Dobre as pontas laterais para cima, deixando-as mais altas que a ponta central.",
+          "en": "Fold the side tips upward, leaving them higher than the central tip."
+        },
+        "expected": {
+          "pt": "Duas pontas compridas aparecem como orelhas.",
+          "en": "Two long points appear as ears."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Duas linhas inclinadas saem do centro e sobem para formar as orelhas. As setas apontam para cima.",
+        "en": "Two slanted lines leave the center and rise to form the ears. The arrows point upward."
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "pt": "Dobrar a ponta inferior para cima",
+        "en": "Fold the bottom tip upward"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.08,
+            0.92
+          ],
+          [
+            0.92,
+            0.92
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.08,
+              0.8
+            ],
+            [
+              0.92,
+              0.8
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.96
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A ponta inferior do triângulo.",
+          "en": "The bottom tip of the triangle."
+        },
+        "direction": {
+          "pt": "Leve a ponta inferior até o centro do rosto.",
+          "en": "Bring the bottom tip to the center of the face."
+        },
+        "expected": {
+          "pt": "A parte inferior fica reta e o rosto ganha uma base.",
+          "en": "The bottom becomes straight and the face gains a base."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma linha horizontal marca a dobra inferior. A seta sobe em direção ao centro.",
+        "en": "A horizontal line marks the lower fold. The arrow moves upward toward the center."
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "pt": "Arredondar a base das orelhas",
+        "en": "Round the ear bases"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.02
+          ],
+          [
+            0.22,
+            0.65
+          ],
+          [
+            0.28,
+            0.95
+          ],
+          [
+            0.5,
+            0.78
+          ],
+          [
+            0.72,
+            0.95
+          ],
+          [
+            0.78,
+            0.65
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.18,
+              0.35
+            ],
+            [
+              0.28,
+              0.45
+            ]
+          ],
+          "probe": [
+            0.12,
+            0.38
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "As pontas laterais que formam as orelhas.",
+          "en": "The side points that form the ears."
+        },
+        "direction": {
+          "pt": "Dobre pequenas pontas laterais para trás, sem esconder as orelhas.",
+          "en": "Fold small side points backward without hiding the ears."
+        },
+        "expected": {
+          "pt": "As orelhas ficam mais firmes e o rosto mais largo.",
+          "en": "The ears become firmer and the face becomes wider."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Pequenas linhas aparecem na base das duas orelhas. As setas apontam para trás.",
+        "en": "Small lines appear at the base of both ears. The arrows point backward."
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "pt": "Virar o coelho para você",
+        "en": "Turn the rabbit toward you"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.02
+          ],
+          [
+            0.22,
+            0.65
+          ],
+          [
+            0.28,
+            0.95
+          ],
+          [
+            0.5,
+            0.78
+          ],
+          [
+            0.72,
+            0.95
+          ],
+          [
+            0.78,
+            0.65
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "turn"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "O modelo inteiro.",
+          "en": "The whole model."
+        },
+        "direction": {
+          "pt": "Vire o papel até as duas orelhas ficarem voltadas para você.",
+          "en": "Turn the paper until both ears face you."
+        },
+        "expected": {
+          "pt": "Você identifica duas orelhas longas, uma base e uma ponta central.",
+          "en": "You can identify two long ears, a base, and a central tip."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O contorno mostra duas orelhas longas. Uma seta curva indica o giro.",
+        "en": "The outline shows two long ears. A curved arrow indicates the turn."
+      }
+    }
+  ]
+}

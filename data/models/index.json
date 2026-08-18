@@ -3,6 +3,18 @@
   "models": [
     "aviao-dardo",
     "copo-de-papel",
-    "barco-de-papel"
+    "barco-de-papel",
+    "envelope-basico",
+    "coracao",
+    "peixe",
+    "cachorro",
+    "coelho",
+    "borboleta",
+    "tulipa",
+    "sapo-saltador",
+    "come-come",
+    "estrela-quatro-pontas",
+    "caixa-bala",
+    "balao-de-papel"
   ]
 }

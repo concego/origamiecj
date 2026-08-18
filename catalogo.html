@@ -27,6 +27,10 @@
       <section aria-labelledby="filters-title">
         <h2 id="filters-title" data-i18n="catalog.filtersTitle"></h2>
         <form class="filters" id="catalog-filters">
+          <div class="field filter-search">
+            <label for="filter-search" data-i18n="catalog.search"></label>
+            <input type="search" id="filter-search" name="query" autocomplete="off" data-i18n-attr="placeholder:catalog.searchPlaceholder">
+          </div>
           <div class="field">
             <label for="filter-difficulty" data-i18n="catalog.difficulty"></label>
             <select id="filter-difficulty" name="difficulty">
@@ -72,6 +76,17 @@
               <option value="all" data-i18n="catalog.all"></option>
               <option value="pt-BR" data-i18n="lang.pt-BR"></option>
               <option value="en" data-i18n="lang.en"></option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="filter-use" data-i18n="catalog.use"></label>
+            <select id="filter-use" name="use">
+              <option value="all" data-i18n="catalog.useAll"></option>
+              <option value="brincar" data-i18n="use.brincar"></option>
+              <option value="utilizar" data-i18n="use.utilizar"></option>
+              <option value="decorar" data-i18n="use.decorar"></option>
+              <option value="presentear" data-i18n="use.presentear"></option>
+              <option value="aprender" data-i18n="use.aprender"></option>
             </select>
           </div>
           <div class="filter-actions">

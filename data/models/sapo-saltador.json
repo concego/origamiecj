@@ -1,0 +1,592 @@
+{
+  "slug": "sapo-saltador",
+  "difficulty": "medio",
+  "category": "brinquedos",
+  "uses": [
+    "brincar",
+    "aprender"
+  ],
+  "durationMinutes": 7,
+  "totalSteps": 6,
+  "paper": {
+    "format": "rect",
+    "size": {
+      "pt": "15 x 21 cm (papel retangular)",
+      "en": "15 x 21 cm (rectangular paper)"
+    },
+    "pieces": 1
+  },
+  "materials": [
+    {
+      "pt": "1 folha de papel sem cortes nem cola",
+      "en": "1 sheet of paper with no cutting or glue"
+    },
+    {
+      "pt": "uma superfície plana para dobrar",
+      "en": "a flat surface to fold on"
+    }
+  ],
+  "title": {
+    "pt": "Sapo saltador",
+    "en": "Jumping frog"
+  },
+  "description": {
+    "pt": "Um brinquedo de papel que armazena energia em dobras e salta quando pressionado.",
+    "en": "A paper toy that stores energy in folds and jumps when pressed."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é um sapo compacto, com uma dobra em zigue-zague no corpo e duas pernas para frente.",
+      "en": "The result is a compact frog with a zigzag body fold and two legs pointing forward."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [
+        [
+          0.15,
+          0.05
+        ],
+        [
+          0.85,
+          0.05
+        ],
+        [
+          0.72,
+          0.52
+        ],
+        [
+          0.95,
+          0.95
+        ],
+        [
+          0.55,
+          0.75
+        ],
+        [
+          0.45,
+          0.75
+        ],
+        [
+          0.05,
+          0.95
+        ],
+        [
+          0.28,
+          0.52
+        ]
+      ]
+    }
+  },
+  "credit": {
+    "pt": "Modelo tradicional de origami, classificado como tradicional na fonte consultada (Origami Guide — Traditional Origami). Textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami model, listed as traditional by the consulted source (Origami Guide — Traditional Origami). Texts and diagrams: original creation by the ECJ team."
+  },
+  "source": {
+    "name": "Origami Guide — Traditional Origami",
+    "url": "https://origami.guide/instructions/traditional-origami/",
+    "note": {
+      "pt": "Fonte consultada apenas como referência de modelo tradicional; não copiamos instruções nem imagens.",
+      "en": "Source consulted only as a reference for the traditional model; we copied no instructions or images."
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": {
+        "pt": "Dobrar o retângulo ao meio",
+        "en": "Fold the rectangle in half"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.05,
+            0
+          ],
+          [
+            0.95,
+            0
+          ],
+          [
+            0.95,
+            1.4
+          ],
+          [
+            0.05,
+            1.4
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0,
+              0.7
+            ],
+            [
+              1,
+              0.7
+            ]
+          ],
+          "probe": [
+            0.5,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A metade superior da folha.",
+          "en": "The top half of the sheet."
+        },
+        "direction": {
+          "pt": "Dobre a parte superior para baixo, alinhando as bordas menores.",
+          "en": "Fold the top half downward, aligning the short edges."
+        },
+        "expected": {
+          "pt": "A folha fica um retângulo mais curto com duas camadas.",
+          "en": "The sheet becomes a shorter rectangle with two layers."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma linha horizontal atravessa o retângulo. A seta desce da parte superior.",
+        "en": "A horizontal line crosses the rectangle. The arrow moves down from the top."
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "pt": "Marcar as diagonais da parte superior",
+        "en": "Mark diagonals in the upper section"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.05,
+            0
+          ],
+          [
+            0.95,
+            0
+          ],
+          [
+            0.95,
+            1.4
+          ],
+          [
+            0.05,
+            1.4
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Os dois cantos da parte superior.",
+          "en": "The two top corners."
+        },
+        "direction": {
+          "pt": "Dobre cada canto superior até a linha central e desdobre para marcar as diagonais.",
+          "en": "Fold each top corner to the center line and unfold to mark the diagonals."
+        },
+        "expected": {
+          "pt": "A parte superior tem um X e o centro fica bem marcado.",
+          "en": "The upper section has an X and a clear center."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Duas diagonais formam um X na parte superior. A seta parte do canto esquerdo.",
+        "en": "Two diagonals form an X in the upper section. The arrow starts at the left corner."
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "pt": "Fechar o topo em um triângulo",
+        "en": "Collapse the top into a triangle"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.05,
+            0
+          ],
+          [
+            0.95,
+            0
+          ],
+          [
+            0.95,
+            1.4
+          ],
+          [
+            0.05,
+            1.4
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "spread"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "As laterais da parte superior, seguindo os vincos.",
+          "en": "The sides of the upper section, following the creases."
+        },
+        "direction": {
+          "pt": "Aproxime as laterais para dentro até o topo formar um triângulo achatado.",
+          "en": "Bring the sides inward until the top forms a flat triangle."
+        },
+        "expected": {
+          "pt": "O topo fica triangular e a parte inferior continua retangular.",
+          "en": "The top becomes triangular while the lower part stays rectangular."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Setas laterais apontam para o centro do topo, formando um triângulo.",
+        "en": "Side arrows point toward the top center, forming a triangle."
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "pt": "Dobrar as duas pernas",
+        "en": "Fold the two legs"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.15,
+            0.05
+          ],
+          [
+            0.85,
+            0.05
+          ],
+          [
+            0.72,
+            0.52
+          ],
+          [
+            0.95,
+            0.95
+          ],
+          [
+            0.55,
+            0.75
+          ],
+          [
+            0.45,
+            0.75
+          ],
+          [
+            0.05,
+            0.95
+          ],
+          [
+            0.28,
+            0.52
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.12,
+              0.95
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.7
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "As duas abas compridas da parte inferior.",
+          "en": "The two long flaps in the lower section."
+        },
+        "direction": {
+          "pt": "Dobre uma aba para a esquerda e outra para a direita, em diagonal, formando as pernas.",
+          "en": "Fold one flap left and the other right, diagonally, forming the legs."
+        },
+        "expected": {
+          "pt": "O corpo fica com duas pernas abertas na parte inferior.",
+          "en": "The body has two open legs at the bottom."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Duas linhas diagonais saem do centro e descem para os lados. As setas apontam para fora.",
+        "en": "Two diagonal lines leave the center and go down to the sides. The arrows point outward."
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "pt": "Dobrar o corpo em zigue-zague",
+        "en": "Fold the body in a zigzag"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.15,
+            0.05
+          ],
+          [
+            0.85,
+            0.05
+          ],
+          [
+            0.72,
+            0.52
+          ],
+          [
+            0.95,
+            0.95
+          ],
+          [
+            0.55,
+            0.75
+          ],
+          [
+            0.45,
+            0.75
+          ],
+          [
+            0.05,
+            0.95
+          ],
+          [
+            0.28,
+            0.52
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.2,
+              0.5
+            ],
+            [
+              0.8,
+              0.5
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.65
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A parte central do corpo.",
+          "en": "The center section of the body."
+        },
+        "direction": {
+          "pt": "Faça duas dobras horizontais alternadas para criar uma mola no corpo.",
+          "en": "Make two alternating horizontal folds to create a spring in the body."
+        },
+        "expected": {
+          "pt": "O sapo fica compacto e as pernas apontam para frente.",
+          "en": "The frog becomes compact and its legs point forward."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Duas linhas horizontais formam um zigue-zague no corpo. A seta indica a dobra para trás.",
+        "en": "Two horizontal lines form a zigzag in the body. The arrow indicates the backward fold."
+      }
+    },
+    {
+      "id": 6,
+      "title": {
+        "pt": "Pressionar e soltar o sapo",
+        "en": "Press and release the frog"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.15,
+            0.05
+          ],
+          [
+            0.85,
+            0.05
+          ],
+          [
+            0.72,
+            0.52
+          ],
+          [
+            0.95,
+            0.95
+          ],
+          [
+            0.55,
+            0.75
+          ],
+          [
+            0.45,
+            0.75
+          ],
+          [
+            0.05,
+            0.95
+          ],
+          [
+            0.28,
+            0.52
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "none"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A dobra em zigue-zague no meio do corpo.",
+          "en": "The zigzag fold in the middle of the body."
+        },
+        "direction": {
+          "pt": "Pressione a parte traseira, solte e observe o corpo impulsionar as pernas.",
+          "en": "Press the back, release it, and let the body push the legs forward."
+        },
+        "expected": {
+          "pt": "O sapo pode saltar sobre uma superfície plana.",
+          "en": "The frog can jump on a flat surface."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O contorno mostra o sapo com as pernas abertas. Uma pequena seta para frente indica o salto.",
+        "en": "The outline shows the frog with open legs. A small forward arrow indicates the jump."
+      }
+    }
+  ]
+}

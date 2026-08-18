@@ -6,12 +6,21 @@
   "totalSteps": 10,
   "paper": {
     "format": "rect",
-    "size": { "pt": "21 x 29,7 cm (papel A4, retângulo)", "en": "21 x 29.7 cm (A4 paper, rectangle)" },
+    "size": {
+      "pt": "21 x 29,7 cm (papel A4, retângulo)",
+      "en": "21 x 29.7 cm (A4 paper, rectangle)"
+    },
     "pieces": 1
   },
   "materials": [
-    { "pt": "1 folha de papel A4", "en": "1 sheet of A4 paper" },
-    { "pt": "uma superfície plana para dobrar", "en": "a flat surface to fold on" }
+    {
+      "pt": "1 folha de papel A4",
+      "en": "1 sheet of A4 paper"
+    },
+    {
+      "pt": "uma superfície plana para dobrar",
+      "en": "a flat surface to fold on"
+    }
   ],
   "title": {
     "pt": "Barquinho de papel",
@@ -28,7 +37,36 @@
     },
     "diagram": {
       "view": "front",
-      "outline": [[0.2, 0.55], [0.35, 0.25], [0.5, 0.55], [0.65, 0.25], [0.8, 0.55], [0.88, 0.9], [0.12, 0.9]]
+      "outline": [
+        [
+          0.2,
+          0.55
+        ],
+        [
+          0.35,
+          0.25
+        ],
+        [
+          0.5,
+          0.55
+        ],
+        [
+          0.65,
+          0.25
+        ],
+        [
+          0.8,
+          0.55
+        ],
+        [
+          0.88,
+          0.9
+        ],
+        [
+          0.12,
+          0.9
+        ]
+      ]
     }
   },
   "credit": {
@@ -38,14 +76,51 @@
   "steps": [
     {
       "id": 1,
-      "title": { "pt": "Dobrar ao meio na horizontal e desdobrar", "en": "Fold in half horizontally and unfold" },
+      "title": {
+        "pt": "Dobrar ao meio na horizontal e desdobrar",
+        "en": "Fold in half horizontally and unfold"
+      },
       "diagram": {
         "base": "a4-landscape",
         "view": "front",
         "folds": [
-          { "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75], "unfold": true }
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0,
+                0.5
+              ],
+              [
+                1.4142,
+                0.5
+              ]
+            ],
+            "probe": [
+              0.7,
+              0.75
+            ],
+            "unfold": true
+          }
         ],
-        "action": { "type": "fold", "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75] }
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0,
+              0.5
+            ],
+            [
+              1.4142,
+              0.5
+            ]
+          ],
+          "probe": [
+            0.7,
+            0.75
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -88,15 +163,69 @@
     },
     {
       "id": 2,
-      "title": { "pt": "Dobrar ao meio na vertical e desdobrar", "en": "Fold in half vertically and unfold" },
+      "title": {
+        "pt": "Dobrar ao meio na vertical e desdobrar",
+        "en": "Fold in half vertically and unfold"
+      },
       "diagram": {
         "base": "a4-landscape",
         "view": "front",
         "folds": [
-          { "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75], "unfold": true },
-          { "kind": "valley", "axis": [[0.7071, 0], [0.7071, 1]], "probe": [1.1, 0.5], "unfold": true }
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0,
+                0.5
+              ],
+              [
+                1.4142,
+                0.5
+              ]
+            ],
+            "probe": [
+              0.7,
+              0.75
+            ],
+            "unfold": true
+          },
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0.7071,
+                0
+              ],
+              [
+                0.7071,
+                1
+              ]
+            ],
+            "probe": [
+              1.1,
+              0.5
+            ],
+            "unfold": true
+          }
         ],
-        "action": { "type": "fold", "kind": "valley", "axis": [[0.7071, 0], [0.7071, 1]], "probe": [1.1, 0.5] }
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.7071,
+              0
+            ],
+            [
+              0.7071,
+              1
+            ]
+          ],
+          "probe": [
+            1.1,
+            0.5
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -135,16 +264,86 @@
     },
     {
       "id": 3,
-      "title": { "pt": "Dobrar o canto superior esquerdo até o centro", "en": "Fold the top-left corner to the center" },
+      "title": {
+        "pt": "Dobrar o canto superior esquerdo até o centro",
+        "en": "Fold the top-left corner to the center"
+      },
       "diagram": {
         "base": "a4-landscape",
         "view": "front",
         "folds": [
-          { "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75], "unfold": true },
-          { "kind": "valley", "axis": [[0.7071, 0], [0.7071, 1]], "probe": [1.1, 0.5], "unfold": true },
-          { "kind": "valley", "axis": [[0.5304, 0], [0, 0.75]], "probe": [0, 0] }
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0,
+                0.5
+              ],
+              [
+                1.4142,
+                0.5
+              ]
+            ],
+            "probe": [
+              0.7,
+              0.75
+            ],
+            "unfold": true
+          },
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0.7071,
+                0
+              ],
+              [
+                0.7071,
+                1
+              ]
+            ],
+            "probe": [
+              1.1,
+              0.5
+            ],
+            "unfold": true
+          },
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0.5304,
+                0
+              ],
+              [
+                0,
+                0.75
+              ]
+            ],
+            "probe": [
+              0,
+              0
+            ]
+          }
         ],
-        "action": { "type": "fold", "kind": "valley", "axis": [[0.5304, 0], [0, 0.75]], "probe": [0, 0] }
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5304,
+              0
+            ],
+            [
+              0,
+              0.75
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -183,17 +382,103 @@
     },
     {
       "id": 4,
-      "title": { "pt": "Dobrar o canto superior direito até o centro", "en": "Fold the top-right corner to the center" },
+      "title": {
+        "pt": "Dobrar o canto superior direito até o centro",
+        "en": "Fold the top-right corner to the center"
+      },
       "diagram": {
         "base": "a4-landscape",
         "view": "front",
         "folds": [
-          { "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75], "unfold": true },
-          { "kind": "valley", "axis": [[0.7071, 0], [0.7071, 1]], "probe": [1.1, 0.5], "unfold": true },
-          { "kind": "valley", "axis": [[0.5304, 0], [0, 0.75]], "probe": [0, 0] },
-          { "kind": "valley", "axis": [[0.88385, 0], [1.4142, 0.75]], "probe": [1.4142, 0] }
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0,
+                0.5
+              ],
+              [
+                1.4142,
+                0.5
+              ]
+            ],
+            "probe": [
+              0.7,
+              0.75
+            ],
+            "unfold": true
+          },
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0.7071,
+                0
+              ],
+              [
+                0.7071,
+                1
+              ]
+            ],
+            "probe": [
+              1.1,
+              0.5
+            ],
+            "unfold": true
+          },
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0.5304,
+                0
+              ],
+              [
+                0,
+                0.75
+              ]
+            ],
+            "probe": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0.88385,
+                0
+              ],
+              [
+                1.4142,
+                0.75
+              ]
+            ],
+            "probe": [
+              1.4142,
+              0
+            ]
+          }
         ],
-        "action": { "type": "fold", "kind": "valley", "axis": [[0.88385, 0], [1.4142, 0.75]], "probe": [1.4142, 0] }
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.88385,
+              0
+            ],
+            [
+              1.4142,
+              0.75
+            ]
+          ],
+          "probe": [
+            1.4142,
+            0
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -232,18 +517,120 @@
     },
     {
       "id": 5,
-      "title": { "pt": "Dobrar a borda de baixo para cima", "en": "Fold the bottom edge up" },
+      "title": {
+        "pt": "Dobrar a borda de baixo para cima",
+        "en": "Fold the bottom edge up"
+      },
       "diagram": {
         "base": "a4-landscape",
         "view": "front",
         "folds": [
-          { "kind": "valley", "axis": [[0, 0.5], [1.4142, 0.5]], "probe": [0.7, 0.75], "unfold": true },
-          { "kind": "valley", "axis": [[0.7071, 0], [0.7071, 1]], "probe": [1.1, 0.5], "unfold": true },
-          { "kind": "valley", "axis": [[0.5304, 0], [0, 0.75]], "probe": [0, 0] },
-          { "kind": "valley", "axis": [[0.88385, 0], [1.4142, 0.75]], "probe": [1.4142, 0] },
-          { "kind": "valley", "axis": [[0.2828, 0.65], [1.1312, 0.65]], "probe": [0.7, 0.9] }
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0,
+                0.5
+              ],
+              [
+                1.4142,
+                0.5
+              ]
+            ],
+            "probe": [
+              0.7,
+              0.75
+            ],
+            "unfold": true
+          },
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0.7071,
+                0
+              ],
+              [
+                0.7071,
+                1
+              ]
+            ],
+            "probe": [
+              1.1,
+              0.5
+            ],
+            "unfold": true
+          },
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0.5304,
+                0
+              ],
+              [
+                0,
+                0.75
+              ]
+            ],
+            "probe": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0.88385,
+                0
+              ],
+              [
+                1.4142,
+                0.75
+              ]
+            ],
+            "probe": [
+              1.4142,
+              0
+            ]
+          },
+          {
+            "kind": "valley",
+            "axis": [
+              [
+                0.2828,
+                0.65
+              ],
+              [
+                1.1312,
+                0.65
+              ]
+            ],
+            "probe": [
+              0.7,
+              0.9
+            ]
+          }
         ],
-        "action": { "type": "fold", "kind": "valley", "axis": [[0.2828, 0.65], [1.1312, 0.65]], "probe": [0.7, 0.9] }
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.2828,
+              0.65
+            ],
+            [
+              1.1312,
+              0.65
+            ]
+          ],
+          "probe": [
+            0.7,
+            0.9
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -282,14 +669,67 @@
     },
     {
       "id": 6,
-      "title": { "pt": "Virar o modelo e dobrar a aba do verso", "en": "Turn the model over and fold the back flap" },
+      "title": {
+        "pt": "Virar o modelo e dobrar a aba do verso",
+        "en": "Turn the model over and fold the back flap"
+      },
       "diagram": {
         "view": "back",
-        "outline": [[0.5, 0.08], [0.15, 0.5], [0.15, 0.7], [0.85, 0.7], [0.85, 0.5]],
-        "creases": [
-          { "axis": [[0.15, 0.65], [0.85, 0.65]], "kind": "valley" }
+        "outline": [
+          [
+            0.5,
+            0.08
+          ],
+          [
+            0.15,
+            0.5
+          ],
+          [
+            0.15,
+            0.7
+          ],
+          [
+            0.85,
+            0.7
+          ],
+          [
+            0.85,
+            0.5
+          ]
         ],
-        "action": { "type": "fold", "kind": "valley", "axis": [[0.15, 0.65], [0.85, 0.65]], "probe": [0.5, 0.85] }
+        "creases": [
+          {
+            "axis": [
+              [
+                0.15,
+                0.65
+              ],
+              [
+                0.85,
+                0.65
+              ]
+            ],
+            "kind": "valley"
+          }
+        ],
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.15,
+              0.65
+            ],
+            [
+              0.85,
+              0.65
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.85
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -328,11 +768,33 @@
     },
     {
       "id": 7,
-      "title": { "pt": "Abrir a parte de baixo até formar um losango", "en": "Open the bottom into a diamond" },
+      "title": {
+        "pt": "Abrir a parte de baixo até formar um losango",
+        "en": "Open the bottom into a diamond"
+      },
       "diagram": {
         "view": "front",
-        "outline": [[0.5, 0.08], [0.9, 0.5], [0.5, 0.92], [0.1, 0.5]],
-        "action": { "type": "open" }
+        "outline": [
+          [
+            0.5,
+            0.08
+          ],
+          [
+            0.9,
+            0.5
+          ],
+          [
+            0.5,
+            0.92
+          ],
+          [
+            0.1,
+            0.5
+          ]
+        ],
+        "action": {
+          "type": "open"
+        }
       },
       "aspects": {
         "position": {
@@ -371,14 +833,63 @@
     },
     {
       "id": 8,
-      "title": { "pt": "Dobrar a ponta de baixo até a ponta de cima", "en": "Fold the bottom tip up to the top tip" },
+      "title": {
+        "pt": "Dobrar a ponta de baixo até a ponta de cima",
+        "en": "Fold the bottom tip up to the top tip"
+      },
       "diagram": {
         "view": "front",
-        "outline": [[0.5, 0.08], [0.9, 0.5], [0.5, 0.92], [0.1, 0.5]],
-        "creases": [
-          { "axis": [[0.2, 0.5], [0.8, 0.5]], "kind": "valley" }
+        "outline": [
+          [
+            0.5,
+            0.08
+          ],
+          [
+            0.9,
+            0.5
+          ],
+          [
+            0.5,
+            0.92
+          ],
+          [
+            0.1,
+            0.5
+          ]
         ],
-        "action": { "type": "fold", "kind": "valley", "axis": [[0.2, 0.5], [0.8, 0.5]], "probe": [0.5, 0.85] }
+        "creases": [
+          {
+            "axis": [
+              [
+                0.2,
+                0.5
+              ],
+              [
+                0.8,
+                0.5
+              ]
+            ],
+            "kind": "valley"
+          }
+        ],
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.2,
+              0.5
+            ],
+            [
+              0.8,
+              0.5
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.85
+          ]
+        }
       },
       "aspects": {
         "position": {
@@ -417,11 +928,33 @@
     },
     {
       "id": 9,
-      "title": { "pt": "Abrir novamente a parte de baixo", "en": "Open the bottom again" },
+      "title": {
+        "pt": "Abrir novamente a parte de baixo",
+        "en": "Open the bottom again"
+      },
       "diagram": {
         "view": "front",
-        "outline": [[0.5, 0.08], [0.9, 0.5], [0.5, 0.92], [0.1, 0.5]],
-        "action": { "type": "open" }
+        "outline": [
+          [
+            0.5,
+            0.08
+          ],
+          [
+            0.9,
+            0.5
+          ],
+          [
+            0.5,
+            0.92
+          ],
+          [
+            0.1,
+            0.5
+          ]
+        ],
+        "action": {
+          "type": "open"
+        }
       },
       "aspects": {
         "position": {
@@ -460,11 +993,33 @@
     },
     {
       "id": 10,
-      "title": { "pt": "Puxar as pontas para abrir o barco", "en": "Pull the tips apart to open the boat" },
+      "title": {
+        "pt": "Puxar as pontas para abrir o barco",
+        "en": "Pull the tips apart to open the boat"
+      },
       "diagram": {
         "view": "front",
-        "outline": [[0.5, 0.08], [0.9, 0.5], [0.5, 0.92], [0.1, 0.5]],
-        "action": { "type": "open" }
+        "outline": [
+          [
+            0.5,
+            0.08
+          ],
+          [
+            0.9,
+            0.5
+          ],
+          [
+            0.5,
+            0.92
+          ],
+          [
+            0.1,
+            0.5
+          ]
+        ],
+        "action": {
+          "type": "open"
+        }
       },
       "aspects": {
         "position": {
@@ -501,5 +1056,9 @@
         "en": "The diagram shows the final diamond. Two arrows pointing outward, coming from the top, show that the top tips must be pulled apart to open the boat."
       }
     }
+  ],
+  "uses": [
+    "brincar",
+    "aprender"
   ]
 }

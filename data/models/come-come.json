@@ -1,0 +1,513 @@
+{
+  "slug": "come-come",
+  "difficulty": "facil",
+  "category": "brinquedos",
+  "uses": [
+    "brincar",
+    "aprender"
+  ],
+  "durationMinutes": 6,
+  "totalSteps": 6,
+  "paper": {
+    "format": "square",
+    "size": {
+      "pt": "15 x 15 cm (papel quadrado)",
+      "en": "15 x 15 cm (square paper)"
+    },
+    "pieces": 1
+  },
+  "materials": [
+    {
+      "pt": "1 folha de papel sem cortes nem cola",
+      "en": "1 sheet of paper with no cutting or glue"
+    },
+    {
+      "pt": "uma superfície plana para dobrar",
+      "en": "a flat surface to fold on"
+    }
+  ],
+  "title": {
+    "pt": "Abre-e-fecha",
+    "en": "Fortune teller"
+  },
+  "description": {
+    "pt": "Um brinquedo articulado que abre em quatro direções e pode receber mensagens ou desafios.",
+    "en": "An articulated toy that opens in four directions and can hold messages or challenges."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é um abre-e-fecha com quatro bolsos móveis que se abrem e fecham alternadamente.",
+      "en": "The result is a fortune teller with four moving pockets that open and close in turns."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [
+        [
+          0.5,
+          0.12
+        ],
+        [
+          0.88,
+          0.5
+        ],
+        [
+          0.5,
+          0.88
+        ],
+        [
+          0.12,
+          0.5
+        ]
+      ]
+    }
+  },
+  "credit": {
+    "pt": "Modelo tradicional de origami, classificado como tradicional na fonte consultada (Origami Guide — Traditional Origami). Textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami model, listed as traditional by the consulted source (Origami Guide — Traditional Origami). Texts and diagrams: original creation by the ECJ team."
+  },
+  "source": {
+    "name": "Origami Guide — Traditional Origami",
+    "url": "https://origami.guide/instructions/traditional-origami/",
+    "note": {
+      "pt": "Fonte consultada apenas como referência de modelo tradicional; não copiamos instruções nem imagens.",
+      "en": "Source consulted only as a reference for the traditional model; we copied no instructions or images."
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": {
+        "pt": "Marcar as duas diagonais",
+        "en": "Mark both diagonals"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Cada metade do quadrado.",
+          "en": "Each half of the square."
+        },
+        "direction": {
+          "pt": "Dobre nas duas diagonais, vinque e desdobre.",
+          "en": "Fold along both diagonals, crease, and unfold."
+        },
+        "expected": {
+          "pt": "Os vincos formam um X e cruzam no centro.",
+          "en": "The creases form an X and cross at the center."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O quadrado mostra um X tracejado. A seta indica uma das diagonais.",
+        "en": "The square shows a dashed X. The arrow indicates one diagonal."
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "pt": "Levar os quatro cantos ao centro",
+        "en": "Bring all four corners to the center"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0,
+              0.5
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Os quatro cantos do quadrado.",
+          "en": "All four corners of the square."
+        },
+        "direction": {
+          "pt": "Dobre cada canto até o ponto onde os vincos se cruzam.",
+          "en": "Fold each corner to the point where the creases cross."
+        },
+        "expected": {
+          "pt": "Surge um quadrado menor, com quatro abas voltadas para o centro.",
+          "en": "A smaller square appears, with four flaps meeting at the center."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Quatro linhas diagonais ligam os cantos ao centro. A seta parte do canto superior esquerdo.",
+        "en": "Four diagonal lines connect the corners to the center. The arrow starts at the top-left corner."
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "pt": "Virar o quadrado",
+        "en": "Turn the square over"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "back",
+        "action": {
+          "type": "turn"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "O quadrado menor inteiro.",
+          "en": "The whole smaller square."
+        },
+        "direction": {
+          "pt": "Vire o modelo para deixar as abas fechadas na mesa.",
+          "en": "Turn the model so the closed flaps face the table."
+        },
+        "expected": {
+          "pt": "O lado de cima fica liso, com quatro quadrados visíveis.",
+          "en": "The top side is flat, with four visible squares."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma seta curva indica que o quadrado é virado sem abrir as abas.",
+        "en": "A curved arrow indicates that the square is turned without opening the flaps."
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "pt": "Levar novamente os quatro cantos ao centro",
+        "en": "Bring the four corners to the center again"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0,
+              0.5
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Os quatro cantos do lado que está voltado para você.",
+          "en": "The four corners of the side facing you."
+        },
+        "direction": {
+          "pt": "Dobre novamente cada canto até o centro.",
+          "en": "Fold each corner to the center again."
+        },
+        "expected": {
+          "pt": "O modelo fica ainda menor e tem quatro abas quadradas.",
+          "en": "The model becomes smaller and has four square flaps."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O quadrado mostra quatro dobras diagonais para o centro. A seta parte do canto superior.",
+        "en": "The square shows four diagonal folds toward the center. The arrow starts at the top corner."
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "pt": "Abrir os bolsos",
+        "en": "Open the pockets"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.12
+          ],
+          [
+            0.88,
+            0.5
+          ],
+          [
+            0.5,
+            0.88
+          ],
+          [
+            0.12,
+            0.5
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "spread"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Os quatro bolsos formados pelas abas.",
+          "en": "The four pockets formed by the flaps."
+        },
+        "direction": {
+          "pt": "Deslize os dedos por baixo dos quatro bolsos e empurre as abas para fora.",
+          "en": "Slide your fingers under all four pockets and push the flaps outward."
+        },
+        "expected": {
+          "pt": "O modelo vira uma pequena estrutura que abre e fecha em quatro direções.",
+          "en": "The model becomes a small structure that opens and closes in four directions."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Quatro setas partem do centro e apontam para os lados, indicando a abertura dos bolsos.",
+        "en": "Four arrows leave the center and point outward, showing the pockets opening."
+      }
+    },
+    {
+      "id": 6,
+      "title": {
+        "pt": "Testar o abre-e-fecha",
+        "en": "Test the fortune teller"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.12
+          ],
+          [
+            0.88,
+            0.5
+          ],
+          [
+            0.5,
+            0.88
+          ],
+          [
+            0.12,
+            0.5
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "none"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "As quatro abas, duas de cada vez.",
+          "en": "The four flaps, two at a time."
+        },
+        "direction": {
+          "pt": "Abra e feche alternando os dedos para frente, para trás, para a esquerda e para a direita.",
+          "en": "Open and close it by alternating your fingers forward, backward, left, and right."
+        },
+        "expected": {
+          "pt": "As quatro partes se movimentam e formam oito posições.",
+          "en": "The four sections move and form eight positions."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O modelo aparece aberto em losango. Setas nas quatro direções indicam o movimento.",
+        "en": "The model appears open as a diamond. Arrows in four directions indicate the movement."
+      }
+    }
+  ]
+}

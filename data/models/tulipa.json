@@ -1,0 +1,479 @@
+{
+  "slug": "tulipa",
+  "difficulty": "facil",
+  "category": "flores",
+  "uses": [
+    "decorar",
+    "presentear"
+  ],
+  "durationMinutes": 4,
+  "totalSteps": 5,
+  "paper": {
+    "format": "square",
+    "size": {
+      "pt": "15 x 15 cm (papel quadrado)",
+      "en": "15 x 15 cm (square paper)"
+    },
+    "pieces": 1
+  },
+  "materials": [
+    {
+      "pt": "1 folha de papel sem cortes nem cola",
+      "en": "1 sheet of paper with no cutting or glue"
+    },
+    {
+      "pt": "uma superfície plana para dobrar",
+      "en": "a flat surface to fold on"
+    }
+  ],
+  "title": {
+    "pt": "Tulipa de papel",
+    "en": "Paper tulip"
+  },
+  "description": {
+    "pt": "Uma flor simples para decorar, montar um buquê de papel ou presentear.",
+    "en": "A simple flower for decoration, a paper bouquet, or a gift."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é uma tulipa plana com três pétalas na parte de cima e uma base embaixo.",
+      "en": "The result is a flat tulip with three petals at the top and a base at the bottom."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [
+        [
+          0.5,
+          0.05
+        ],
+        [
+          0.1,
+          0.5
+        ],
+        [
+          0.28,
+          0.92
+        ],
+        [
+          0.5,
+          0.65
+        ],
+        [
+          0.72,
+          0.92
+        ],
+        [
+          0.9,
+          0.5
+        ]
+      ]
+    }
+  },
+  "credit": {
+    "pt": "Modelo tradicional de origami, classificado como tradicional na fonte consultada (Origami Guide — Traditional Origami). Textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami model, listed as traditional by the consulted source (Origami Guide — Traditional Origami). Texts and diagrams: original creation by the ECJ team."
+  },
+  "source": {
+    "name": "Origami Guide — Traditional Origami",
+    "url": "https://origami.guide/instructions/traditional-origami/",
+    "note": {
+      "pt": "Fonte consultada apenas como referência de modelo tradicional; não copiamos instruções nem imagens.",
+      "en": "Source consulted only as a reference for the traditional model; we copied no instructions or images."
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": {
+        "pt": "Formar um triângulo",
+        "en": "Make a triangle"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "O canto inferior do quadrado.",
+          "en": "The bottom corner of the square."
+        },
+        "direction": {
+          "pt": "Dobre o quadrado na diagonal.",
+          "en": "Fold the square diagonally."
+        },
+        "expected": {
+          "pt": "O papel fica triangular.",
+          "en": "The paper becomes triangular."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma linha diagonal mostra a dobra inicial e uma seta indica o canto que se move.",
+        "en": "A diagonal line shows the first fold and an arrow indicates the moving corner."
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "pt": "Dobrar as duas pontas laterais para cima",
+        "en": "Fold both side tips upward"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.08,
+            0.92
+          ],
+          [
+            0.92,
+            0.92
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0.05
+            ],
+            [
+              0.15,
+              0.78
+            ]
+          ],
+          "probe": [
+            0.08,
+            0.9
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "As duas pontas laterais do triângulo.",
+          "en": "The two side tips of the triangle."
+        },
+        "direction": {
+          "pt": "Leve cada ponta para cima, ultrapassando um pouco a ponta central.",
+          "en": "Bring each tip upward, slightly past the central tip."
+        },
+        "expected": {
+          "pt": "Duas pétalas laterais aparecem.",
+          "en": "Two side petals appear."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Duas setas sobem das laterais e formam duas pétalas inclinadas.",
+        "en": "Two arrows rise from the sides and form two slanted petals."
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "pt": "Dobrar a ponta inferior",
+        "en": "Fold the bottom tip"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.08,
+            0.92
+          ],
+          [
+            0.92,
+            0.92
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.08,
+              0.82
+            ],
+            [
+              0.92,
+              0.82
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.97
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A ponta inferior do triângulo.",
+          "en": "The bottom tip of the triangle."
+        },
+        "direction": {
+          "pt": "Dobre a ponta inferior para cima, até perto do centro da flor.",
+          "en": "Fold the bottom tip upward, close to the flower center."
+        },
+        "expected": {
+          "pt": "A flor ganha uma base fechada.",
+          "en": "The flower gains a closed base."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma linha horizontal aparece na base e a seta aponta para o centro.",
+        "en": "A horizontal line appears at the base and the arrow points toward the center."
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "pt": "Arredondar as pétalas",
+        "en": "Round the petals"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.1,
+            0.5
+          ],
+          [
+            0.28,
+            0.92
+          ],
+          [
+            0.5,
+            0.65
+          ],
+          [
+            0.72,
+            0.92
+          ],
+          [
+            0.9,
+            0.5
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.18,
+              0.3
+            ],
+            [
+              0.28,
+              0.4
+            ]
+          ],
+          "probe": [
+            0.12,
+            0.28
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "As pontas superiores das pétalas.",
+          "en": "The upper tips of the petals."
+        },
+        "direction": {
+          "pt": "Dobre pequenas pontas para trás, uma de cada lado, para suavizar o contorno.",
+          "en": "Fold small tips backward on both sides to soften the outline."
+        },
+        "expected": {
+          "pt": "As pétalas ficam mais arredondadas.",
+          "en": "The petals become rounder."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Pequenas linhas aparecem nas pontas laterais. As setas apontam para trás.",
+        "en": "Small lines appear at the side tips. The arrows point backward."
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "pt": "Virar a tulipa para você",
+        "en": "Turn the tulip toward you"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.1,
+            0.5
+          ],
+          [
+            0.28,
+            0.92
+          ],
+          [
+            0.5,
+            0.65
+          ],
+          [
+            0.72,
+            0.92
+          ],
+          [
+            0.9,
+            0.5
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "turn"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "O modelo inteiro.",
+          "en": "The whole model."
+        },
+        "direction": {
+          "pt": "Vire o papel até as três pétalas ficarem voltadas para você.",
+          "en": "Turn the paper until the three petals face you."
+        },
+        "expected": {
+          "pt": "A tulipa tem três pontas superiores e uma base embaixo.",
+          "en": "The tulip has three upper points and a base at the bottom."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O contorno mostra três pétalas. Uma seta curva indica o giro.",
+        "en": "The outline shows three petals. A curved arrow indicates the turn."
+      }
+    }
+  ]
+}

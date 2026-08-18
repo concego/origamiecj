@@ -13,16 +13,32 @@ import { formatDuration } from './format.js';
 import { getProgress } from './progress.js';
 
 let models = [];
-let currentFilter = { difficulty: 'all', type: 'all', time: 'all', steps: 'all', language: 'all' };
+let currentFilter = {
+  query: '',
+  difficulty: 'all',
+  type: 'all',
+  time: 'all',
+  steps: 'all',
+  language: 'all',
+  use: 'all',
+};
 
 async function boot() {
   await initI18n();
   const form = document.querySelector('#catalog-filters');
   if (form) {
     form.addEventListener('change', (e) => {
+      if (!e.target.name) return;
       currentFilter[e.target.name] = e.target.value;
       renderResults();
     });
+    const search = form.querySelector('[name="query"]');
+    if (search) {
+      search.addEventListener('input', () => {
+        currentFilter.query = search.value;
+        renderResults();
+      });
+    }
     form.addEventListener('submit', (e) => {
       e.preventDefault();
       resetFilters(form);
@@ -45,7 +61,17 @@ async function boot() {
 }
 
 function resetFilters(form) {
-  currentFilter = { difficulty: 'all', type: 'all', time: 'all', steps: 'all', language: 'all' };
+  currentFilter = {
+    query: '',
+    difficulty: 'all',
+    type: 'all',
+    time: 'all',
+    steps: 'all',
+    language: 'all',
+    use: 'all',
+  };
+  const search = form.querySelector('[name="query"]');
+  if (search) search.value = '';
   form.querySelectorAll('select').forEach((sel) => {
     sel.value = 'all';
   });
@@ -68,11 +94,25 @@ function matchesStepsBucket(steps, bucket) {
   return true;
 }
 
+function modelSearchText(model) {
+  return [
+    localize(model.title, 'pt-BR'),
+    localize(model.title, 'en'),
+    localize(model.description, 'pt-BR'),
+    localize(model.description, 'en'),
+    model.category,
+    ...(model.uses || []),
+  ].join(' ').toLocaleLowerCase();
+}
+
 function filterModels() {
   const f = currentFilter;
+  const query = f.query.trim().toLocaleLowerCase();
   return models.filter((model) => {
+    if (query && !modelSearchText(model).includes(query)) return false;
     if (f.difficulty !== 'all' && model.difficulty !== f.difficulty) return false;
     if (f.type !== 'all' && model.category !== f.type) return false;
+    if (f.use !== 'all' && !(model.uses || []).includes(f.use)) return false;
     if (!matchesTimeBucket(model.durationMinutes, f.time)) return false;
     if (!matchesStepsBucket(model.totalSteps, f.steps)) return false;
     if (f.language !== 'all') {
@@ -114,6 +154,7 @@ function renderResults() {
       const progress = getProgress(model.slug);
       const state = buildResultState(model);
       const title = localize(model.title, lang);
+      const uses = (model.uses || []).map((use) => t(`use.${use}`)).join(', ');
       const svg = renderDiagramSvg(state, {
         uid: `cat-${model.slug}`,
         title: `${title} — ${t('common.result')}`,
@@ -129,6 +170,7 @@ function renderResults() {
         `<dl class="dl-grid">` +
         `<dt>${esc(t('common.difficulty'))}</dt><dd>${esc(t(`difficulty.${model.difficulty}`))}</dd>` +
         `<dt>${esc(t('common.type'))}</dt><dd>${esc(t(`category.${model.category}`))}</dd>` +
+        `<dt>${esc(t('catalog.use'))}</dt><dd>${esc(uses)}</dd>` +
         `<dt>${esc(t('common.duration'))}</dt><dd>${formatDuration(model.durationMinutes, lang)}</dd>` +
         `<dt>${esc(t('common.totalSteps'))}</dt><dd>${model.totalSteps}</dd>` +
         `</dl>` +

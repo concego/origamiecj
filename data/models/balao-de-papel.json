@@ -1,0 +1,516 @@
+{
+  "slug": "balao-de-papel",
+  "difficulty": "medio",
+  "category": "brinquedos",
+  "uses": [
+    "brincar",
+    "aprender"
+  ],
+  "durationMinutes": 7,
+  "totalSteps": 6,
+  "paper": {
+    "format": "square",
+    "size": {
+      "pt": "15 x 15 cm (papel quadrado)",
+      "en": "15 x 15 cm (square paper)"
+    },
+    "pieces": 1
+  },
+  "materials": [
+    {
+      "pt": "1 folha de papel sem cortes nem cola",
+      "en": "1 sheet of paper with no cutting or glue"
+    },
+    {
+      "pt": "uma superfície plana para dobrar",
+      "en": "a flat surface to fold on"
+    }
+  ],
+  "title": {
+    "pt": "Balão de papel",
+    "en": "Paper balloon"
+  },
+  "description": {
+    "pt": "Um modelo inflável para explorar volume, ar e transformação de uma folha plana.",
+    "en": "An inflatable model for exploring volume, air, and transforming a flat sheet."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é um balão de papel oco, com volume e quatro faces principais.",
+      "en": "The result is a hollow paper balloon with volume and four main faces."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [
+        [
+          0.5,
+          0.05
+        ],
+        [
+          0.95,
+          0.5
+        ],
+        [
+          0.5,
+          0.95
+        ],
+        [
+          0.05,
+          0.5
+        ]
+      ]
+    }
+  },
+  "credit": {
+    "pt": "Modelo tradicional de origami, classificado como tradicional na fonte consultada (Origami Guide — Traditional Origami). Textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami model, listed as traditional by the consulted source (Origami Guide — Traditional Origami). Texts and diagrams: original creation by the ECJ team."
+  },
+  "source": {
+    "name": "Origami Guide — Traditional Origami",
+    "url": "https://origami.guide/instructions/traditional-origami/",
+    "note": {
+      "pt": "Fonte consultada apenas como referência de modelo tradicional; não copiamos instruções nem imagens.",
+      "en": "Source consulted only as a reference for the traditional model; we copied no instructions or images."
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": {
+        "pt": "Marcar as duas diagonais",
+        "en": "Mark both diagonals"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "O quadrado inteiro.",
+          "en": "The whole square."
+        },
+        "direction": {
+          "pt": "Dobre nas duas diagonais, vinque e desdobre.",
+          "en": "Fold along both diagonals, crease, and unfold."
+        },
+        "expected": {
+          "pt": "Os vincos formam um X no papel.",
+          "en": "The creases form an X on the paper."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Um X tracejado ocupa o quadrado. A seta indica a primeira diagonal.",
+        "en": "A dashed X fills the square. The arrow indicates the first diagonal."
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "pt": "Marcar a cruz horizontal e vertical",
+        "en": "Mark the horizontal and vertical cross"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0.5,
+              1
+            ]
+          ],
+          "probe": [
+            0.8,
+            0.5
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A metade direita e a metade superior.",
+          "en": "The right half and the upper half."
+        },
+        "direction": {
+          "pt": "Dobre ao meio na vertical e na horizontal, vinque e desdobre.",
+          "en": "Fold in half vertically and horizontally, crease, and unfold."
+        },
+        "expected": {
+          "pt": "O papel tem quatro triângulos marcados ao redor do centro.",
+          "en": "The paper has four triangles marked around the center."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O quadrado mostra um X e uma cruz. A seta parte da direita em direção ao centro.",
+        "en": "The square shows an X and a cross. The arrow moves from the right toward the center."
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "pt": "Fechar em uma base triangular",
+        "en": "Collapse into a triangular base"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.08,
+            0.92
+          ],
+          [
+            0.92,
+            0.92
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "spread"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "As laterais do quadrado, guiadas pelos vincos.",
+          "en": "The sides of the square, guided by the creases."
+        },
+        "direction": {
+          "pt": "Empurre as laterais para dentro até formar um triângulo com duas camadas.",
+          "en": "Push the sides inward until a two-layer triangle forms."
+        },
+        "expected": {
+          "pt": "O papel fica triangular e compacto.",
+          "en": "The paper becomes triangular and compact."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Setas laterais apontam para o centro e o contorno mostra um triângulo de duas camadas.",
+        "en": "Side arrows point to the center and the outline shows a two-layer triangle."
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "pt": "Dobrar as pontas inferiores",
+        "en": "Fold the lower points"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.08,
+            0.92
+          ],
+          [
+            0.92,
+            0.92
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0.05
+            ],
+            [
+              0.5,
+              0.8
+            ]
+          ],
+          "probe": [
+            0.08,
+            0.9
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "As duas pontas inferiores do triângulo.",
+          "en": "The two lower tips of the triangle."
+        },
+        "direction": {
+          "pt": "Dobre a ponta esquerda e a direita para o topo, uma sobre a outra.",
+          "en": "Fold the left and right tips to the top, one over the other."
+        },
+        "expected": {
+          "pt": "O triângulo ganha duas abas laterais fechadas.",
+          "en": "The triangle gains two closed side flaps."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma linha vertical divide o triângulo e a seta sobe da ponta esquerda.",
+        "en": "A vertical line divides the triangle and the arrow rises from the left tip."
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "pt": "Prender as abas nos bolsos",
+        "en": "Tuck the flaps into the pockets"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.08,
+            0.92
+          ],
+          [
+            0.92,
+            0.92
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0.05
+            ],
+            [
+              0.28,
+              0.4
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.1
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "As pontas superiores das duas abas.",
+          "en": "The top points of the two flaps."
+        },
+        "direction": {
+          "pt": "Dobre pequenas pontas para dentro dos bolsos laterais.",
+          "en": "Fold small tips into the side pockets."
+        },
+        "expected": {
+          "pt": "As abas ficam presas e o modelo não se desfaz.",
+          "en": "The flaps are secured and the model holds together."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Duas pequenas linhas mostram os bolsos laterais. As setas apontam para dentro.",
+        "en": "Two short lines show the side pockets. The arrows point inward."
+      }
+    },
+    {
+      "id": 6,
+      "title": {
+        "pt": "Abrir o balão",
+        "en": "Open the balloon"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.95,
+            0.5
+          ],
+          [
+            0.5,
+            0.95
+          ],
+          [
+            0.05,
+            0.5
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "spread"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A abertura inferior do modelo.",
+          "en": "The lower opening of the model."
+        },
+        "direction": {
+          "pt": "Sopre suavemente ou puxe as quatro pontas até o papel formar um volume.",
+          "en": "Blow gently or pull the four points until the paper becomes three-dimensional."
+        },
+        "expected": {
+          "pt": "O modelo fica com volume e formato de balão.",
+          "en": "The model becomes three-dimensional and balloon-shaped."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Quatro setas saem do centro e apontam para fora. O contorno é um losango aberto.",
+        "en": "Four arrows leave the center and point outward. The outline is an open diamond."
+      }
+    }
+  ]
+}

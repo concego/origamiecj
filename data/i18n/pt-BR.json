@@ -166,7 +166,11 @@
     "resultAlt": "Resultado final do modelo {name}",
     "startTutorial": "Começar o tutorial",
     "continueTutorial": "Continuar de onde parei",
-    "tableLegend": "Cada modelo mostra o nome, a dificuldade, o tempo estimado, o total de etapas e um botão para iniciar ou continuar o tutorial."
+    "tableLegend": "Cada modelo mostra o nome, a dificuldade, o tempo estimado, o total de etapas e um botão para iniciar ou continuar o tutorial.",
+    "search": "Buscar por nome ou descrição",
+    "searchPlaceholder": "Ex.: coração, brinquedo, flor...",
+    "use": "Filtrar por finalidade",
+    "useAll": "Todas as finalidades"
   },
   "tutorial": {
     "title": "Tutorial",
@@ -396,5 +400,12 @@
   "404": {
     "title": "Página não encontrada",
     "text": "O endereço que você acessou não existe."
+  },
+  "use": {
+    "brincar": "Brincar",
+    "utilizar": "Usar no dia a dia",
+    "decorar": "Decorar",
+    "presentear": "Presentear",
+    "aprender": "Aprender e explorar"
   }
 }

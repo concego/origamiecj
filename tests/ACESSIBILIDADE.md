@@ -35,7 +35,7 @@ real).
 
 - [ ] Todas as ações do site são possíveis só com o teclado: navegação, troca
       de idioma, pausar animações, zoom do diagrama, navegação entre passos,
-      filtros do catálogo, formulário de contato.
+      busca e filtros do catálogo, formulário de contato.
 - [ ] A ordem de tabulação segue a ordem visual da página (sem saltos).
 - [ ] O foco visível é sempre evidente (anéis de foco bem contrastados).
 - [ ] O "pular para o conteúdo" (`skip-link`) leva o foco ao `<main>` e

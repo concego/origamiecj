@@ -1,0 +1,449 @@
+{
+  "slug": "caixa-bala",
+  "difficulty": "medio",
+  "category": "utilidades",
+  "uses": [
+    "utilizar",
+    "decorar",
+    "presentear"
+  ],
+  "durationMinutes": 6,
+  "totalSteps": 5,
+  "paper": {
+    "format": "square",
+    "size": {
+      "pt": "20 x 20 cm (papel quadrado)",
+      "en": "20 x 20 cm (square paper)"
+    },
+    "pieces": 1
+  },
+  "materials": [
+    {
+      "pt": "1 folha de papel sem cortes nem cola",
+      "en": "1 sheet of paper with no cutting or glue"
+    },
+    {
+      "pt": "uma superfície plana para dobrar",
+      "en": "a flat surface to fold on"
+    }
+  ],
+  "title": {
+    "pt": "Caixinha de papel",
+    "en": "Paper box"
+  },
+  "description": {
+    "pt": "Uma caixinha aberta para guardar objetos leves, doces embalados ou pequenas lembranças.",
+    "en": "An open box for light objects, wrapped sweets, or small keepsakes."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é uma caixa quadrada aberta, com quatro paredes e um fundo plano.",
+      "en": "The result is an open square box with four walls and a flat base."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [
+        [
+          0.18,
+          0.18
+        ],
+        [
+          0.82,
+          0.18
+        ],
+        [
+          0.82,
+          0.82
+        ],
+        [
+          0.18,
+          0.82
+        ]
+      ]
+    }
+  },
+  "credit": {
+    "pt": "Modelo tradicional de origami, classificado como tradicional na fonte consultada (Origami Guide — Traditional Origami). Textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami model, listed as traditional by the consulted source (Origami Guide — Traditional Origami). Texts and diagrams: original creation by the ECJ team."
+  },
+  "source": {
+    "name": "Origami Guide — Traditional Origami",
+    "url": "https://origami.guide/instructions/traditional-origami/",
+    "note": {
+      "pt": "Fonte consultada apenas como referência de modelo tradicional; não copiamos instruções nem imagens.",
+      "en": "Source consulted only as a reference for the traditional model; we copied no instructions or images."
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": {
+        "pt": "Marcar a cruz do quadrado",
+        "en": "Mark the square cross"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0.5,
+              1
+            ]
+          ],
+          "probe": [
+            0.8,
+            0.5
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A metade direita e a metade superior.",
+          "en": "The right half and the upper half."
+        },
+        "direction": {
+          "pt": "Dobre ao meio na vertical e na horizontal e desdobre.",
+          "en": "Fold in half vertically and horizontally, then unfold."
+        },
+        "expected": {
+          "pt": "Quatro quadrados menores ficam marcados.",
+          "en": "Four smaller squares are marked."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma cruz tracejada divide o quadrado em quatro partes. A seta vem da direita.",
+        "en": "A dashed cross divides the square into four parts. The arrow comes from the right."
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "pt": "Levar os quatro cantos ao centro",
+        "en": "Bring the four corners to the center"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0,
+              0.5
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Os quatro cantos do papel.",
+          "en": "The four corners of the paper."
+        },
+        "direction": {
+          "pt": "Dobre cada canto até o centro da cruz.",
+          "en": "Fold each corner to the center of the cross."
+        },
+        "expected": {
+          "pt": "Surge um quadrado menor, com quatro triângulos ao redor.",
+          "en": "A smaller square appears, surrounded by four triangles."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Quatro linhas diagonais convergem no centro. A seta parte do canto superior esquerdo.",
+        "en": "Four diagonal lines converge at the center. The arrow starts at the top-left corner."
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "pt": "Abrir dois cantos opostos",
+        "en": "Open two opposite corners"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.18,
+            0.18
+          ],
+          [
+            0.82,
+            0.18
+          ],
+          [
+            0.82,
+            0.82
+          ],
+          [
+            0.18,
+            0.82
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "spread"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Duas abas opostas do quadrado menor.",
+          "en": "Two opposite flaps of the smaller square."
+        },
+        "direction": {
+          "pt": "Levante duas abas opostas, mantendo as outras duas apoiadas.",
+          "en": "Lift two opposite flaps while keeping the other two on the table."
+        },
+        "expected": {
+          "pt": "As laterais da caixa começam a subir.",
+          "en": "The box sides begin to rise."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Duas setas opostas saem do centro e sobem, mostrando as laterais levantadas.",
+        "en": "Two opposite arrows leave the center and rise, showing the lifted sides."
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "pt": "Fechar as laterais",
+        "en": "Close the sides"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.18,
+            0.18
+          ],
+          [
+            0.82,
+            0.18
+          ],
+          [
+            0.82,
+            0.82
+          ],
+          [
+            0.18,
+            0.82
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.18,
+              0.5
+            ],
+            [
+              0.82,
+              0.5
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.9
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "As duas abas que ficaram apoiadas.",
+          "en": "The two flaps that stayed flat."
+        },
+        "direction": {
+          "pt": "Dobre as duas abas restantes para cima e para dentro, prendendo-as nas laterais.",
+          "en": "Fold the remaining two flaps up and inward, tucking them into the sides."
+        },
+        "expected": {
+          "pt": "A caixa fica aberta em cima, com quatro paredes.",
+          "en": "The box is open at the top, with four walls."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O contorno mostra quatro paredes. A seta sobe a partir da borda inferior.",
+        "en": "The outline shows four walls. The arrow rises from the bottom edge."
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "pt": "Ajustar o fundo",
+        "en": "Adjust the base"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.18,
+            0.18
+          ],
+          [
+            0.82,
+            0.18
+          ],
+          [
+            0.82,
+            0.82
+          ],
+          [
+            0.18,
+            0.82
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "none"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Os quatro cantos internos do fundo.",
+          "en": "The four inside corners of the base."
+        },
+        "direction": {
+          "pt": "Pressione o fundo por dentro até ele ficar plano e quadrado.",
+          "en": "Press the base from inside until it is flat and square."
+        },
+        "expected": {
+          "pt": "A caixa fica estável sobre a mesa.",
+          "en": "The box stands steadily on the table."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra um quadrado aberto com o fundo indicado por uma linha contínua.",
+        "en": "The diagram shows an open square with the base indicated by a solid line."
+      }
+    }
+  ]
+}

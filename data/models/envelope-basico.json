@@ -1,0 +1,443 @@
+{
+  "slug": "envelope-basico",
+  "difficulty": "facil",
+  "category": "utilidades",
+  "uses": [
+    "utilizar",
+    "presentear"
+  ],
+  "durationMinutes": 4,
+  "totalSteps": 5,
+  "paper": {
+    "format": "square",
+    "size": {
+      "pt": "15 x 15 cm (papel quadrado)",
+      "en": "15 x 15 cm (square paper)"
+    },
+    "pieces": 1
+  },
+  "materials": [
+    {
+      "pt": "1 folha de papel sem cortes nem cola",
+      "en": "1 sheet of paper with no cutting or glue"
+    },
+    {
+      "pt": "uma superfície plana para dobrar",
+      "en": "a flat surface to fold on"
+    }
+  ],
+  "title": {
+    "pt": "Envelope triangular",
+    "en": "Triangular envelope"
+  },
+  "description": {
+    "pt": "Um envelope simples para guardar bilhetes, cartões ou pequenos recados sem usar cola.",
+    "en": "A simple envelope for notes, cards, or small messages, made without glue."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é um envelope triangular fechado, com uma aba que cobre a abertura e pode ser levantada para retirar o conteúdo.",
+      "en": "The result is a closed triangular envelope with a flap covering the opening; lift it to remove the contents."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [
+        [
+          0.5,
+          0.05
+        ],
+        [
+          0.92,
+          0.88
+        ],
+        [
+          0.08,
+          0.88
+        ]
+      ]
+    }
+  },
+  "credit": {
+    "pt": "Modelo tradicional de origami, classificado como tradicional na fonte consultada (Origami Guide — Traditional Origami). Textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami model, listed as traditional by the consulted source (Origami Guide — Traditional Origami). Texts and diagrams: original creation by the ECJ team."
+  },
+  "source": {
+    "name": "Origami Guide — Traditional Origami",
+    "url": "https://origami.guide/instructions/traditional-origami/",
+    "note": {
+      "pt": "Fonte consultada apenas como referência de modelo tradicional; não copiamos instruções nem imagens.",
+      "en": "Source consulted only as a reference for the traditional model; we copied no instructions or images."
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": {
+        "pt": "Dobrar o quadrado na diagonal",
+        "en": "Fold the square diagonally"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "O canto inferior esquerdo do quadrado.",
+          "en": "The bottom-left corner of the square."
+        },
+        "direction": {
+          "pt": "Leve o canto inferior esquerdo até o canto superior direito, formando um triângulo.",
+          "en": "Bring the bottom-left corner to the top-right corner, forming a triangle."
+        },
+        "expected": {
+          "pt": "O papel fica triangular, com uma dobra diagonal longa.",
+          "en": "The paper becomes triangular, with one long diagonal fold."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma linha diagonal tracejada liga os cantos superior direito e inferior esquerdo. A seta parte do canto inferior esquerdo e aponta para o canto superior direito.",
+        "en": "A dashed diagonal line connects the top-right and bottom-left corners. The arrow starts at the bottom-left corner and points to the top-right corner."
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "pt": "Posicionar o triângulo com a dobra para baixo",
+        "en": "Place the triangle with the fold at the bottom"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.08,
+            0.92
+          ],
+          [
+            0.92,
+            0.92
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "turn"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Nenhuma parte é dobrada; o triângulo inteiro.",
+          "en": "Nothing is folded; the whole triangle is moved."
+        },
+        "direction": {
+          "pt": "Gire o triângulo até o lado mais longo ficar na horizontal, perto de você.",
+          "en": "Turn the triangle until its longest side is horizontal and near you."
+        },
+        "expected": {
+          "pt": "A ponta única fica para cima e a dobra longa fica embaixo.",
+          "en": "The single tip is at the top and the long fold is at the bottom."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O triângulo aparece com a base horizontal embaixo e a ponta no alto. Uma seta curva indica o giro.",
+        "en": "The triangle appears with a horizontal base at the bottom and its tip at the top. A curved arrow indicates the turn."
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "pt": "Fechar as duas laterais até o centro",
+        "en": "Fold both sides toward the center"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.08,
+            0.92
+          ],
+          [
+            0.92,
+            0.92
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0.05
+            ],
+            [
+              0.5,
+              0.75
+            ]
+          ],
+          "probe": [
+            0.12,
+            0.85
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A ponta esquerda e depois a ponta direita da base.",
+          "en": "The left tip and then the right tip of the base."
+        },
+        "direction": {
+          "pt": "Dobre cada ponta lateral para cima, até as duas se encontrarem na ponta superior.",
+          "en": "Fold each side tip upward until both meet at the top tip."
+        },
+        "expected": {
+          "pt": "As duas abas laterais ficam sobrepostas no centro, formando um bolso triangular.",
+          "en": "The two side flaps overlap at the center, forming a triangular pocket."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O triângulo mostra uma linha vertical central. A seta sobe a partir da lateral esquerda em direção ao topo.",
+        "en": "The triangle shows a central vertical line. The arrow moves upward from the left side toward the top."
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "pt": "Levantar a aba inferior",
+        "en": "Fold up the bottom flap"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.08,
+            0.92
+          ],
+          [
+            0.92,
+            0.92
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.08,
+              0.92
+            ],
+            [
+              0.92,
+              0.92
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.95
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A aba triangular que está perto de você, na base.",
+          "en": "The triangular flap nearest you, at the base."
+        },
+        "direction": {
+          "pt": "Dobre a aba inferior para cima, até a ponta tocar a ponta superior.",
+          "en": "Fold the bottom flap upward until its tip touches the top tip."
+        },
+        "expected": {
+          "pt": "A abertura do envelope fica voltada para você e a aba cobre as laterais.",
+          "en": "The envelope opening faces you and the flap covers the sides."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma linha tracejada horizontal aparece na base do triângulo. A seta aponta da base para a ponta superior.",
+        "en": "A horizontal dashed line appears at the triangle base. The arrow points from the base toward the top tip."
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "pt": "Fechar a aba superior",
+        "en": "Close the top flap"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.08,
+            0.92
+          ],
+          [
+            0.92,
+            0.92
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.08,
+              0.25
+            ],
+            [
+              0.92,
+              0.25
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.05
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A ponta superior, que forma a aba de fechamento.",
+          "en": "The top tip, which forms the closing flap."
+        },
+        "direction": {
+          "pt": "Dobre a ponta superior para baixo, até cobrir a abertura do envelope.",
+          "en": "Fold the top tip downward until it covers the envelope opening."
+        },
+        "expected": {
+          "pt": "Você tem um envelope triangular fechado, pronto para guardar uma mensagem pequena.",
+          "en": "You have a closed triangular envelope, ready to hold a small note."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O diagrama mostra o envelope como um triângulo com uma linha horizontal perto do topo. A seta desce a partir da ponta superior.",
+        "en": "The diagram shows the envelope as a triangle with a horizontal line near the top. The arrow moves down from the top tip."
+      }
+    }
+  ]
+}

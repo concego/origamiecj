@@ -1,0 +1,496 @@
+{
+  "slug": "estrela-quatro-pontas",
+  "difficulty": "facil",
+  "category": "decoracao",
+  "uses": [
+    "decorar",
+    "presentear"
+  ],
+  "durationMinutes": 4,
+  "totalSteps": 5,
+  "paper": {
+    "format": "square",
+    "size": {
+      "pt": "15 x 15 cm (papel quadrado)",
+      "en": "15 x 15 cm (square paper)"
+    },
+    "pieces": 1
+  },
+  "materials": [
+    {
+      "pt": "1 folha de papel sem cortes nem cola",
+      "en": "1 sheet of paper with no cutting or glue"
+    },
+    {
+      "pt": "uma superfície plana para dobrar",
+      "en": "a flat surface to fold on"
+    }
+  ],
+  "title": {
+    "pt": "Estrela de quatro pontas",
+    "en": "Four-point star"
+  },
+  "description": {
+    "pt": "Uma estrela plana para cartões, murais, móbiles e outras peças decorativas.",
+    "en": "A flat star for cards, displays, mobiles, and other decorative pieces."
+  },
+  "result": {
+    "description": {
+      "pt": "O resultado é uma estrela plana com quatro pontas iguais, formando uma cruz diagonal.",
+      "en": "The result is a flat star with four equal points arranged in a diagonal cross."
+    },
+    "diagram": {
+      "view": "front",
+      "outline": [
+        [
+          0.5,
+          0.02
+        ],
+        [
+          0.62,
+          0.38
+        ],
+        [
+          0.98,
+          0.5
+        ],
+        [
+          0.62,
+          0.62
+        ],
+        [
+          0.5,
+          0.98
+        ],
+        [
+          0.38,
+          0.62
+        ],
+        [
+          0.02,
+          0.5
+        ],
+        [
+          0.38,
+          0.38
+        ]
+      ]
+    }
+  },
+  "credit": {
+    "pt": "Modelo tradicional de origami, classificado como tradicional na fonte consultada (Origami Guide — Traditional Origami). Textos e diagramas: criação original da equipe ECJ.",
+    "en": "Traditional origami model, listed as traditional by the consulted source (Origami Guide — Traditional Origami). Texts and diagrams: original creation by the ECJ team."
+  },
+  "source": {
+    "name": "Origami Guide — Traditional Origami",
+    "url": "https://origami.guide/instructions/traditional-origami/",
+    "note": {
+      "pt": "Fonte consultada apenas como referência de modelo tradicional; não copiamos instruções nem imagens.",
+      "en": "Source consulted only as a reference for the traditional model; we copied no instructions or images."
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": {
+        "pt": "Marcar a cruz central",
+        "en": "Mark the central cross"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0.5,
+              1
+            ]
+          ],
+          "probe": [
+            0.8,
+            0.5
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "A metade direita e depois a metade superior.",
+          "en": "The right half and then the top half."
+        },
+        "direction": {
+          "pt": "Dobre o quadrado ao meio na vertical e na horizontal, sempre desdobrando.",
+          "en": "Fold the square in half vertically and horizontally, unfolding each time."
+        },
+        "expected": {
+          "pt": "Dois vincos perpendiculares dividem o quadrado em quatro partes.",
+          "en": "Two perpendicular creases divide the square into four parts."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma linha vertical e uma horizontal cruzam no centro. A seta vem da direita.",
+        "en": "A vertical and a horizontal line cross at the center. The arrow comes from the right."
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "pt": "Marcar as diagonais",
+        "en": "Mark the diagonals"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "probe": [
+            0,
+            0
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Os quatro cantos, um por vez.",
+          "en": "The four corners, one at a time."
+        },
+        "direction": {
+          "pt": "Dobre nas duas diagonais, vinque e desdobre.",
+          "en": "Fold along both diagonals, crease, and unfold."
+        },
+        "expected": {
+          "pt": "O papel tem uma cruz e um X, com o centro bem marcado.",
+          "en": "The paper has a cross and an X, with a clear center."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O quadrado mostra uma cruz e duas diagonais. A seta indica uma diagonal.",
+        "en": "The square shows a cross and two diagonals. The arrow indicates one diagonal."
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "pt": "Aproximar os cantos",
+        "en": "Bring the corners inward"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "spread"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Os quatro cantos do quadrado.",
+          "en": "The four corners of the square."
+        },
+        "direction": {
+          "pt": "Aproxime os cantos do centro, deixando o papel formar quatro abas triangulares.",
+          "en": "Bring the corners toward the center, forming four triangular flaps."
+        },
+        "expected": {
+          "pt": "O quadrado começa a ganhar quatro pontas.",
+          "en": "The square begins to gain four points."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Quatro setas apontam dos cantos para o centro e depois para fora, indicando a formação das pontas.",
+        "en": "Four arrows point from the corners to the center and outward, showing the points forming."
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "pt": "Dobrar as quatro pontas",
+        "en": "Fold the four points"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.02
+          ],
+          [
+            0.62,
+            0.38
+          ],
+          [
+            0.98,
+            0.5
+          ],
+          [
+            0.62,
+            0.62
+          ],
+          [
+            0.5,
+            0.98
+          ],
+          [
+            0.38,
+            0.62
+          ],
+          [
+            0.02,
+            0.5
+          ],
+          [
+            0.38,
+            0.38
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "fold",
+          "kind": "valley",
+          "axis": [
+            [
+              0.5,
+              0.1
+            ],
+            [
+              0.5,
+              0.4
+            ]
+          ],
+          "probe": [
+            0.5,
+            0.02
+          ]
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "Uma ponta triangular de cada lado.",
+          "en": "One triangular point on each side."
+        },
+        "direction": {
+          "pt": "Dobre cada ponta para trás, alinhando a base de cada uma com a linha central.",
+          "en": "Fold each point backward, aligning each base with the center line."
+        },
+        "expected": {
+          "pt": "As quatro pontas ficam mais definidas e a estrela fica plana.",
+          "en": "The four points become sharper and the star lies flat."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "Uma linha curta marca a base da ponta superior. A seta aponta para trás.",
+        "en": "A short line marks the base of the top point. The arrow points backward."
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "pt": "Virar e conferir a estrela",
+        "en": "Turn and check the star"
+      },
+      "diagram": {
+        "outline": [
+          [
+            0.5,
+            0.02
+          ],
+          [
+            0.62,
+            0.38
+          ],
+          [
+            0.98,
+            0.5
+          ],
+          [
+            0.62,
+            0.62
+          ],
+          [
+            0.5,
+            0.98
+          ],
+          [
+            0.38,
+            0.62
+          ],
+          [
+            0.02,
+            0.5
+          ],
+          [
+            0.38,
+            0.38
+          ]
+        ],
+        "view": "front",
+        "action": {
+          "type": "turn"
+        }
+      },
+      "aspects": {
+        "position": {
+          "pt": "Coloque o papel sobre uma superfície plana, com uma borda paralela à sua frente.",
+          "en": "Place the paper on a flat surface, with one edge parallel to you."
+        },
+        "orientation": {
+          "pt": "Use a borda mais próxima de você como referência para localizar esquerda, direita, cima e baixo.",
+          "en": "Use the edge closest to you as a reference for left, right, top, and bottom."
+        },
+        "moving": {
+          "pt": "O modelo inteiro.",
+          "en": "The whole model."
+        },
+        "direction": {
+          "pt": "Vire a estrela e pressione o centro para deixá-la plana.",
+          "en": "Turn the star and press the center to make it flat."
+        },
+        "expected": {
+          "pt": "A estrela tem quatro pontas iguais, apontando para cima, direita, baixo e esquerda.",
+          "en": "The star has four equal points facing up, right, down, and left."
+        },
+        "commonError": {
+          "pt": "As pontas não coincidem e a dobra fica torta.",
+          "en": "The points do not meet and the fold becomes uneven."
+        },
+        "correction": {
+          "pt": "Desdobre, alinhe as pontas com calma e faça o vinco somente depois que as bordas estiverem coincidentes.",
+          "en": "Unfold, align the points carefully, and crease only after the edges meet."
+        }
+      },
+      "diagramDescription": {
+        "pt": "O contorno mostra quatro pontas iguais e uma seta curva indica o giro.",
+        "en": "The outline shows four equal points and a curved arrow indicates the turn."
+      }
+    }
+  ]
+}
