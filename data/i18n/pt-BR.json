@@ -170,7 +170,8 @@
     "search": "Buscar por nome ou descrição",
     "searchPlaceholder": "Ex.: coração, brinquedo, flor...",
     "use": "Filtrar por finalidade",
-    "useAll": "Todas as finalidades"
+    "useAll": "Todas as finalidades",
+    "purpose": "Finalidade"
   },
   "tutorial": {
     "title": "Tutorial",

@@ -170,7 +170,7 @@ function renderResults() {
         `<dl class="dl-grid">` +
         `<dt>${esc(t('common.difficulty'))}</dt><dd>${esc(t(`difficulty.${model.difficulty}`))}</dd>` +
         `<dt>${esc(t('common.type'))}</dt><dd>${esc(t(`category.${model.category}`))}</dd>` +
-        `<dt>${esc(t('catalog.use'))}</dt><dd>${esc(uses)}</dd>` +
+        `<dt>${esc(t('catalog.purpose'))}</dt><dd>${esc(uses)}</dd>` +
         `<dt>${esc(t('common.duration'))}</dt><dd>${formatDuration(model.durationMinutes, lang)}</dd>` +
         `<dt>${esc(t('common.totalSteps'))}</dt><dd>${model.totalSteps}</dd>` +
         `</dl>` +
