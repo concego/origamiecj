@@ -1,0 +1,37 @@
+name: Validate OrigamiECJ
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate data and diagrams
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate JSON, translations, and models
+        run: npm test
+
+      - name: Generate every tutorial and result diagram
+        run: npm run export:diagrams
+
+      - name: Confirm generated diagram set is not empty
+        run: test "$(find diagrams -type f -name '*.svg' | wc -l)" -gt 0
